@@ -1,3 +1,9 @@
+[Download the draft Pdf](flyer-kids.pdf)
+
+![](images/flyer-kids-page001.png)
+
+![](images/flyer-kids-page002.png)
+
 ~~~
 |          |         |          |
 | internal | back    | front    |
@@ -13,11 +19,7 @@
 |          |         |          |
 |          |         |          |
 ~~~
-[Download the draft Pdf](flyer-kids.pdf)
 
-![](images/flyer-kids-page001.png)
-
-![](images/flyer-kids-page002.png)
 
 ## front
 
