@@ -27,7 +27,7 @@
 
 	On Sundays 15:00 – 17:00 
 
-    There is only one rule, Be cool!
+    There is only one rule, be cool!
 
 ## back
 
@@ -52,7 +52,7 @@
 ### The Zurich CoderDojo
 
 	The Zurich CoderDojo is a multilingual group (DE, EN, IT, PL, FR).
-	You will learn much more out of this seesions if you can attend
+	You will learn much more out of this sessions if you can attend
 	regularly. Of course it does not have to be every week.  Bring
 	your own laptop. If needed, we can also provide computers on
 	demand.  No constant supervision by parents is necessary. Parents
@@ -62,8 +62,8 @@
 
 	Ninjas who have never coded before are introduced to Lightbot and
 	learn the basics about programming.  Our main platform is Scratch,
-	a powerfull jigsaw-like programming environment.  Furthermore we
-	run Makey Makey, Thymio and other interesting workshops.
+	a powerful jigsaw-like programming environment.  Furthermore we
+	run MaKey MaKey, Thymio and other interesting workshops.
 
 ###Get in touch
 
