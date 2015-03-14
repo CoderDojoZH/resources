@@ -132,7 +132,7 @@
 
 ### Testimonial
 
-	Kid comes in expecting to be able to make Minecraft.  After
+	"Kids come in expecting to be able to make Minecraft.  After
 	spending about 30 minutes showing them just how to make a fish and
 	a cat collide and behave properly, they would all gain a new
 	appreciation of just what went into making a game work.  After
