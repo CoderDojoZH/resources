@@ -27,10 +27,10 @@ For Ninjas
 aged 7 to 17
 
 
-On Sundays
-15:00 – 17:00
-There is only one rule,
-Be cool! 
+On Sundays  
+15:00 – 17:00  
+There is only one rule,  
+be cool!
 
 ## back
 
@@ -44,24 +44,22 @@ There are over 450 CoderDojos teaching young people how to code in over 45 count
 
 Sunday, 15:00 - 17:00 @ Liip
 
-Limmatstrasse 183
-8048 Zürich
+Limmatstrasse 183  
+8048 Zürich  
 http://coderdojozh.github.io/
 
-## internal 
+## Internal
 
 ### The Zurich CoderDojo
 
-The Zuric CoderDojo is a multilingual group (DE, EN, IT, PL, FR).
-For learning it's best if you can come regularly. Of course it does not have to be every week.  
-Bring your laptop, but we can provide computers on demand.  
-We have a small lounge for parents.
+The Zurich CoderDojo is a multilingual group (DE, EN, IT, PL, FR).  
+You will learn much more out of this sesions if you can attend regularly. Of course it does not have to be every week.  Bring your own laptop. If needed, we can also provide computers on demand.  No constant supervision by parents is necessary. Parents can relax in our small lounge.
 
 ### Activities
 
 Ninjas who have never been coding before, are introduced to Lightbot and learn the basics about programming.  
-Our main platform is Scratch, a powerfull jigsaw-like programming environment.  
-On top of it we run Makey Makey, Thymio, ...  workshops.
+Our main platform is Scratch, a powerful jigsaw-like programming environment.  
+On top of it we run MaKey MaKey, Thymio, ...  workshops.
 
 ###Get in touch
 
@@ -71,7 +69,7 @@ You can get in touch with the Zurich CoderDojo and follow our news through our T
 If you want to join our weekly dojo with your kids , please register on our Meetup page:  
 http://www.meetup.com/Coder-Dojo-Zurich
 
-And you can, of course, visit our website:  
+And you can of course visit our website:  
 http://coderdojozh.github.io/
 
 ## content 1
@@ -82,11 +80,7 @@ Lightbot is an educational game that introduces several principles of programmin
 
 ### Thymio
 
-Thymio II is an affordable educational robot:
-
-- providing a large number of sensors and actuators,
-- allowing interactions based on light and touch,
-- with graphical and text programming.
+Thymio II is an affordable educational robot providing a large number of sensors and actuators, allowing interactions based on light and touch, with graphical and text programming.
 
 ## content 2
 
@@ -115,7 +109,7 @@ Any material that can conduct at least a tiny bit of electricity will work.
 
 ### Testimonial
 
-Kid comes in expecting to be able to make Minecraft.  
+"Kids comes in expecting to be able to make Minecraft.  
 After spending about 30 minutes showing them just how to make a fish and a cat collide and behave properly, they would all gain a new appreciation of just what went into making a game work.  
-After that, every kid would have all sorts of ideas of what to do to make the game their own.”  
+After that, every kid would have all sorts of ideas of what to do to make the game their own."  
 Adriel Wallick, games programmer. 
