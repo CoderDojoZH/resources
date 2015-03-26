@@ -97,15 +97,8 @@ It’s a powerful and simple tool that allows you to just try things out and see
 ## content 3
 
 ### Makey Makey
-
     
-Ever played Mario on Play-Doh or Piano on Bananas? Alligator clip the Internet to Your World.
-
-Turn everyday objects into touchpads and combine them with Scratch scripts.
-
-The computer just thinks MaKey MaKey is a regular keyboard (or mouse). Therefore it works with all programs and webpages,
-
-Any material that can conduct at least a tiny bit of electricity will work. 
+MaKey MaKey works like a keyboard but does not look at like one: it's a colorful octopus with lot of cables and alligators clip connecting objects from your everyday life to your games. Or your Scratch programs. It works with bananas, play-doh and all conductive materials!
 
 ### Testimonial
 
