@@ -34,7 +34,7 @@ be cool!
 
 ## back
 
-CoderDojo is an open source, volunteer led network of free computer programming clubs for young people aged 7-17.
+CoderDojo is a volunteer led network of free computer programming clubs for young people aged 7-17.
 
 CoderDojo puts an emphasis on self-motivated learning through project work, peer-to-peer mentoring and the creation of innovative projects.
 
@@ -59,7 +59,7 @@ You will learn much more out of this sesions if you can attend regularly. Of cou
 
 Ninjas who have never been coding before, are introduced to Lightbot and learn the basics about programming.  
 Our main platform is Scratch, a powerful jigsaw-like programming environment.  
-On top of it we run MaKey MaKey, Thymio, ...  workshops.
+On top of it we run MaKey MaKey, Thymio and other interesting workshops.
 
 ###Get in touch
 
@@ -102,7 +102,7 @@ MaKey MaKey works like a keyboard but does not look at like one: it's a colorful
 
 ### Testimonial
 
-"Kids comes in expecting to be able to make Minecraft.  
+"Kids come in expecting to be able to make Minecraft.  
 After spending about 30 minutes showing them just how to make a fish and a cat collide and behave properly, they would all gain a new appreciation of just what went into making a game work.  
 After that, every kid would have all sorts of ideas of what to do to make the game their own."  
 Adriel Wallick, games programmer. 
