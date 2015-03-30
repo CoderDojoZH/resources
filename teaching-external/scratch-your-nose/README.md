@@ -137,7 +137,7 @@ The number link to the video tutorials on <http://www.scratchyournose.com/#!vide
 16. Good resources
  - the scratch your nose web page
  - the scratch wiki
- - projeccts.codeclubworld.org.org
+ - projects.codeclubworld.org
  - <amazingict.co.uk/computing>
    -  QuickStart Computing for [primary](http://primary.quickstartcomputing.org/) and [secondary](http://www.quickstartcomputing.org/secondary/index.html) teachers (under Open Government Licence c3.0, a by-if-you can license)
 
