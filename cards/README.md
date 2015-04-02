@@ -46,7 +46,7 @@ The cards have been created with Scribus 1.5svn (currently the development versi
   `1,3,5,7,4,2,8,6,9,11,13,15,12,10,16,14,17,19,21,23,20,18,24,22`
 - use `pdfnup` (from the pdfjam package) to put 4 A6 pages on each A4 side:  
   `pdfnup --nup 2x2 --frame false --no-landscape cards-a6-reordered.pdf --outfile cards-a4.pdf`
-- for the PNG preview of the A4 version:
+- for the PNG preview of the A4 version:  
   `convert -background white -alpha remove -resize 300x cards-a4.pdf cards-a4.png`  
   to get `cards-a4-1.png` to `cards-a4-3.png`
 
