@@ -18,19 +18,17 @@ The images on the cards being already "funny" enough, we also refrained from add
 Download this PDF and print it both sides witout any resizing on A4 paper:  
 [A4 pdf](cards-a4.pdf)
 
-- 
-
 ## Printing on A5
 
 ![](preview/cards-a5-0.png)
 ![](preview/cards-a5-1.png)
-![](preview/cards-a5-2.png)
-![](preview/cards-a5-3.png)  
+![](preview/cards-a5-2.png)  
+![](preview/cards-a5-3.png)
 ![](preview/cards-a5-4.png)
-![](preview/cards-a5-5.png)
+![](preview/cards-a5-5.png)  
 ![](preview/cards-a5-6.png)
-![](preview/cards-a5-7.png)  
-![](preview/cards-a5-8.png)
+![](preview/cards-a5-7.png)
+![](preview/cards-a5-8.png)  
 ![](preview/cards-a5-9.png)
 ![](preview/cards-a5-10.png)
 ![](preview/cards-a5-11.png)
