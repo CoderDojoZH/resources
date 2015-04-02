@@ -8,12 +8,12 @@ The images on the cards being already "funny" enough, we also refrained from add
 
 ## Printing on A4
 
-![preview first page](ards-a4-0.png)
-![preview second page](cards-a4-1.png)  
-![preview third page](cards-a4-2.png)
-![preview forth page](cards-a4-3.png)  
-![preview third page](cards-a4-4.png)
-![preview forth page](cards-a4-3.png)
+![preview first page](preview/cards-a4-0.png)
+![preview second page](preview/cards-a4-1.png)  
+![preview third page](preview/cards-a4-2.png)
+![preview forth page](preview/cards-a4-3.png)  
+![preview third page](preview/cards-a4-4.png)
+![preview forth page](preview/cards-a4-3.png)
 
 Download this PDF and print it both sides witout any resizing on A4 paper:  
 [A4 pdf](cards-a4.pdf)
@@ -22,18 +22,18 @@ Download this PDF and print it both sides witout any resizing on A4 paper:
 
 ## Printing on A5
 
-![](cards-a5-0.png)
-![](cards-a5-1.png)
-![](cards-a5-2.png)
-![](cards-a5-3.png)  
-![](cards-a5-4.png)
-![](cards-a5-5.png)
-![](cards-a5-6.png)
-![](cards-a5-7.png)  
-![](cards-a5-8.png)
-![](cards-a5-9.png)
-![](cards-a5-10.png)
-![](cards-a5-11.png)
+![](preview/cards-a5-0.png)
+![](preview/cards-a5-1.png)
+![](preview/cards-a5-2.png)
+![](preview/cards-a5-3.png)  
+![](preview/cards-a5-4.png)
+![](preview/cards-a5-5.png)
+![](preview/cards-a5-6.png)
+![](preview/cards-a5-7.png)  
+![](preview/cards-a5-8.png)
+![](preview/cards-a5-9.png)
+![](preview/cards-a5-10.png)
+![](preview/cards-a5-11.png)
 
 Download this PDF and print it both sides witout any resizing on A6 paper:  
 cards-a6.pdf
