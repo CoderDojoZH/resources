@@ -10,10 +10,6 @@ The images on the cards being already "funny" enough, we also refrained from add
 
 ![preview first page](preview/cards-a4-0.png)
 ![preview second page](preview/cards-a4-1.png)  
-![preview third page](preview/cards-a4-2.png)
-![preview forth page](preview/cards-a4-3.png)  
-![preview third page](preview/cards-a4-4.png)
-![preview forth page](preview/cards-a4-3.png)
 
 Download this PDF and print it both sides witout any resizing on A4 paper:  
 [A4 pdf](cards-a4.pdf)
@@ -34,7 +30,7 @@ Download this PDF and print it both sides witout any resizing on A4 paper:
 ![](preview/cards-a5-11.png)
 
 Download this PDF and print it both sides witout any resizing on A6 paper:  
-cards-a6.pdf
+[A6 pdf](cards-a6.pdf)
 
 ## The layout file
 
@@ -59,3 +55,14 @@ The cards have been created with Scribus 1.5svn (currently the development versi
 - for the PNG preview of all the cards:  
   `pdfnup --nup 2x1 --frame false cards-a6.pdf --outfile cards-a5.pdf`  
   `convert -background white -alpha remove -resize 200x cards-a5.pdf cards-a5.png`
+
+## Todo
+
+- fix typos 
+- translate to german (both the text and the screenshots; eventually also french and italian) 
+- create new cards
+  - pong,
+  - goalkeeper with webcam,
+  - ...
+- we can also create A5 cards folded in two for more complex exemples.
+- ...? 
