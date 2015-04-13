@@ -56,6 +56,14 @@ The cards have been created with Scribus 1.5svn (currently the development versi
   `pdfnup --nup 2x1 --frame false cards-a6.pdf --outfile cards-a5.pdf`  
   `convert -background white -alpha remove -resize 200x cards-a5.pdf cards-a5.png`
 
+## License
+
+The original cards are cc-by-sa the Lifelong Kindergarten Group at the MIT Media Lab.
+
+The original work in this repository is cc-by-sa:
+- The Coderdojo Zürich
+- Ale Rimoldi
+
 ## Todo
 
 - fix typos 
