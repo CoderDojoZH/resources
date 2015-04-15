@@ -122,7 +122,7 @@ Play a sound clip and do a body twist.
 
 - Get ready
   - Choose an image of a person ready to dance.
-  - Choose or record a sound clip.Keept it short!
+  - Choose or record a sound clip.Keep it short!
 - Try this code
   - ![](07/code.png)
   - Chose whirl from the menu.
