@@ -70,7 +70,7 @@ Was willst du dass deine Figur sagt?
   - Tippe irgendwelche Wörter.
 - Mach es
 - Extra Tipp
-  - Klicke auf das Objekt um zu starten.
+  - Klicke auf die Figur um zu starten.
 
 ## 5. Gleiten
 
@@ -80,8 +80,8 @@ Bewege dich sanft von einem Punkt zum anderen.
 
 - Vorbereitung
   - Importiere ein Kostüm
-  - Oder male dein  
-    eigenes Objekt.
+  - Oder male deine  
+    eigene Figur.
 - Probier den Code
   - ![](05/code.png)
   - Versuch unterschiedliche Zahlen.
@@ -91,7 +91,7 @@ Bewege dich sanft von einem Punkt zum anderen.
 - Mach es
 - Extra Tipp
   - ![](02/img-000.png)
-  - Um die Position eines Objektes zu sehen:
+  - Um die Position einer Figur zu sehen:
   - Klicke auf,  
     schau auf x und y
   - x und y legt die Position  
@@ -105,7 +105,7 @@ Folge dem Mauszeiger.
 - ![](06/mouse.png)
 
 - Vorbereitung
-  - Wähle die Katze oder ein anderes Objekt.
+  - Wähle die Katze oder eine andere Figur.
 - Probier den Code
   - ![](06/code.png)
 - Mach es
@@ -162,7 +162,7 @@ Mache eine simple Bewegung.
 - Probier den Code
   - ![](09/code.png)
 - Mach es
-  - Klicke auf das Objekt um das Kostüm zu verdoppeln.
+  - Klicke auf die Figur um das Kostüm zu verdoppeln.
 
 ## 10.  Bewegungsanimation
 
@@ -170,7 +170,7 @@ Animiere eine Figur während sie sich bewegt.
 
 
 - Vorbereitung
-  - Klicke um die Objekt-Bibliothek zu öffnen.
+  - Klicke um die Figur-Bibliothek zu öffnen.
   - Wähle eine Figur, die zwei oder mehr Kostüme hat.
 - Probier den Code
   - ![](10/code.png)
@@ -188,7 +188,7 @@ Erstelle deinen eigenen Knopf.
 
 - Vorbereitung
   - Wähle ein Schlagzeuge (aus der Dinge Kategorie).
-  - Du kannst den Namen des Objektes ändern.
+  - Du kannst den Namen der Figure ändern.
 - Probier den Code
   - ![](11/code.png)
   - Füge den "Pick random" Block.
