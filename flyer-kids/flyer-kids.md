@@ -34,7 +34,7 @@ On Sundays
 
 CoderDojo is a volunteer led network of free computer programming clubs for young people aged 7-17.
 
-CoderDojo puts an emphasis on self- motivated learning through project work, peer-to-peer mentoring and the creation of innovative projects.
+CoderDojo puts an emphasis on self-motivated learning through project work, peer-to-peer mentoring and the creation of innovative projects.
 
 There are over 450 CoderDojos teaching young people how to code in over 45 countries around the world.
 
@@ -55,7 +55,7 @@ You will learn much more out of this sessions if you can attend regularly. Of co
 
 ### Activities
 
-Ninjas who have never been coding before, are introduced to Lightbot and learn the basics about programming.  Our main platform is Scratch, a powerfull jigsaw-like programming environment.  
+Ninjas who have never been coding before, are introduced to Lightbot and learn the basics about programming. Our main platform is Scratch, a powerfull jigsaw-like programming environment.  
 On top of that we run MaKey MaKey, Thymio and other interesting workshops.
 
 ### Get in touch
