@@ -4,7 +4,7 @@
 
 ## 1. Farbe wechseln
 
-Drücke die a Taste um die Farbe eines Objektes zu wechseln.
+Drücke eine Taste um die Farbe einer Figur zu wechseln.
 
 - Mach dich bereit
  - ![](01/code-tip.png)
