@@ -8,7 +8,7 @@ Drücke eine Taste, um die Farbe einer Figur zu ändern.
 
 - Vorbereitung
  - ![](01/code-tip.png)
- - Wähle ein Objekt aus der Bibliothek.
+ - Wähle eine Figur aus der Bibliothek.
  - Oder male ein neues.
 - Probier den Code
   - ![](01/code.png)
@@ -41,7 +41,7 @@ Tanze zum Takt eines Schlagzeugs.
 
 ## 3. Bewegung mittels Tasten
 
-Benutze die Pfeiltasten um dein Objekt zu bewegen.
+Benutze die Pfeiltasten um deine Figur zu bewegen.
 
 03/mouse.png  
 
@@ -54,17 +54,17 @@ Benutze die Pfeiltasten um dein Objekt zu bewegen.
   - Drücke die Pfeiltasten für die Bewegung!
 - Extra Tipp
   - ![](03/code-tip.png)
-  - Liegt dein Objekt verkehrt herum?
+  - Liegt deine Figur verkehrt herum?
     Du kannst sein Drehungs-Stil ändern.
 
 ## 4. Sag etwas
 
-Was willst du dass dein Objekt sagt?
+Was willst du dass deine Figur sagt?
 
 ![](04/duck-header.png)
 
 - Vorbereitung
-  - Wähle ein Objekt
+  - Wähle eine Figur
 - Probier den Code
   - ![](04/code.png)
   - Tippe irgendwelche Wörter.
@@ -166,16 +166,16 @@ Mache eine simple Bewegung.
 
 ## 10.  Bewegungsanimation
 
-Animiere ein Objekt während es sich bewegt.
+Animiere eine Figur während sie sich bewegt.
 
 
 - Vorbereitung
   - Klicke um die Objekt-Bibliothek zu öffnen.
-  - Wähle ein Objekt, das 2 oder mehr Kostüme hat.
+  - Wähle eine Figur, die zwei oder mehr Kostüme hat.
 - Probier den Code
   - ![](10/code.png)
 - Extra Tipp
-  - Steht dein Objekt verkehrt herum?
+  - Steht deine Figur verkehrt herum?
   - Du kannst seinen Drehstil ändern.
   - Klicke den .
   - ganz herum
