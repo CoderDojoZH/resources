@@ -4,17 +4,17 @@
 
 ## 1. Farbe wechseln
 
-Drücke eine Taste um die Farbe einer Figur zu wechseln.
+Drücke eine Taste, um die Farbe einer Figur zu ändern.
 
-- Mach dich bereit
+- Vorbereitung
  - ![](01/code-tip.png)
  - Wähle ein Objekt aus der Bibliothek.
  - Oder male ein neues.
-- Versuch diesen Code
+- Probier den Code
   - ![](01/code.png)
 - Mach es
   - Drücke die Leertaste um die Farben zu wechseln.
-- Extra Hinweis
+- Extra Tipp
   - Du kannst verschiedene Effekte vom Menü wählen:
   - Oder tippe eine andere Nummer. Danach drücke nochmals die Leertaste.
   - Um die Effekte zu löschen klicke auf       Symbol.
@@ -28,10 +28,10 @@ Tanze zum Takt eines Schlagzeugs.
 ![](02/img-009.png)
 ![](02/img-009.png)
 
-- Mach dich bereit
+- Vorbereitung
   - ![](02/img-006.png)
   - Wähle einen Tänzer oder ein anderes Bild.
-- Versuch diesen Code
+- Probier den Code
   - ![](02/dancer-header.png)
   - ![](02/img-000.png)
   - Tippe diese Nummer.
@@ -45,14 +45,14 @@ Benutze die Pfeiltasten um dein Objekt zu bewegen.
 
 03/mouse.png  
 
-- Versuch diesen Code
+- Probier den Code
  - ![](03/code-01.png)
  - ![](03/code-02.png)
  - ![](03/code-03.png)
  - ![](03/code-04.png)
 - Mach es
   - Drücke die Pfeiltasten für die Bewegung!
-- Extra Hinweis
+- Extra Tipp
   - ![](03/code-tip.png)
   - Liegt dein Objekt verkehrt herum?
     Du kannst sein Drehungs-Stil ändern.
@@ -63,13 +63,13 @@ Was willst du dass dein Objekt sagt?
 
 ![](04/duck-header.png)
 
-- Mach dich bereit
+- Vorbereitung
   - Wähle ein Objekt
-- Versuch diesen Code
+- Probier den Code
   - ![](04/code.png)
   - Tippe irgendwelche Wörter.
 - Mach es
-- Extra Hinweis
+- Extra Tipp
   - Klicke auf das Objekt um zu starten.
 
 ## 5. Gleiten
@@ -78,18 +78,18 @@ Bewege dich sanft von einem Punkt zum anderen.
 
 ![](05/ghost.png)
 
-- Mach dich bereit
+- Vorbereitung
   - Importiere ein Kostüm
   - Oder male dein  
     eigenes Objekt.
-- Versuch diesen Code
+- Probier den Code
   - ![](05/code.png)
   - Versuch unterschiedliche Zahlen.
   - Wie lange
   - Senkrechte Position
   - Waagrechte Position
 - Mach es
-- Extra Hinweis
+- Extra Tipp
   - ![](02/img-000.png)
   - Um die Position eines Objektes zu sehen:
   - Klicke auf,  
@@ -104,9 +104,9 @@ Folge dem Mauszeiger.
 - ![](06/cat.png)
 - ![](06/mouse.png)
 
-- Mach dich bereit
+- Vorbereitung
   - Wähle die Katze oder ein anderes Objekt.
-- Versuch diesen Code
+- Probier den Code
   - ![](06/code.png)
 - Mach es
   - ![](02/img-000.png)
@@ -119,10 +119,10 @@ Spiele ein Musikstück und twiste mit dem Körper.
 - ![](07/dancer-01.png)
 - ![](07/dancer-02.png)
 
-- Mach dich bereit
+- Vorbereitung
   - Wähle ein Bild einer Person, die zum Tanzen bereit ist.
   - Wähle oder nimm ein Musikstück auf.Fass dich kurz!
-- Versuch diesen Code
+- Probier den Code
   - ![](07/code.png)
   - Wähle Wirbel vom Menü.
 - Mach es
@@ -136,14 +136,14 @@ Wirble ein Photo mittels Mausbewegung.
 - ![](08/squirrel-02.png)
 - ![](08/squirrel-01.png)
 
-- Mach dich bereit
+- Vorbereitung
   - Wähle das Eichhörnchen oder sonst ein Photo zum herumwirbeln.
-- Versuch diesen Code
+- Probier den Code
   - ![](08/code.png)
 - Mach es
   - Füge den "Mouse X" Block hier hinzu.
   - Verdoppelung, vielleicht rahmengebunden
-- Extra Hinweis
+- Extra Tipp
   - ![](02/img-000.png)
   - ![](08/desktop.png)
   - Beachte wie die Zahlen sich ändern während du die Maus bewegst.
@@ -155,11 +155,11 @@ Mache eine simple Bewegung.
 - 09/penguin.png
 - 09/penguin-2.png
 
-- Mach dich bereit
+- Vorbereitung
   - ![](02/img-000.png)
   - Klicke auf dem Stempel (stamper) um Kopien zu erstellen
   - Verwende das Werkzeug im Malprogramm, damit das neue Kostüm anderst aussieht.
-- Versuch diesen Code
+- Probier den Code
   - ![](09/code.png)
 - Mach es
   - Klicke auf das Objekt um das Kostüm zu verdoppeln.
@@ -169,12 +169,12 @@ Mache eine simple Bewegung.
 Animiere ein Objekt während es sich bewegt.
 
 
-- Mach dich bereit
+- Vorbereitung
   - Klicke um die Objekt-Bibliothek zu öffnen.
   - Wähle ein Objekt, das 2 oder mehr Kostüme hat.
-- Versuch diesen Code
+- Probier den Code
   - ![](10/code.png)
-- Extra Hinweis
+- Extra Tipp
   - Steht dein Objekt verkehrt herum?
   - Du kannst seinen Drehstil ändern.
   - Klicke den .
@@ -186,10 +186,10 @@ Animiere ein Objekt während es sich bewegt.
 
 Erstelle deinen eigenen Knopf.
 
-- Mach dich bereit
+- Vorbereitung
   - Wähle ein Schlagzeuge (aus der Dinge Kategorie).
   - Du kannst den Namen des Objektes ändern.
-- Versuch diesen Code
+- Probier den Code
   - ![](11/code.png)
   - Füge den "Pick random" Block.
 - Mach es
@@ -202,12 +202,12 @@ Füge deinem Spiel eine Anzeigetafel hinzu.
 - ![](12/fish.png)
 - ![](12/shark.png)
 
-- Mach dich bereit
+- Vorbereitung
   - Wähle "Data"
   - Klicke
   - Tippe "score" als Variablennamen und klicke dann auf OK.
   - Zum Starten klicke auf die gründe Flagge.
-- Versuch diesen Code
+- Probier den Code
   - ![](12/code.png)
 - Mach es
   - ![](02/img-000.png)
