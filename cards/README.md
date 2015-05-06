@@ -64,10 +64,19 @@ The original work in this repository is cc-by-sa:
 - The Coderdojo Zürich
 - Ale Rimoldi
 
+The (swiss) german translation is by
+- Gian-Maria Daffré
+- Ale Rimoldi
+- Some inspiration from G. Brandhofer's <http://www.brandhofer.cc/scratchcard/> that we found way too late...
+
 ## Todo
 
 - fix typos 
 - translate to german (both the text and the screenshots; eventually also french and italian) 
+- add umlauts and accents to the scratch font? (or use a different font)
+- "Klicke zum Starten auf das Objekt."?
+- "Los geht es"?
+- "Zusatztipp"?
 - create new cards
   - pong,
   - goalkeeper with webcam,

@@ -2,27 +2,28 @@
 
 (Some pictures are still embedded in the Scribus file and do not appear in this text version)
 
-## 1. Farbe wechseln
+## 1. Farbe ändern
 
 Drücke eine Taste, um die Farbe einer Figur zu ändern.
 
 - Vorbereitung
  - ![](01/code-tip.png)
- - Wähle eine Figur aus der Bibliothek.
- - Oder male ein neues.
+ - Wähle eine Figur  
+   aus der Bibliothek.
+ - Oder male eine neue.
 - Probier den Code
   - ![](01/code.png)
-- Mach es
+- Los geht's
   - Drücke die Leertaste um die Farben zu wechseln.
-- Extra Tipp
+- Zusatztipp
   - Du kannst verschiedene Effekte vom Menü wählen:
-  - Oder tippe eine andere Nummer. Danach drücke nochmals die Leertaste.
-  - Um die Effekte zu löschen klicke auf       Symbol.
+  - Oder tippe eine andere Zahl. Nochmals die Leertaste drücken.
+  - Ein Klick auf      löscht die Effekten.
 
 
 ## 2. Bewege dich im Takt
 
-Tanze zum Takt eines Schlagzeugs.
+Tanze zum Takt des Schlagzeugs.
 
 ![](02/img-009.png)
 ![](02/img-009.png)
@@ -34,12 +35,12 @@ Tanze zum Takt eines Schlagzeugs.
 - Probier den Code
   - ![](02/dancer-header.png)
   - ![](02/img-000.png)
-  - Tippe diese Nummer.
-  - Klicke um ein Schlagzeugton zu wählen.
-- Mach es
-  - Zum Starten klicke auf die grüne Flagge
+  - Tippe diese Zahl.
+  - Klicke hier um einen Schlagzeugton auszuwählen.
+- Los geht's
+  - Klicke zum Starten auf die grüne Flagge.
 
-## 3. Bewegung mittels Tasten
+## 3. Bewegen mit Tasten
 
 Benutze die Pfeiltasten um deine Figur zu bewegen.
 
@@ -50,27 +51,30 @@ Benutze die Pfeiltasten um deine Figur zu bewegen.
  - ![](03/code-02.png)
  - ![](03/code-03.png)
  - ![](03/code-04.png)
-- Mach es
+- Los geht's
   - Drücke die Pfeiltasten für die Bewegung!
-- Extra Tipp
+- Zusatztipp
   - ![](03/code-tip.png)
   - Liegt deine Figur verkehrt herum?
-    Du kannst sein Drehungs-Stil ändern.
+    Du kannst ihr Drehungs-Stil ändern.
 
 ## 4. Sag etwas
 
-Was willst du dass deine Figur sagt?
+Was willst du, dass deine Figur sagt?
 
 ![](04/duck-header.png)
 
+- Hallo! Ich wusste gar nicht,  
+  dass Nilpferde fliegen können!
+
 - Vorbereitung
-  - Wähle eine Figur
+  - Wähle eine Figur.
 - Probier den Code
   - ![](04/code.png)
   - Tippe irgendwelche Wörter.
-- Mach es
-- Extra Tipp
-  - Klicke auf die Figur um zu starten.
+- Los geht's
+- Zusatztipp
+  - Klicke zum Starten auf die Figur.
 
 ## 5. Gleiten
 
@@ -84,18 +88,18 @@ Bewege dich sanft von einem Punkt zum anderen.
     eigene Figur.
 - Probier den Code
   - ![](05/code.png)
-  - Versuch unterschiedliche Zahlen.
+  - Probier andere Zahlen.
   - Wie lange
   - Senkrechte Position
   - Waagrechte Position
-- Mach es
-- Extra Tipp
+- Los geht's
+  - Klicke zum Starten auf die grüne Flagge.
+- Zusatztipp
   - ![](02/img-000.png)
-  - Um die Position einer Figur zu sehen:
-  - Klicke auf,  
-    schau auf x und y
-  - x und y legt die Position  
-    auf der Bühne fest
+  - Wo genau ist die Figur?
+  - Klicke auf ,
+    schau auf x, y
+  - x und y Positionen auf der Bühne
 
 ## 6. Folge der Maus
 
@@ -108,9 +112,9 @@ Folge dem Mauszeiger.
   - Wähle die Katze oder eine andere Figur.
 - Probier den Code
   - ![](06/code.png)
-- Mach es
+- Los geht's
   - ![](02/img-000.png)
-  - Zum Starten klicke auf die grüne Flagge
+  - Klicke zum Starten auf die grüne Flagge
 
 ## 7.  Tanz den Twist
 
@@ -121,16 +125,17 @@ Spiele ein Musikstück und twiste mit dem Körper.
 
 - Vorbereitung
   - Wähle ein Bild einer Person, die zum Tanzen bereit ist.
-  - Wähle oder nimm ein Musikstück auf.Fass dich kurz!
+  - Wähle oder nimm ein Musikstück auf.  
+    Fass dich kurz!
 - Probier den Code
   - ![](07/code.png)
-  - Wähle Wirbel vom Menü.
-- Mach es
-  - Zum Starten drücke irgend eine Taste.
+  - Wähle Wirbel aus dem Menü.
+- Los geht's
+  - Drücke diese Taste zum Starten.
 
 ## 8.  Interaktiver Wirbel
 
-Wirble ein Photo mittels Mausbewegung.
+Wirble ein Photo per Mausbewegung.
 
 - ![](08/squirrel.png)
 - ![](08/squirrel-02.png)
@@ -140,47 +145,48 @@ Wirble ein Photo mittels Mausbewegung.
   - Wähle das Eichhörnchen oder sonst ein Photo zum herumwirbeln.
 - Probier den Code
   - ![](08/code.png)
-- Mach es
-  - Füge den "Mouse X" Block hier hinzu.
-  - Verdoppelung, vielleicht rahmengebunden
-- Extra Tipp
+  - Füge den "Maux x-Position" Block hier ein.
+  - Wähle "Wirbel" aus dem Menü.
+- Los geht's
+  - Klicke zum Starten auf die grüne Flagge.
+- Zusatztipp
   - ![](02/img-000.png)
   - ![](08/desktop.png)
-  - Beachte wie die Zahlen sich ändern während du die Maus bewegst.
+  - Beobachte, wie sich die Zahlen,  ändern während du die Maus bewegst.
 
-## 9.  Bewege es
+## 9.  Animation
 
-Mache eine simple Bewegung.
+Erstelle eine einfache Animation.
 
 - 09/penguin.png
 - 09/penguin-2.png
 
 - Vorbereitung
   - ![](02/img-000.png)
-  - Klicke auf dem Stempel (stamper) um Kopien zu erstellen
-  - Verwende das Werkzeug im Malprogramm, damit das neue Kostüm anderst aussieht.
+  - Klicke auf dem Stempel um zu kopieren.
+  - Mit den Malwerkzeuge bearbeite das neue Kostüm.
 - Probier den Code
   - ![](09/code.png)
-- Mach es
+- Los geht's
   - Klicke auf die Figur um das Kostüm zu verdoppeln.
 
-## 10.  Bewegungsanimation
+## 10. Animierte Bewegung
 
 Animiere eine Figur während sie sich bewegt.
 
 
 - Vorbereitung
-  - Klicke um die Figur-Bibliothek zu öffnen.
-  - Wähle eine Figur, die zwei oder mehr Kostüme hat.
+  - Die Figur-Bibliothek öffnen.
+  - Wähle eine Figur mit zwei oder mehr Kostüme.
 - Probier den Code
   - ![](10/code.png)
-- Extra Tipp
+- Zusatztipp
   - Steht deine Figur verkehrt herum?
   - Du kannst seinen Drehstil ändern.
   - Klicke den .
-  - ganz herum
+  - rundherum 
   - links-rechts
-  - dreh dich nicht
+  - keine drehung
 
 ## 11.  Überraschungsknopf
 
@@ -191,13 +197,13 @@ Erstelle deinen eigenen Knopf.
   - Du kannst den Namen der Figure ändern.
 - Probier den Code
   - ![](11/code.png)
-  - Füge den "Pick random" Block.
-- Mach es
+  - Füge den "Zufallszahl" Block.
+- Los geht's
   - Klicke um zu sehen (und hören) was es macht.
 
 ## 12. Punkte zählen
 
-Füge deinem Spiel eine Anzeigetafel hinzu.
+Füge deinem Spiel einen Zähler hinzu.
 
 - ![](12/fish.png)
 - ![](12/shark.png)
@@ -206,8 +212,8 @@ Füge deinem Spiel eine Anzeigetafel hinzu.
   - Wähle "Data"
   - Klicke
   - Tippe "score" als Variablennamen und klicke dann auf OK.
-  - Zum Starten klicke auf die gründe Flagge.
+  - Klicke zum Starten auf die gründe Flagge.
 - Probier den Code
   - ![](12/code.png)
-- Mach es
+- Los geht's
   - ![](02/img-000.png)
