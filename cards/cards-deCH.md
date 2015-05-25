@@ -64,7 +64,7 @@ Was willst du, dass deine Figur sagt?
 
 ![](04/duck-header.png)
 
-- Hallo! Ich wusste gar nicht,  
+- Ich wusste nicht,  
   dass Nilpferde fliegen können!
 
 - Vorbereitung
@@ -164,11 +164,12 @@ Erstelle eine einfache Animation.
 - Vorbereitung
   - ![](02/img-000.png)
   - Klicke auf dem Stempel um zu kopieren.
-  - Mit den Malwerkzeuge bearbeite das neue Kostüm.
+  - Klicke auf das Kostüm, um es zu duplizieren.
+  - Mit dem Malwerkzeuge bearbeite das neue Kostüm.
 - Probier den Code
   - ![](09/code.png)
 - Los geht's
-  - Klicke auf die Figur um das Kostüm zu verdoppeln.
+  - Starte mit der grünen Flagge.
 
 ## 10. Animierte Bewegung
 
@@ -217,3 +218,4 @@ Füge deinem Spiel einen Zähler hinzu.
   - ![](12/code.png)
 - Los geht's
   - ![](02/img-000.png)
+  - Starte mit der grünen Flagge.
