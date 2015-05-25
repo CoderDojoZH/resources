@@ -12,8 +12,9 @@ The images on the cards being already "funny" enough, we also refrained from add
 ![preview second page](preview/cards-a4-1.png)  
 
 Download this PDF and print it both sides witout any resizing on A4 paper:  
-[A4 pdf English](cards-a4.pdf)
-[A4 pdf Deutsch](cards-a4-deCH.pdf)
+
+- [A4 pdf English](cards-a4.pdf)
+- [A4 pdf Deutsch](cards-a4-deCH.pdf)
 
 ## Printing on A5
 
@@ -31,6 +32,7 @@ Download this PDF and print it both sides witout any resizing on A4 paper:
 ![](preview/cards-a5-11.png)
 
 Download this PDF and print it both sides witout any resizing on A6 paper:
+
 - [A6 pdf English](cards-a6.pdf)
 - [A6 pdf Deutsch](cards-a6-deCH.pdf)
 
