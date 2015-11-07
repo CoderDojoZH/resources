@@ -1,6 +1,6 @@
 # Pong spielen
 
-Bewege das Paddel, so dass der Ball nie den Boden berührt.
+Bewege den Paddel, so dass der Ball nie den Boden berührt.
 
 pong-game.png
 
@@ -10,30 +10,30 @@ pong-game.png
 ## Pong spielen
 
 
-Pong ist einer der älteste Computerspiele.
+Pong ist eines der ältesten Computerspiele.
 
 Ein Ball bewegt sich auf dem Bildschirm hin und her.
 
-Bewege das Paddel, so dass der Ball nie den Boden berührt.
+Bewege den Paddel, so dass der Ball nie den Boden berührt.
 
-Wähle die entsprechende Figuren aus der Bibliothek oder zeichne deine eigene Figuren.
+Wähle die entsprechenden Figuren aus der Bibliothek aus oder zeichne deine eigene Figuren.
 
 ### Vorbereitung
 
 Für das Spiel brauchst du:
 
-- ein Ball,
+- einen Ball,
 - ein Paddel,
-- ein Boden,
-- und ein cooles Hintegrund.
+- einen Boden,
+- und einen coolen Hintergrund.
 
 ### Programmierung
 
-Beim drucken der grüne Flagge soll der Ball zuerst zur Anfangsposition gehen.
+Beim drücken der grüne Flagge soll der Ball zuerst zur Anfangsposition gehen.
 
 ![pong-start-position-deCH.png](pong-start-position-deCH.png)
 
-Dann soll der Ball anfangen, sich hin und her zu bewegen:
+Dann soll der Ball anfangen sich hin und her zu bewegen:
 
 ![pong-green-flag.png](pong-green-flag.png)
 
@@ -47,11 +47,11 @@ Klicke auf die grüne Flagge und der Ball soll anfangen sich hin und her zu bewe
 
 ### Programmierung
 
-Das Paddel soll unten am Bildschirm plaziert werden und dann sich von links nach rechts bewegen.
+Das Paddel soll unten am Bildschirm platziert werden und sich dann von links nach rechts bewegen.
 
 ![pong-paddle-move-deCH.png](pong-paddle-move-deCH.png)
 
-Das Paddle folgt die X-Koordinaten der Maus.
+Das Paddel folgt den X-Koordinaten der Maus.
 
 ### Los geht's
 
@@ -63,14 +63,14 @@ Der Ball soll prüfen, ob es das Paddel berührt.
 
 ![pong-ball-check-paddle.png](pong-ball-check-paddle.png)
 
-Falls er es berührt, soll er zurückspringen:
+Falls er es berührt, dann soll er zurückspringen:
 
 ![pong-ball-paddle-bounce-deCH.png](pong-ball-paddle-bounce-deCH.png)
 
 
 ### Programmierung
 
-Und sobald der Ball den roten boden berührt, wird alles gestoppt!
+Und sobald der Ball den roten Boden berührt, wird alles gestoppt!
 
 ![pong-ball-touch-ground-de.png](pong-ball-touch-ground-de.png)
 
@@ -78,4 +78,4 @@ Und sobald der Ball den roten boden berührt, wird alles gestoppt!
 
 - Punkte zählen.
 - Paddel mit der Tastatur bewegen.
-- Der Ball unterschiedlich zurückspringen, ob er links, in der mitte oder rechts auf das Paddel prallt (Paddel einfärben oder unterschied bei der X-Koordinaten berechnen).
+- Den Ball unterschiedlich zurückspringen lassen, je nach dem, ob er links, in der mitte oder rechts das Paddel berührt (Paddel einfärben oder den Unterschied bei den X-Koordinaten berechnen).
