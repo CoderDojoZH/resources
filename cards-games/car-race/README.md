@@ -1,5 +1,14 @@
 # Car Race
 
+## Printing on A4
+
+![preview first page](preview/car-race-a4-deCH-0.png)
+![preview second page](preview/car-race-a4-deCH-1.png)  
+
+Download this PDF and print it both sides witout any resizing on A4 paper:  
+
+- [A4 pdf Deutsch](https://github.com/CoderDojoZH/resources/raw/master/cards-games/car-race/car-race-a4-deCH.pdf)
+
 ## Preparing the PDF and PNG files
 
 ### Producing the A4 PDF and its PNG preview
