@@ -1,6 +1,6 @@
 # Pong spielen
 
-Bewege den Paddel, so dass der Ball nie den Boden berührt.
+Bewege das Paddel, so dass der Ball nie den Boden berührt.
 
 pong-game.png
 
@@ -14,7 +14,7 @@ Pong ist eines der ältesten Computerspiele.
 
 Ein Ball bewegt sich auf dem Bildschirm hin und her.
 
-Bewege den Paddel, so dass der Ball nie den Boden berührt.
+Bewege das Paddel, so dass der Ball nie den Boden berührt.
 
 Wähle die entsprechenden Figuren aus der Bibliothek aus oder zeichne deine eigene Figuren.
 
@@ -29,7 +29,7 @@ Für das Spiel brauchst du:
 
 ### Programmierung
 
-Beim drücken der grüne Flagge soll der Ball zuerst zur Anfangsposition gehen.
+Beim drücken der grüne Flagge soll der Ball zuerst zur Ausgangsposition gehen.
 
 ![pong-start-position-deCH.png](pong-start-position-deCH.png)
 
@@ -78,4 +78,4 @@ Und sobald der Ball den roten Boden berührt, wird alles gestoppt!
 
 - Punkte zählen.
 - Paddel mit der Tastatur bewegen.
-- Den Ball unterschiedlich zurückspringen lassen, je nach dem, ob er links, in der mitte oder rechts das Paddel berührt (Paddel einfärben oder den Unterschied bei den X-Koordinaten berechnen).
+- Den Ball unterschiedlich zurückspringen lassen, je nach dem, ob er links, in der Mitte oder rechts das Paddel berührt (Paddel einfärben oder den Unterschied bei den X-Koordinaten berechnen).
