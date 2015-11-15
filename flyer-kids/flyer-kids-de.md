@@ -52,7 +52,7 @@ http://coderdojozh.github.io/
 ### Das CoderDojo Zürich
 
 Das CoderDojo Zürich ist eine mehrsprachige Gruppe (DE, EN, IT, PL, FR).
-Ihr werdet weitaus mehr an diesen Treffs lernen, wenn ihr regelmässig teilnehmen könnt. Natürlich muss dies nicht jede Woche sein. Bringt euren eigenen Laptop mit. Falls erforderlich, können wir auch einige Computer auf Anfrage bereitstellen. Es ist keine ständige Aufsicht durch die Eltern notwendig. Die Eltern können in der Zwischenzeit in unserer kleinen Lounge entspannen.
+Ihr werdet weitaus mehr an diesen Treffs lernen, wenn ihr regelmässig teilnehmen könnt - was natürlich nicht jede Woche sein muss. Bringt euren eigenen Laptop mit. Wir können auch einige Computer auf Anfrage bereitstellen. Es ist keine ständige Aufsicht durch die Eltern notwendig. Die Eltern können in der Lounge entspannen.
 
 ### Aktivitäten
 
@@ -63,7 +63,7 @@ Bei Ninjas, die nie Computer Code geschrieben haben, erfolgt eine Einführung in
 Über unseren Twitter Kanal könnt Ihr mit dem CoderDojo Zürich Kontakt aufnehmen:
 @CoderDojoZH
 
-Falls Ihr an unserem wöchentlichn Dojo mit Euren Kindern teilnehmen möchtet, dann registriert Euch bitte auf unserer Meetup Seite:
+Falls Ihr teilnehmen möchtet, dann registriert Euch bitte auf unserer Meetup Seite:
 http://meetup.com/Coder-Dojo-Zurich
 
 Selbstverständlich kann auch unsere Webseite besuchet werden:
@@ -85,11 +85,11 @@ Thymio II ist ein kostengünstiger Bildungsroboter, der über eine grosse Anzahl
 
 Scratch ist eine freie Bildungs-Programmiersprache, die am Massachusetts Institute of Technology (MIT) entwickelt wurde und über 5 Millionen registrierte Nutzer hat.
 
-Scratch wurde entwickelt, damit es Spass macht, pädagogisch wertvoll und einfach erlernbar ist. Es verfügt über eine Werkzeugpalette zum Erstellen von interaktiven Geschichten, Spiele, Kunst, Simulationen und mehr. Scratch hat seinen eigenen Farb-Editor, einen Sound-Editor und eine grosse Anzahl an vorgefertigten Beispielen von denen man schnell und einfach lernen kann.
+Scratch soll Spass machen, pädagogisch wertvoll und einfach erlernbar ist. Es verfügt über eine Werkzeugpalette zum Erstellen von interaktiven Geschichten, Spiele, Kunst, Simulationen und mehr. Scratch hat seinen eigenen Farb- und Sound-Editor sowie vorgefertigte Beispiele.
 
-Scratch vereinfacht die Programmierung mittels Puzzle ähnlichen Blöcken, die genommen und zu Strukturen kombiniert werden können.
+Scratch vereinfacht die Programmierung mittels Puzzle ähnlichen Blöcken, die zu Code-Strukturen kombiniert werden können.
 
-Es ist ein leistungsfähiges und einfaches Werkzeug, mit dem einfach etwas ausprobiert werden kann und dann schaut was geeschieht.
+Es ist ein leistungsfähiges und einfaches Werkzeug, mit dem schnell etwas ausprobiert werden kann und sofort das Resultat sieht.
 
 
 ## Inhalt 3
@@ -101,6 +101,6 @@ Makey Makey funktioniert wie eine Tastatur, sieht aber nicht wie eine aus: Es is
 ### Testimonial
 
 "Kinder kommen in der Erwartung, schnell in der Lage zu sein Minecraft zu programmieren.
-Nach etwa 30 Minuten, wo Ihnen nur gezeigt wird, wie man einen Fisch und eine Katze zusammenstossen lassen kann und wie sich diese Figuren richtig verhalten müssen, gewinnen die Kinder eine neue Wertschätzung für die Arbeit, die in einem Spiel steckt. Danach hat jedes Kind viele Ideen um sich sein eigenes Spiel zu kreieren."
+Nach etwa 30 Minuten, wo Ihnen nur gezeigt wird, wie man einen Fisch und eine Katze zusammenstossen lassen kann, gewinnen die Kinder eine neue Wertschätzung für die Arbeit, die in einem Spiel steckt. Danach hat jedes Kind viele Ideen um sich sein eigenes Spiel zu kreieren."
 Adriel Wallick, Spiele-Programmierer.
 
