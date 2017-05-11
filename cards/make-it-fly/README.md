@@ -8,7 +8,7 @@ This remix gives you cards in A6 format that can be easily and cheaply be printe
 
 Download this PDF and print it both sides witout any resizing on A4 paper:  
 
-- [A4 pdf English](https://github.com/CoderDojoZH/resources/raw/master/cards/cards-make-it-fly-a4.pdf)
+- [A4 pdf English](cards-make-it-fly-a4.pdf)
 
 ## The layout file
 
