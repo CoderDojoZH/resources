@@ -16,7 +16,7 @@ Download this PDF and print it both sides witout any resizing on A4 paper:
 - [A4 pdf English](https://github.com/CoderDojoZH/resources/raw/master/cards/cards-a4.pdf)
 - [A4 pdf Deutsch](https://github.com/CoderDojoZH/resources/raw/master/cards/cards-a4-deCH.pdf)
 
-## Printing on A5
+## Printing on A6
 
 ![](preview/cards-a5-0.png)
 ![](preview/cards-a5-1.png)
