@@ -10,6 +10,12 @@ Download this PDF and print it both sides witout any resizing on A4 paper:
 
 - [A4 pdf English](cards-make-it-fly-a4.pdf)
 
+## Printing on A6
+
+The PDF with A6 pages can be used to read the cards on a screen or to print them on A6 paper without any resizing:
+
+- [A6 pdf English](cards-make-it-fly-a6-enUS.pdf)
+
 ## The layout file
 
 The cards have been created with Scribus 1.5svn (currently the development version):
