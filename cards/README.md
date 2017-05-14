@@ -16,7 +16,7 @@ Download this PDF and print it both sides witout any resizing on A4 paper:
 - [A4 pdf English](https://github.com/CoderDojoZH/resources/raw/master/cards/cards-a4.pdf)
 - [A4 pdf Deutsch](https://github.com/CoderDojoZH/resources/raw/master/cards/cards-a4-deCH.pdf)
 
-## Printing on A5
+## Printing on A6
 
 ![](preview/cards-a5-0.png)
 ![](preview/cards-a5-1.png)
@@ -59,6 +59,16 @@ The cards have been created with Scribus 1.5svn (currently the development versi
 - for the PNG preview of all the cards:  
   `pdfnup --nup 2x1 --frame false cards-a6.pdf --outfile cards-a5.pdf`  
   `convert -background white -alpha remove -resize 200x cards-a5.pdf cards-a5.png`
+
+### Producing an A4 sheet with one single card
+
+- extract the front and back of the card:  
+  `pdfseparate -f 10 -l 10 cards-a6-deCH.pdf cards-a6-%d.pdf`  
+  `pdfseparate -f 13 -l 13 cards-a6-deCH.pdf cards-a6-%d.pdf`
+- merge four times each page:
+  `pdfunite cards-a6-10.pdf cards-a6-10.pdf cards-a6-10.pdf cards-a6-10.pdf \`  
+  `cards-a6-13.pdf  cards-a6-13.pdf  cards-a6-13.pdf  cards-a6-13.pdf cards-a6-folge-der-maus.pdf`
+- use `psnup` to impose the pages in the resulting pdf on an a4 paper.
 
 ## License
 
