@@ -1,4 +1,4 @@
-# usage: scribus -g -py scribus-pdf.py love-follow-mouse-a6-enUS.sla
+# usage: scribus -g -py scribus-pdf.py -- love-follow-mouse-a6-enUS.sla
 
 import os
 

@@ -9,4 +9,4 @@
 ## Produce the pdf
 
 - export `-reordered` as 1,1,1,1,2,2,2,2
-- pdfnup pdfnup --nup 2x2 --frame false --no-landscape love-first-asset-a6-enUS-reordered.pdf --outfile love-first-asset-a4-enUS.pdf
+- `pdfnup --nup 2x2 --frame false --no-landscape love-first-asset-a6-enUS-reordered.pdf --outfile love-first-asset-a4-enUS.pdf`
