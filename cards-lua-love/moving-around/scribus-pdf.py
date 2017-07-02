@@ -10,5 +10,6 @@ if scribus.haveDoc():
     pdf.save()
 
     os.system("pdfnup --nup 2x2 --frame false --no-landscape " + filename + "-reordered.pdf --outfile " + filename.replace("a6", "a4") + ".pdf")
+    os.remove(pdf.file)
 else:
     print("No file open");
