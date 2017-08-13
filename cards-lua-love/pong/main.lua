@@ -2,66 +2,57 @@
 require 'Class'
 
 Ball = {}
-local Ball_mt = Class(Ball)
+Ball_mt = Class(Ball)
 
-function Ball:new(x, y)
+function Ball:new(scoreChannel)
     return setmetatable({
-        x = x,
-        y = y,
+        x = 0,
+        y = 0,
         speed = {x = 0, y = 0},
         direction = {x = 1, y = 1},
         bouncing = false,
+        scoreChannel = scoreChannel,
+        collisionChannel = nil,
         char = '*',
         size = 10
     }, Ball_mt)
 end
 
 function Ball:load()
+    if (self.collisionChannel == nil) then
+        self.collisionChannel = love.thread.newChannel()
+    end
     math.randomseed(os.time()) -- make random non pseudo random
-    self.leftOut = false
-    self.rightOut = false
-    self:init()
-end
-
-function Ball:init()
-    self.x = love.graphics.getWidth() / 2
-    self.y = love.graphics.getHeight() / 2
-    self.speed.x = love.math.random(200, 300)
-    self.speed.y = love.math.random(200, 300)
-    self.direction.x = (love.math.random(0, 1) == 1) and 1 or -1
-    self.direction.y = (love.math.random(0, 1) == 1) and 1 or -1
-end
-
-function Ball:start()
-    self.bouncing = true
-end
-
-function Ball:stop()
-    self.bouncing = false
     self:init()
 end
 
 function Ball:update(dt)
-    if love.keyboard.isDown('escape') then
-        love.event.push('quit')
-    end
     if love.keyboard.isDown(' ', 'space') then
-        self:start()
+        ball:start()
     end
 
     if not self.bouncing then
         return
     end
 
-    newX = self.x + (self.speed.x * dt * self.direction.x)
-    newY = self.y + (self.speed.y * dt * self.direction.y)
+    while self.collisionChannel:getCount() > 0 do
+        local message = self.collisionChannel:pop()
+        if self:isColliding(message.x, message.y, message.width, message.height) then
+            self:invertDirection()
+        end
+    end
+
+    local newX = self.x + (self.speed.x * dt * self.direction.x)
+    local newY = self.y + (self.speed.y * dt * self.direction.y)
 
     if (newX > (love.graphics.getWidth() - self.size)) then
-        self.rightOut = true
+        self.scoreChannel.left:push("+1")
         self:stop()
+        return
     elseif (newX < 0) then
-        self.leftOut = true
+        self.scoreChannel.right:push("+1")
         self:stop()
+        return
     else
         self.x = newX
     end
@@ -77,6 +68,31 @@ function Ball:draw()
     love.graphics.print(self.char, self.x, self.y)
 end
 
+function Ball:init()
+    self.x = love.graphics.getWidth() / 2
+    self.y = love.graphics.getHeight() / 2
+    self.speed.x = love.math.random(200, 300)
+    self.speed.y = love.math.random(200, 300)
+    self.direction.x = (love.math.random(0, 1) == 1) and 1 or -1
+    self.direction.y = (love.math.random(0, 1) == 1) and 1 or -1
+end
+
+function Ball:getCollisionChannel()
+    if (self.collisionChannel == nil) then
+        self.collisionChannel = love.thread.newChannel()
+    end
+    return self.collisionChannel
+end
+
+function Ball:start()
+    self.bouncing = true
+end
+
+function Ball:stop()
+    self.bouncing = false
+    self:init()
+end
+
 function Ball:isColliding(x, y, w, h)
     return
         self.x < x + w and
@@ -90,18 +106,19 @@ function Ball:invertDirection()
 end
 
 Paddle = {}
-local Paddle_mt = Class(Paddle)
+Paddle_mt = Class(Paddle)
 
-function Paddle:new(x, y, keyUp, keyDown)
+function Paddle:new(position, keyUp, keyDown, collisionChannel)
   return setmetatable({
-      x = x,
-      y = y,
+      x = position.x,
+      y = position.y,
+      keyUp = keyUp,
+      keyDown = keyDown,
+      collisionChannel = collisionChannel,
       speed =  250,
       score = 0,
       char =  '|',
-      size =  {width = 1, height = 50},
-      keyUp = keyUp,
-      keyDown = keyDown,
+      size =  {width = 1, height = 50}
   }, Paddle_mt)
 end
 
@@ -119,6 +136,8 @@ function Paddle:update(dt)
             self.y = self.y + (self.speed * dt)
         end
     end
+
+    self.collisionChannel:push({x = self.x, y = self.y, width = self.size.width, height = self.size.height})
 end
 
 function Paddle:draw()
@@ -130,30 +149,37 @@ function Paddle:scoreAdd()
 end
 
 Score = {}
-local Score_mt = Class(Score)
+Score_mt = Class(Score)
 
-function Score:new(x, y)
+function Score:new(position)
     return setmetatable({
-        x = x,
-        y = y,
+        x = position.x,
+        y = position.y,
+        channel = love.thread.newChannel(),
         score = 0
     }, Score_mt)
+end
+
+function Score:update(dt)
+    if self.channel:pop() ~= nil then
+        self.score = self.score + 1
+    end
+end
+
+function Score:getChannel()
+    return self.channel
 end
 
 function Score:draw()
     love.graphics.print(self.score, self.x, self.y)
 end
 
-function Score:add()
-    self.score = self.score + 1
-end
-
-
-ball = Ball:new()
-paddleA = Paddle:new(50, 200, {'q'}, {'a'})
-paddleB = Paddle:new(750, 200, {'i'}, {'k'})
-scoreA = Score:new(100, 10)
-scoreB = Score:new(650, 10)
+scoreA = Score:new({x = 100, y = 10})
+scoreB = Score:new({x = 650, y = 10})
+ball = Ball:new({left = scoreA:getChannel(), right = scoreB:getChannel()})
+ball = Ball:new({left = scoreA:getChannel(), right = scoreB:getChannel()})
+paddleA = Paddle:new({x = 50, y = 200}, {'q'}, {'a'}, ball:getCollisionChannel())
+paddleB = Paddle:new({x = 750, y = 200}, {'i'}, {'k'}, ball:getCollisionChannel())
 
 function love.load(arg)
     love.graphics.setFont(love.graphics.newFont(36))
@@ -163,23 +189,15 @@ function love.load(arg)
 end
 
 function love.update(dt)
+    if love.keyboard.isDown('escape') then
+        love.event.push('quit')
+    end
+
 	ball:update(dt)
-    if (ball.leftOut) then
-        scoreB:add()
-        ball.leftOut = false
-    end
-    if (ball.rightOut) then
-        scoreA:add()
-        ball.rightOut = false
-    end
+    scoreA:update(dt)
+    scoreB:update(dt)
     paddleA:update(dt)
     paddleB:update(dt)
-    if ball:isColliding(paddleA.x, paddleA.y, paddleA.size.width, paddleA.size.height) then
-        ball:invertDirection()
-    end
-    if ball:isColliding(paddleB.x, paddleB.y, paddleB.size.width, paddleB.size.height) then
-        ball:invertDirection()
-    end
 end
 
 function love.draw()
