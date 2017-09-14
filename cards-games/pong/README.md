@@ -8,6 +8,7 @@
 Download this PDF and print it both sides witout any resizing on A4 paper:  
 
 - [A4 pdf Deutsch](https://github.com/CoderDojoZH/resources/raw/master/cards-games/pong/pong-a4-deCH.pdf)
+- [A4 pdf English](https://github.com/CoderDojoZH/resources/raw/master/cards-games/pong/pong-a4-en.pdf)
 
 ## Preparing the PDF and PNG files
 
