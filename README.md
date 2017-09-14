@@ -22,7 +22,7 @@
     - print: one page
   - scratch-a3.pdf
     - <https://github.com/CoderDojoZH/resources/blob/master/poster/scratch-a3.pdf>
-    - print: one page
+    - print: one page; cut horizontally
 
 ## Cards
 
