@@ -5,23 +5,23 @@
 - Flyer for kids
   - en: <https://github.com/CoderDojoZH/resources/raw/master/flyer-kids/flyer-kids.pdf>
     - print: two pages double sided, folded in three
-        - 60 times
+        - 80 times
   - de: <https://github.com/CoderDojoZH/resources/raw/master/flyer-kids/flyer-kids-de.pdf>
     - print: two pages double sided, folded in three
-        - 60 times
+        - 80 times
 - Posters:
   - coderdojo-a3.pdf
     - <https://github.com/CoderDojoZH/resources/blob/master/poster/coderdojo-a3.pdf>
     - print: one page
-        - 3 times
+        - 4 times
   - coderdojo-zh-a3.pdf
     - <https://github.com/CoderDojoZH/resources/blob/master/poster/coderdojo-zh-a3.pdf>
     - print: one page
-        - 3 times
+        - 4 times
   - lightbot-a3.pdf
     - <https://github.com/CoderDojoZH/resources/blob/master/poster/lightbot-a3.pdf>
     - print: one page; has transparencies
-        - 6 times
+        - 10 times
   - lua-love-a3.pdf
     - <https://github.com/CoderDojoZH/resources/blob/master/poster/lua-love-a3.pdf>
     - print: one page
@@ -29,7 +29,7 @@
   - scratch-a3.pdf
     - <https://github.com/CoderDojoZH/resources/blob/master/poster/scratch-a3.pdf>
     - print: one page; cut horizontally
-        - 3 times
+        - 5 times
 
 ## Cards
 
@@ -52,16 +52,16 @@
   - languages: en, de
   - printing:
     - one sheet, single sided
-    - en - 25 times       
-    - de - 25 times       
+    - en - 50 times       
+    - de - 50 times       
     
 - _Parent robot programming slides_
   - de: <https://www.dropbox.com/s/1wigejf5ydrlhxu/How_To_Train_Your_Robot-deutsch.pptx?dl=0>
   - en: <https://www.dropbox.com/s/2z8sq6je5opq3a7/How_To_Train_Your_Robot.pdf?dl=0>
   - printing:
     - single sided
-    - en - 2 times
-    - de - 2 times    
+    - en - 5 times
+    - de - 5 times    
 
 ### Lua Love
 
@@ -134,22 +134,22 @@
     - ok
   - printing:
     - 6 pages, double sided; cut in four
-    - en - 25 times
-    - de - 25 times
+    - en - 30 times
+    - de - 30 times
 - _MIT make it fly_: double sided A6 flyer
   - en: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/mit-maket-it-fly/cards-make-it-fly-a4.pdf>
   - status: 
     - ok
   - printing:
     - 4 pages, double sided; cut in four
-    - 25 times
+    - 30 times
 - _Coordinates_: double sided A6 flyer
   - en: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/coordinates/cards-coordinates-a4.pdf>
   - status: 
     - ok
   - printing:
     - 1 page, double sided; cut in four
-    - 25 times
+    - 30 times
 - _Car race_: double sided A6 booklet
   - de: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/car-race/car-race-a4-deCH.pdf>
   - en: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/car-race/car-race-a4-en.pdf>
@@ -158,7 +158,7 @@
   - printing:
     - 2 pages, double sided; cut in two; stiched
     - en - 30 times
-    - de - we already have enough
+    - de - 10 times
 - _Dose_: double sided A6 booklet
   - de: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/dose/dose-a4-deCH.pdf>
   - en: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/dose/dose-a4-en.pdf>
@@ -167,7 +167,7 @@
   - printing:
     - 2 pages, double sided; cut in two; stiched
     - en - 30 times
-    - de - we already have enough
+    - de - 10 times
 - _Pong_: double sided A6 booklet
   - de: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/pong/pong-a4-deCH.pdf>
   - en: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/pong/pong-a4-en.pdf>
@@ -176,7 +176,7 @@
   - printing:
     - 2 pages, double sided; cut in two; stiched
     - en - 30 times
-    - de - 5 times
+    - de - 10 times
     
     
 
