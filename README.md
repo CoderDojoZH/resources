@@ -144,3 +144,12 @@
     - 2 pages, double sided; cut in two; stiched
 
 ### Processing
+
+## Tutorials
+
+### Lua and Löve
+
+- [Learaning Lua](https://github.com/CoderDojoZH/workshops/raw/master/lua-love/tutorial/learning-lua.pdf)
+  - printing: A4 double sided, stitched
+- [Learning Löve](https://github.com/CoderDojoZH/workshops/raw/master/lua-love/tutorial/learning-love.pdf)
+  - printing: A4 double sided, stitched
