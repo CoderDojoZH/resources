@@ -23,6 +23,9 @@
   - scratch-a3.pdf
     - <https://github.com/CoderDojoZH/resources/blob/master/poster/scratch-a3.pdf>
     - print: one page; cut horizontally
+  - badge-mentor-a7 .pdf
+    - <https://github.com/CoderDojoZH/resources/raw/master/poster/badge-mentor-a7.pdf>
+    - print: one page; cut horizontally
 
 ## Cards
 
