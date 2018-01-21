@@ -21,3 +21,5 @@ Download this PDF and print it both sides witout any resizing on A4 paper:
 - for the PNG preview of the A4 version:  
   `convert -background white -alpha remove -resize 300x dose-a4-deCH.pdf dose-a4.png`  
   to get `dose-a4-1.png` to `dose-a4-3.png`
+  `convert -background white -alpha remove -resize 150x dose-a6-deCH.pdf dose-a6.png`  
+  and keep the `0` one as `-preview`
