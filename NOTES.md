@@ -13,3 +13,4 @@
 - `Preferences > Settings > Session Settings > Autostart`: add "Connman" as `cmst -w5 -m` and `[x] Wait for system tray`
 - `lspci` to get the wifi card installed
   - if `Intel Corporation Centrino Wireless-N 1000 [Condor Peak]` you need to install the `non-free` repositories and then `firmware-iwlwifi`.
+- add `pepperflashplugin-nonfree`
