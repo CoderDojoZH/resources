@@ -4,15 +4,15 @@ This tutorial is based on the [Breakout game by Brunus-V](https://github.com/Bru
 
 My version of the project is [shared on the Scratch site](https://scratch.mit.edu/projects/201595840) and can you can also [play it with sulfurous](https://sulfurous.aau.at/legacy/#201595840) (look ma, no flash!)
 
-The SVG blocks can exported with <http://scratchblocks.github.io/generator/#project=201595840> and the current sb2 downloaded with <http://getsb2.herokuapp.com/201595840>.
+The SVG blocks can be exported with <http://scratchblocks.github.io/generator/#project=201595840> and the current sb2 downloaded with <http://getsb2.herokuapp.com/201595840>.
 
 ## Create the paddle
 
 create a paddle that follows the mouse:
 
-- you can pick the paddle from the scratch library or draw your own
-- resize it to about 50 px width
-- place it about towards the bottom of the screen (0, -150)
+- you can pick up the paddle from the scratch library or draw your own
+- resize it to approx. 50 px width
+- place it towards the bottom of the screen (0, -150)
 
 ![](assets/code/paddle-move.svg)
 
@@ -30,10 +30,10 @@ end
 Create a ball that moves around randomly
 
 - create the "speed" sprite variable
-- initialize the speed, the position and the direction so that the ball starts by going down. make it visible
+- initialize the speed, the position and the direction, so that the ball starts by going down. Make it also visible
 - forever:
   - move the ball at its speed
-  - bunce on edges
+  - bounce on edges
   - if it touches the paddle bounce to the left or to the right, depending on which part of the paddle is touched
     - go up, 20 px above the paddle
     - look (point) to the center of the paddle
@@ -59,15 +59,15 @@ end
 ```
 
 
-## Lose a life when the ball is missed
+## Loose a life when the ball is missed
 
-When the ball goes below the paddle, decreate the number of life and reste the ball position
+When the ball goes below the paddle, decrease the number of lives and reset the ball position
 
 - create the "Ball" variable (for all sprites)
 - initialize it when the green flag has been clicked
-- in the forever loop if the vertical postion (y) of the ball is lower than the paddle's position
+- in the forever loop, if the vertical Passion (y) of the ball is lower than the paddle's position:
   - hide the ball
-  - decrease the value of "Balls"
+  - decrease the value of the variable "Ball"
   - wait two seconds
   - move it up to the start position
   - point down
@@ -90,7 +90,10 @@ end
 
 ## Refactoring
 
-You might have noticed that the code for the initialization is very similar to the one for resetting the position after the ball has been lost. Let's refactor the code and create a "Reset position" block that we cana use in both places.
+You might have noticed, that the code for the initialization is very
+similar to the one for resetting the position after the ball has been
+lost. Let's refactor the code and create a "Reset position" block that
+we can use in both places.
 
 ```
 define Reset position
@@ -111,14 +114,14 @@ show
 
 ![](assets/code/ball-lifes-refactoring.svg)
 
-## Game Over when no more balls
+## Game Over when there are no more balls
 
 - Add a "Game Over" sprite
-- When the Green flat is clicked:
-  - Hide it
-  - Wait for everything beeing initialized (2 seconds?)
-  - Wait for balles becoming smaller than 0
-  - When that happens, show itself and stop all scripts
+- When the green flag is clicked:
+  - hide it
+  - wait for everything being initialized (2 seconds?)
+  - wait for balls becoming smaller than 0
+  - when that happens, let it show itself and stop all scripts
 
 ![](assets/code/gameover.svg)
 
@@ -134,18 +137,18 @@ stop [all v]
 
 We want to show the remaining balls in the lower left corner.
 
-- Create a new sprite "1 Up" and copy the Ball's costume into it (or draw a new costume for counting the points)
+- Create a new sprite "1 Up" and copy the ball's costume into it (or draw a new costume for counting the points)
 - When the game is started:
-  - Go to the lower corner
-  - Show the ball
-  - Wait until the number of balls has been initialized by the main ball
-  - As soon as the number of balls has fallen below the remaining balls represented by this ball (in this case 1... we are counting from the right)...
-  - ... Hide the sprite
-- Duplicate two time the "1 Up" sprite
+  - go to the lower corner
+  - show the ball
+  - wait until the number of balls has been initialized by the main ball
+  - as soon as the number of balls has fallen below the remaining balls represented by this ball (in this case 1... we are counting from the right)...
+  - ... hide the sprite
+- Duplicate two times the "1 Up" sprite
   - rename it to "2 Up"
   - the position 20 px to the right of the previous one
   - wait for the right number of remaining balls (2 for the second ball...)
-- Duplicate two time the "2 Up" sprite
+- Duplicate two times the "2 Up" sprite
   - wait for the right number of remaining balls (3 for the second ball...)
 
 ![](assets/code/ball-nup.svg)
@@ -175,7 +178,7 @@ hide
 
 ## Drawing the bricks
 
-We draw a brick in the top left corner and then make 39 copies of it: 3 rows and 13 columns.
+We draw a brick in the top left corner and then make 39 clones of it: 3 rows and 13 columns.
 
 - Draw the first brick
 - Create the "Row" and "Column" variables (for this sprite only)
@@ -218,10 +221,10 @@ wait until <(Bricks) = [39]>
 
 When a brick is hit by the ball it disappears. When a ball hits a brick it inverts its direction.
 
-- In each Brick's "When I start of a clone" add at the end:
-  - Wait for touching Ball
-  - Delete the clone
-- In the Ball's "Forever" loop add an "If" touching a brick:
+- In each brick's "When I start of a clone" add at the end:
+  - wait for touching the ball
+  - delete the clone
+- In the ball's "Forever" loop add an "If" touching a brick:
   - change the direction by 180° minus the current direction (it will continue in the same horizontal direction but "upside down")
 
 ![](assets/code/brick-hit.svg)
@@ -241,11 +244,11 @@ end
 When no bricks are shown anymore, the player has won.
 
 - Add a "Winner" sprite
-- When the Green flat is clicked:
-  - Hide it
-  - Wait for the bricks being 39
-  - Wait for brciks becoming 0 again
-  - When that happens, show itself and stop all scripts
+- When the Green flag is clicked:
+  - hide it
+  - wait for the bricks being 39
+  - wait for bricks becoming 0 again
+  - when that happens, show itself and stop all scripts
 
 ![](assets/code/winner.svg)
 
@@ -260,9 +263,9 @@ stop [all v]
 
 ## Bonus: the falling brick
 
-When a brick is the, the player has one chance in six to get a falling brick. If the player catches the falling brick, she'll get the matching bonus.
+When the ball hits a brick, the player has one chance in six to get a falling brick. If the player catches the falling brick, she/he will get the matching bonus.
 
-- In the Brick:
+- In the brick:
   - Create the global variables "Bonus Start X" and "Bonus Start Y"
   - Towards the end of "When I start as a clone, just before deleting the clone...
   - Set "Bonus Start X" to the current "x position" and "Bonus Start Y" to the "y position"
@@ -273,18 +276,18 @@ When a brick is the, the player has one chance in six to get a falling brick. If
     - creates a clone of itself
   - Define a "Bonus" local variable
   - When starts a clone:
-    - Goes to to global variables "Bonus Start X", "Bonus Start Y"
-    - Set the "Bonus" variable to a random value between 1 and 6
-    - If the value of bonus is smaller than 4
-      - Switch to the costume with the same number (from 1 to 3)
-      - Otherwise delete the cone
-    - Show the bonus clone
-    - repeat until it gets below the Paddle:
+    - goes to to global variables "Bonus Start X", "Bonus Start Y"
+    - set the "Bonus" variable to a random value between 1 and 6
+    - if the value of bonus is smaller than 4
+      - switch to the costume with the same number (from 1 to 3)
+      - otherwise delete the clone
+    - show the bonus clone
+    - repeat until it gets below the paddle:
       - move down by 6 pixels
-      - if it's touching the Paddle
-        - Here we will send messages for the bonuses
-        - Delete the clone, we're done
-    - Delete the clone when we got below the paddle
+      - if it is touching the paddle
+        - here we will send messages for the bonuses
+        - delete the clone, we are done
+    - delete the clone when we get below the paddle
 
 ![](assets/code/bonus-drop.svg)
 
@@ -321,19 +324,19 @@ delete this clone
 
 When the player catches a "Wide Paddle" bonus, the paddle gets wider. It will return to the normal size after 10 seconds.
 
-- In the Bonus: 
-  - In "If touching paddle" add (before deleting the clone):
+- In the bonus: 
+  - in "If touching paddle" add (before deleting the clone):
     - if bonus = 1 then
       - broadcast "Bonus Wide Palette"
-- In the Paddle:
-  - Draw a new costume with a paddle which is twice a wide as the normal one.
-  - Wait for the message "Bonus Wide Paddle"
-    - If the paddle is not yet wide
-      - Change the costume to "Wide"
-      - Broadcast a "Coundown Wide Paddle" message that we will catch in the paddle itself (
-  - Wait for the message "Coundown Wide Paddle"
-    - Wait 10 seconds
-    - Change the costume back to "Normal"
+- in the Paddle:
+  - draw a new costume with a paddle which is twice a wide as the normal one.
+  - wait for the message "Bonus Wide Paddle"
+    - if the paddle is not yet wide
+      - change the costume to "Wide"
+      - broadcast a "Condo Wide Paddle" message that we will catch in the paddle itself
+  - wait for the message "Countdown Wide Paddle"
+    - wait 10 seconds
+    - change the costume back to "Normal"
 (We have to send a message to ourselves, otherwise the "When I Receive "Bonus Wide Paddle" will be blocked until the 10 seconds are over, and then process the messages that have been received during the 10 seconds: and the paddle always stays wide...)
 
 ![](assets/code/bonus-wide-paddle.svg)
@@ -358,18 +361,18 @@ switch costume to [Normal v]
 
 When the player catches a "Slow Ball" bonus, the ball slows down. It will return to the normal speed after 10 seconds.
 
-- In the Bonus: 
-  - In "If touching paddle" add (before deleting the clone):
+- In the bonus: 
+  - in "If touching paddle" add (before deleting the clone):
     - if bonus = 2 then
       - broadcast "Bonus Slow Ball"
 - In the Ball:
-  - Wait for the "Bonus Slow Ball" message
-    - If the ball is not slow yet
-    - Set the speed to 5
-    - Broadcast a "Coundown Slow Ball" message that we will catch in the ball itself
-  - Wait for the "Coundown Slow Ball" message
-      - Wait 10 seconds
-      - Change the speed back to 8
+  - wait for the "Bonus Slow Ball" message
+    - if the ball is not slow yet
+    - set the speed to 5
+    - broadcast a "Countdown Slow Ball" message that we will catch in the ball itself
+  - wait for the "Countdown Slow Ball" message
+      - wait 10 seconds
+      - change the speed back to 8
 
 ![](assets/code/bonus-slow-ball.svg)
 
@@ -393,22 +396,22 @@ set [Speed v] to [8]
 
 When the player catches an "Extra Ball" bonus, a new ball will start bumping around. It will disappear when it drops below the paddle
 
-- In the Bonus: 
-  - In "If touching paddle" add (before deleting the clone):
+- In the bonus: 
+  - in "If touching paddle" add (before deleting the clone):
     - if bonus = 3 then
       - broadcast "Bonus Extra Ball"
 - In the Ball:
-  - Create a new costume with a ball with a different color
-  - Wait for the "Bonus Extra Ball" message
-    - If the costume is 1 (otherwise the clones are also cloned...)
+  - create a new costume with a ball with a different color
+  - wait for the "Bonus Extra Ball" message
+    - if the costume is 1 (otherwise the clones are also cloned...)
       - create clone of itself
-  - When it starts as a clone
-    - Switch to the "Extra" costume
+  - when it starts as a clone
+    - switch to the "Extra" costume
     - run the "Reset position" block
-  - Create a "Bounce" block
-  - Move the "forever" loop in "when starting" to the "Bounce" Block and add the "Bounce" command at the end of the forever loop.
-  - Add the Bounce command at the end of "When I start as a clone"
-  - When checking if the position of the ball is below of the Paddel:
+  - create a "Bounce" block
+  - move the "forever" loop in "when starting" to the "Bounce" block and add the "Bounce" command at the end of the forever loop.
+  - add the bounce command at the end of "When I start as a clone"
+  - when checking if the position of the ball is below of the paddle:
     - If costume = 1
       - reduce the number of balls and reset the position (as it was before)
     - Else
@@ -458,20 +461,20 @@ if <(y position) < ([y position v] of [Paddle v])> then
 end
 ```
 
-### Bricks with diffent colors and behaviors
+### Bricks with dint colors and behaviors
 
-We set different colors for each row and on the second row add three gray bricks that cannot be distroyed.
+We set different colors for each row and on the second row add three gray bricks that cannot be destroyed.
 
-- Duplicate three the Brick's costume and set different colors; the last one is the gray one.
-- Create a gray brick that won't be distroyed
+- Duplicate three of the brick's costumes and set different colors; the last one is the gray one.
+- Create a Gray brick that will not be destroyed
 - Create the block "Set Style"
-  - Set the costume number to the value of Row + 1
+  - set the costume number to the value of Row + 1
   - If row = 1 (the first row is 0, not 1)
     - If column = 3 or 6 or 9:
 - In "when starting as a clone",
-  - call "Set Style" before showing the Sprite
-  - put the code after "wait until touchging ball" in a condition "if not costume = 4"
-- In the "winner" block increase the number of Bricks needed to finish to 3 instead of 0
+  - call "Set Style" before showing the sprite
+  - put the code after "wait until touching ball" in a condition "if not costume = 4"
+- In the "winner" block increase the number of bricks needed to finish to 3 instead of 0
 
 ![](assets/code/brick-colors.svg)
 
