@@ -59,7 +59,7 @@ end
 ```
 
 
-## Loose a life when the ball is missed
+## Lose a life when the ball is missed
 
 When the ball goes below the paddle, decrease the number of lives and reset the ball position
 
@@ -333,7 +333,7 @@ When the player catches a "Wide Paddle" bonus, the paddle gets wider. It will re
   - wait for the message "Bonus Wide Paddle"
     - if the paddle is not yet wide
       - change the costume to "Wide"
-      - broadcast a "Condo Wide Paddle" message that we will catch in the paddle itself
+      - broadcast a "Countdown Wide Paddle" message that we will catch in the paddle itself
   - wait for the message "Countdown Wide Paddle"
     - wait 10 seconds
     - change the costume back to "Normal"
@@ -461,7 +461,7 @@ if <(y position) < ([y position v] of [Paddle v])> then
 end
 ```
 
-### Bricks with dint colors and behaviors
+### Bricks with different colors and behaviors
 
 We set different colors for each row and on the second row add three gray bricks that cannot be destroyed.
 
