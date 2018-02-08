@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="202.13055mm"
+   height="278.65448mm"
+   viewBox="0 0 202.13055 278.65448"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="projekte-plakat.svg">
+   sodipodi:docname="projects.svg">
   <defs
      id="defs2">
     <filter
@@ -34,9 +34,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="409.56965"
-     inkscape:cy="597.69039"
+     inkscape:zoom="1.0882813"
+     inkscape:cx="449.78356"
+     inkscape:cy="517.0035"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,11 @@
      inkscape:window-height="1776"
      inkscape:window-x="0"
      inkscape:window-y="22"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -53,14 +57,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-3.0671637,-3.5801775)">
     <g
        id="g2849"
        transform="translate(14.967094,-36.081386)">
@@ -105,14 +110,14 @@
          x="123.86501"
          sodipodi:role="line">Problem /</tspan><tspan
          style="stroke-width:0.26458332px"
-         y="49.783707"
+         y="49.783703"
          x="123.86501"
          sodipodi:role="line"
          id="tspan851">Fragestellung</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot853"
-       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Inconsolata;font-style:normal;font-weight:normal;font-size:17.33333333px;line-height:25px;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Inconsolata;font-stretch:normal;font-variant:normal"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.33333397px;line-height:25px;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion855"><rect
            id="rect857"
            width="44.642857"
@@ -363,14 +368,14 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot1479"
-       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Inconsolata;font-style:normal;font-weight:normal;font-size:17.33333333px;line-height:25px;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Inconsolata;font-stretch:normal;font-variant:normal"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.33333397px;line-height:25px;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion1481"><rect
            id="rect1483"
            width="738.43695"
            height="50.822948"
            x="30"
            y="-36.766029" /></flowRegion><flowPara
-         id="flowPara1485"></flowPara></flowRoot>    <text
+         id="flowPara1485" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:6.61458302px;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="165.1756"
