@@ -191,7 +191,6 @@
                 <DefaultStyle/>
                 <ITEXT CH="The anatomy of a class"/>
                 <para PARENT="h1"/>
-                <para PARENT="li"/>
                 <ITEXT CH="–"/>
                 <tab/>
                 <ITEXT CH="We first require the &quot;classic&quot; module and locally call it "/>
@@ -225,12 +224,10 @@
                 <ITEXT CPARENT="code" CH="TheClass"/>
                 <ITEXT CH="."/>
                 <para PARENT="li"/>
-                <para PARENT="li"/>
                 <ITEXT CH="Class modules"/>
                 <para PARENT="h1"/>
                 <ITEXT CH="Most of the time you will put the class in a separate file: create a file containing a local definition of a class and returning the local variable at the end of the file."/>
                 <para PARENT="Default Paragraph Style"/>
-                <para PARENT="li"/>
                 <ITEXT CH="To be noted"/>
                 <para PARENT="h1"/>
                 <ITEXT CH="–"/>
