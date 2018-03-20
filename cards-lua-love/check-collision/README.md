@@ -90,4 +90,9 @@ The four equations connected by the and conditions compare the corner points of 
 
 
 ## Note 
+
 - we could create (and link) a processing.js model that where on can move the shapes and see which condition is met.
+- other resources to bounding box in Löve 2D:
+  - https://love2d.org/forums/viewtopic.php?t=33493#p101856
+  - https://stackoverflow.com/questions/401847/circle-rectangle-collision-detection-intersection/402010#402010
+  - https://stackoverflow.com/questions/40541799/how-to-use-bounding-box-in-love2d
