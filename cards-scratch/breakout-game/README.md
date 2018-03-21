@@ -111,10 +111,10 @@ set [balls v] to [3]
 if <(y position) < ([y position v] of [Paddle v])> then 
   hide
   change [balls v] by (-1)
-  wait (2) secs
   go to x: (0) y: (50)
   point in direction ((180) + (pick random (-20) to (20)))
   show
+  wait (2) secs
 end
 ```
 
@@ -186,7 +186,7 @@ hide
 go to x: (-210) y: (160)
 ```
 
-We have made some calculations and if our bricks are 30 by 15 pixels which we can fit them in 13 columns and 3 rows.
+We have made some calculations and if our bricks are 30 by 15 pixels we can fit them in 13 columns and 3 rows.
 
 We keep track of the number of bricks, the row and the column, and we create each brick as a clone of the brick 0.
 Important notice: "row" and "column" must be for the sprite only. That way, each brick knows where it is.

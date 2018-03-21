@@ -63,3 +63,8 @@ todo:
 ## Inspiration
 
 - animation: https://www.youtube.com/watch?v=P6IpGcHVhe4
+
+## TODO
+
+- replace the hump class with the classic one
+- find a replacement for the signals
