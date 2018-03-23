@@ -1,5 +1,7 @@
 # Car Race
 
+warning: the screenshot are probably lost. redo it taking into consideration also http://scratched.gse.harvard.edu/sites/default/files/autorennen.pdf ?
+
 ## Printing on A4
 
 ![preview first page](preview/car-race-a4-deCH-0.png)
