@@ -197,8 +197,9 @@
                 <para PARENT="li"/>
                 <ITEXT CH="Optionally, you can also add the following packages for autocompletion: &quot;Love Atom&quot; and &quot;Autocomplete Lua&quot;."/>
                 <para PARENT="Default Paragraph Style"/>
-                <ITEXT CH="Using Atom"/>
-                <para PARENT="h1"/>
+                <ITEXT FONT="Arimo Regular" CH="Using Atom"/>
+                <para PARENT="h2"/>
+                <para PARENT="h2"/>
                 <ITEXT CH="–"/>
                 <tab/>
                 <ITEXT CH="You can &quot;normally&quot; create, open, close and save files through the &quot;File&quot; menu."/>
@@ -224,6 +225,6 @@
             </StoryText>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="547.874645669291" YPOS="521.491968503938" OwnPage="0" ItemID="293673880" PTYPE="2" WIDTH="281.055748031496" HEIGHT="28.7881811605651" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.296785372789331" LOCALSCY="0.296785372789331" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="images/show-indent-guide.png" IRENDER="0" EMBEDDED="0" path="M0 0 L281.056 0 L281.056 28.7882 L0 28.7882 L0 0 Z" copath="M-14.3062 0 L281.056 0 L281.056 34.4574 L-14.3062 34.4574 L-14.3062 0 Z" gXpos="967.402204724409" gYpos="-113.786141732276" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
-        <PAGEOBJECT XPOS="128.347086614174" YPOS="683.625826771654" OwnPage="1" ItemID="420183736" PTYPE="4" WIDTH="362.834645669291" HEIGHT="147.240000000001" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L362.835 0 L362.835 147.24 L0 147.24 L0 0 Z" copath="M0 0 L362.835 0 L362.835 147.24 L0 147.24 L0 0 Z" gXpos="128.347086614174" gYpos="683.625826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="295522696"/>
+        <PAGEOBJECT XPOS="128.347086614174" YPOS="683.625826771654" OwnPage="1" ItemID="420183736" PTYPE="4" WIDTH="362.834645669291" HEIGHT="164.247874015749" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L362.835 0 L362.835 164.248 L0 164.248 L0 0 Z" copath="M0 0 L362.835 0 L362.835 164.248 L0 164.248 L0 0 Z" gXpos="128.347086614174" gYpos="683.625826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="295522696"/>
     </DOCUMENT>
 </SCRIBUSUTF8NEW>
