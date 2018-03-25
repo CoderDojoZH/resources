@@ -96,3 +96,4 @@ The four equations connected by the and conditions compare the corner points of 
   - https://love2d.org/forums/viewtopic.php?t=33493#p101856
   - https://stackoverflow.com/questions/401847/circle-rectangle-collision-detection-intersection/402010#402010
   - https://stackoverflow.com/questions/40541799/how-to-use-bounding-box-in-love2d
+- Lua collision-detection library for axis-aligned rectangles: [Bump](https://www.love2d.org/wiki/Tutorial:Gridlocked_Player)
