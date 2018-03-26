@@ -1,0 +1,199 @@
+Flyers:
+- title: 'Flyer for kids'
+  path: flyer-kids
+  en: flyer-kids.pdf
+  de: flyer-kids-de.pdf
+  printing: 'two pages double sided, folded in three'
+
+Posters:
+
+- title: 'CoderDojo'
+  path: poster
+  en: coderdojo-a3.pdf
+  print: single page
+- title : 'CoderDojo Zürich'
+  path: poster
+  en: coderdojo-zh-a3.pdf
+  printint: single page
+- title: 'Lightbot'
+  path: poster
+  en: lightbot-a3.pdf
+  print: one page; has transparencies
+- title: 'Lua Löve'
+  path: poster
+  en: lua-love-a3.pdf
+  print: one page
+- title: 'Scratch'
+  path: poster
+  en: scratch-a3.pdf
+  print: one landscape page with two logos; cut horizontally
+
+Arduino:
+
+- title: 'Connect to Linux'
+  path: cards-arduino/connect-linux
+  en-a4: arduino-connection-linux-a4-enUs.pdf
+  en-a6: arduino-connection-linux-a6-enUs.pdf
+  status: 
+    - front or last page can be added
+  printing: '4 pages A6 booklet, one sheet, double-sided; print A4, cut in two horizontally and stitch'
+
+Lightbot:
+
+- title: 'Starting with Lightbot'
+  path: cards-lightbot/start
+  en-a4: lightbot-start-a4-en.pdf
+  en-a6: lightbot-start-a6-en.pdf
+  status: 
+    - back page is free
+  printing: 'single page A6 flyer; one sheet, single sided; print A4 and cut in four; contains transparencies'
+
+Lua Love:
+
+- title: 'Adding assets'
+  path: cards-lua-love/assets
+  en-a4: love-first-asset-a4-enUS.pdf
+  en-a6: love-first-asset-a6-enUS.pdf
+  status: 
+  - missing footer with author
+  printing: 'one sheet, double sided; print A4 and cut in two horizontally'
+- title: 'The Atom editor'
+  path: cards-lua-love/atom-editor
+  en-a4: love-atom-a4-enUS.pdf
+  en-a6: love-atom-a6-enUS.pdf
+  status: 
+  - missing footer with author
+  printing: 'one sheet A6, double sided; print A4 and cut in two horizontally'
+- title: 'Bounce on paddle'
+  path: cards-lua-love/bounce-on-paddle
+  status:
+  - '`main.lua` runs, the bouncing code is not correct; no cards'
+- title: 'Check collision'
+  path: cards-lua-love/check-collision
+  en-a4: love-check-collision-a4-enUS.pdf
+  en-a6: love-check-collision-a6-enUS.pdf
+  printing: '4 pages, double sided; print A4, cut in two horizontally, stitch'
+- title: 'Classes and Objects'
+  path: cards-lua-love/classes
+  en-a4: love-class-native-a4-enUS.pdf
+  en-a6: love-class-native-a6-enUS.pdf
+  printing: '2 pages, double sided; print A4, cut in two horizontally'
+- title: 'Classes: Score with native classes'
+  path: cards-lua-love/classes
+  en-a4: love-score-with-native-class-a4-enUS.pdf
+  en-a6: love-score-with-native-class-a6-enUS.pdf
+  printing: '2 pages, double sided; print A4, cut in two horizontally'
+- title: 'Classes with Classic classes'
+  path: cards-lua-love/classes
+  en-a4: class-classic-a4-enUS.pdf
+  en-a6: class-classic-a6-enUS.pdf
+  printing: '2 pages, double sided; print A4, cut in two horizontally'
+- title: 'Classe: Score with Classic classes'
+  path: cards-lua-love/classes
+  en-a4: love-score-with-classic-a4-enUS.pdf
+  en-a6: love-score-with-classic-a6-enUS.pdf
+  printing: '2 pages, double sided; print A4, cut in two horizontally'
+- title: 'Dropping down'
+  path: cards-lua-love/dropping-down
+  en-a4: dropping-down-a4-enUS.pdf
+  en-a6: dropping-down-a6-enUS.pdf
+  printing: '2 pages, double sided; print A4, cut in two horizontally'
+- title: 'Your first program'
+  path: cards-lua-love/first-program
+  en-a4: love-first-program-a4-enUs.pdf
+  en-a6: love-first-program-a6-enUs.pdf
+  status: 
+  - missing footer with author
+  - 'should be changed to use projects and `alt-l`'
+  printing: 'one sheet, double sided; print A4 and cut in two horizontally'
+- Follow the mouse:
+  path: cards-lua-love/follow-mouse
+  en-a4: follow-mouse-a4-enUS.pdf
+  en-a6: follow-mouse-a6-enUS.pdf
+  status: 
+  - missing footer with author
+  printing: 'one sheet, double sided; print A4, cut in two horizontally'
+- title: 'Installing Löve'
+  path: cards-lua-love/install
+  en-a4: love-install-a4-enUS.pdf
+  en-a6: love-install-a6-enUS.pdf
+  status: 
+  - back page is free
+  printing: 'one sheet A6, double sided; print A4 and cut in four'
+- title: 'Many of one kind'
+  path: cards-lua-love/many-of-one
+  en-a4: many-of-one-a4-enUS.pdf
+  en-a6: many-of-one-a6-enUS.pdf
+  printing: '2 pages, double sided; print A4, cut in two horizontally'
+- Moving around:
+  path: cards-lua-love/moving-around
+  en-a4: love-moving-around-a4-enUS.pdf
+  en-a6: love-moving-around-a6-enUS.pdf
+  status: 
+  - missing footer with author
+  printing: 'one sheet, double sided; print A4, cut in two horizontally'
+- Moving randomly:
+  path: cards-lua-love/moving-randomly
+  en-a4: love-moving-randomly-a4-enUS.pdf
+  en-a6: love-moving-randomly-a6-enUS.pdf
+  status: 
+  - the graphics should be improved
+  - missing footer with author
+  printing: 'one sheet, double sided; print A4, cut in two horizontally'
+
+Scratch:
+
+- Starting:
+  path: cards-scratch/starting
+  en-a4: scratch-join-a4-en.pdf
+  en-a6: scratch-join-a6-en.pdf
+  status: 
+    - possibly separate start and join
+    - missing footer with author
+    - translate into german
+  printing: 'one sheet, double sided; print A4, cut in four'
+- MIT starter cards:
+  path: cards-scratch/mit-starter-cards
+  en-a4: cards-a4.pdf
+  en-a6: cards-a6.pdf
+  en-a4: cards-a4-deCH.pdf
+  en-a6: cards-a6-deCH.pdf
+  printing: '6 pages, double sided; print A4, cut in four'
+- MIT make it fly:
+  path: cards-scratch/mit-maket-it-fly
+  en-a4: make-it-fly-a4-enUS.pdf
+  en-a6: make-it-fly-a6-enUS.pdf
+  printing: '4 pages, double sided; print A4, cut in two and stitch'
+- Coordinates:
+  path: cards-scratch/coordinates
+  en-a4: cards-coordinates-a4.pdf
+  en-a6: cards-coordinates-a6.pdf
+  printing: '1 page, double sided; print A4, cut in four'
+- Car race:
+  path: cards-games/car-race
+  en-a4: car-race-a4-en.pdf
+  en-a6: car-race-a6-en.pdf
+  de-a4: car-race-a4-deCH.pdf
+  de-a6: car-race-a6-deCH.pdf
+  printing: '2 pages, double sided; print A4, cut in two; stiched'
+- Dose:
+  path: cards-games/dose
+  en-a4: dose-a4-en.pdf
+  en-a6: dose-a6-en.pdf
+  de-a4: dose-a4-deCH.pdf
+  de-a6: dose-a6-deCH.pdf
+  printing: '2 pages, double sided; print A4, cut in two; stiched'
+- Pong:
+  path: cards-games/pong
+  en-a4: pong-a4-en.pdf
+  en-a6: pong-a6-en.pdf
+  de-a4: pong-a4-deCH.pdf
+  de-a6: pong-a6-deCH.pdf
+  printing: '2 pages, double sided; print A4, cut in two; stiched'
+- Breakout:
+  path: cards-scratch/breakout-game
+  en-a4: breakout-a4-en.pdf
+  en-a6: breakout-a6-en.pdf
+  de-a4: breakout-a4-deCH.pdf
+  de-a6: breakout-a6-deCH.pdf
+  printing: '2 pages, double sided; print A4, cut in two; stiched'
