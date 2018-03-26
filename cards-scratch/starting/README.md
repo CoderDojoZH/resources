@@ -34,7 +34,8 @@ Scratch ist eine Programmier-Platform, die auf deinem Browser läuft.
 Und klicke auf:
 
 ## Extra Tipp
-Du kannst die Sprache wechseln mittels click auf den Globus Symbol...
+
+Mit einem Click auf dem Globus Symbol kannst du die Sprache wechseln
 
 ... im Menu:
 
