@@ -1,8 +1,8 @@
 # Breakout
 
-Ein Ball hüft herum.
+Ein Ball hüpft herum.
 
-Verhindere mit de mPaddel, dass der der Ball nicht fällt und den Boden berührt.
+Verhindere mit dem Paddel, dass der Ball nicht fällt und den Boden berührt.
 
 Das Ziel ist alle Backsteine mit dem Ball zu treffen.
 
@@ -33,11 +33,15 @@ end
 
 ## Ein hüpfender Ball
 
-Setze zunächst die Variable für die Sprite Geschwindigkeit, die Position und die Richtung, damit der Ball beim Spielstart nach unten fällt.
+Setze zunächst die Variable für die Sprite Geschwindigkeit, die
+Position und die Richtung, damit der Ball beim Spielstart nach unten
+fällt.
 
-Bewege den Ball mit der definierten Geschwindigkeit und lasse es vom Rand abprallen. 
+Bewege den Ball mit der definierten Geschwindigkeit und lasse es vom
+Rand abprallen.
 
-Schaue auf der folgenden Seite die Instruktionen für das Abprallen am Paddel...
+Schaue auf der folgenden Seite die Instruktionen für das Abprallen am
+Paddel...
 
 ![](assets/code/ball-speed.svg)
 
@@ -45,7 +49,7 @@ Schaue auf der folgenden Seite die Instruktionen für das Abprallen am Paddel...
 (speed)
 ```
 
-... füge dem Ball die  "wiederhole fortlaufen" Schleife.
+... füge dem Ball die  "wiederhole fortlaufen" Schleife zu.
 
 ![](assets/code/ball-bounce.svg)
 
@@ -61,7 +65,11 @@ forever
   ...
 end
 ```
-Wenn der Ball das Paddel berührt, dann wird es nach links oder rechts abprallen, je nach dem welche Seite des Paddels berührt wird. mehr oder weniger steil, abhängig wie nah der Ball die Mitte des Paddels berührt.
+
+Wenn der Ball das Paddel berührt, dann wird es nach links oder rechts
+abprallen, je nach dem welche Seite des Paddels berührt wird. mehr
+oder weniger steil, abhängig wie nah der Ball die Mitte des Paddels
+berührt.
 
 - Bewege zunächst den Ball um 20 px nach oben, damit es das Paddel nicht mehr berührt.
 - Dann zeige auf die Mitte des Paddels.
@@ -77,14 +85,17 @@ end
 
 ## Versuche es!
 
-Klicke auf die Gründe Flagge: Der Ball wird herumhüpfen und das Paddel wird deinem Mauszeiger folgen.
+Klicke auf die Gründe Flagge: Der Ball wird herumhüpfen und das Paddel
+wird deinem Mauszeiger folgen.
 
 
 ## Ein Leben verlieren 
 
-Wenn der Ball unter dem Paddel fällt, verringere die Anzahl Leben. Danach geht der Ball zurück zur Anfangsposition. 
+Wenn der Ball unter dem Paddel fällt, verringere die Anzahl
+Leben. Danach geht der Ball zurück zur Anfangsposition.
 
-Erstelle zunächst die "Ball" Variable (für alle Sprites) und initialisiere es mit der Anzahl Leben. 
+Erstelle zunächst die "Ball" Variable (für alle Sprites) und
+initialisiere es mit der Anzahl Leben.
 
 ![](assets/code/ball-balls.svg)
 
@@ -113,14 +124,19 @@ if <(y position) < ([y position v] of [Paddle v])> then
 end
 ```
 
-In der Endlosschleife auf Seite 2 prüfen wir ob die Position des Balls unter dem Paddel liegt. Falls ja, dann verkleinern wir die Anzahl Leben und - nach zwei Sekunden - bewegen den Ball zurück zur Anfangsposition.
+In der Endlosschleife auf Seite 2 prüfen wir ob die Position des Balls
+unter dem Paddel liegt. Falls ja, dann verkleinern wir die Anzahl
+Leben und - nach zwei Sekunden - bewegen den Ball zurück zur
+Anfangsposition.
 
 
 ## Refactoring
 
-Vielleicht ist dir aufgefallen, dass der Code für die Initialisierung sehr ähnlich ist wie jenes, um die Position zurück zu stellen, wenn der Ball nicht berührt wird.
+Vielleicht ist dir aufgefallen, dass der Code für die Initialisierung
+sehr ähnlich ist wie jenes, um die Position zurück zu stellen, wenn
+der Ball nicht berührt wird.
 
-Lass uns den Code verbessern und ein "Reset position" Block erstellen.
+Lass uns den Code verbessern und ein "Position zurücksetzen" Block erstellen.
 
 ![](assets/code/ball-refactoring-reset.svg)
 
@@ -130,7 +146,9 @@ go to x: (0) y: (50)
 point in direction ((180) + (pick random (-20) to (20)))
 ```
 
-Wir können nun "Reset position" sowohl für die "Initialisierung" als auch für das Rückstellen zur Anfangsposition verwenden:
+Wir können nun "Position zurücksetzen" sowohl für die
+"Initialisierung" als auch für das Rückstellen auf die Anfangsposition
+verwenden:
 
 ![](assets/code/ball-refactoring-init.svg)
 
@@ -155,9 +173,11 @@ show
 
 ## Spielende
 
-Wir prüfen die verbleibende Anzahl Leben und lösen ein "Game over" aus, wenn wir alle Bälle verloren haben. 
+Wir prüfen die verbleibende Anzahl Leben und lösen ein "Game over"
+aus, wenn wir alle Bälle verloren haben.
 
-Warte zuerst, bis mindestens ein Ziegelstein geklont wurde, sonst wird das Spiel so schnell beendet wie es gestartet wurde.
+Warte zuerst, bis mindestens ein Ziegelstein geklont wurde, sonst wird
+das Spiel so schnell beendet wie es gestartet wurde.
 
 ![](assets/code/ball-gameover.svg)
 
@@ -186,13 +206,13 @@ go to x: (-210) y: (160)
 ```
 
 Wir haben einige Berechnungen gemacht und wenn unsere Ziegelsteine 30
-mal 15 pixel gross sind, dann haben sie 13 Spalten und 3 Reihen Platz.
+mal 15 Pixel gross sind, dann haben sie 13 Spalten und 3 Reihen Platz.
 
 Wir überwachen die Anzahl Ziegelsteine, die Spalten und die
 Zeilen. Wir erstellen jeden Ziegelstein als Klon des Ziegelsteins
 Null.
 
-Achtung: Spalte und Zeile gelten nur für den Sprite. So weiss jeded
+Achtung: Spalte und Reihe gelten nur für den Sprite. So weiss jeder
 Ziegelstein wo es sich befindet.
 
 "Ziegelsteine" ist eine globale Variable.
@@ -214,10 +234,10 @@ repeat (3)
 end
 ```
 
-Jede Spalte is 35 Breite und die Zeilen 20 hoch.
+Jede Spalte ist 35 Breit und die Reihen 20 hoch.
 
 Jede Position eines Klons wird errechnet, indem man dem Index (Spalte
-oder Zeile) den Ursprung hinzufügt, multipliziert mit der Breite oder
+oder Reihe) den Ursprung hinzufügt, multipliziert mit der Breite oder
 Höhe.
 
 
@@ -230,9 +250,9 @@ show
 change [bricks v] by (1)
 ```
 
-Spalte und Zeile starten bei 0, nicht 1.
+Spalte und Reihe starten bei 0, nicht 1.
 
-Füge ein "warte" zwischen "reset" und "hüpfen"
+Füge ein "warte" zwischen "zurücksetzen" und "hüpfen"
 
 ![](assets/code/bricks-init-wait.svg)
 
@@ -240,9 +260,9 @@ Füge ein "warte" zwischen "reset" und "hüpfen"
 wait until <(bricks) = [39]>
 ```
 
-## Hitting the bricks
+## Ziegelsteine berühren
 
-Füge es dem Code "wenn ich einen klon starte" hinzu.
+Füge es dem Code "wenn ich einen Klon starte" hinzu.
 
 ![](assets/code/brick-hit.svg)
 
@@ -254,7 +274,7 @@ delete this clone
 
 Wenn der Ball einen Ziegelstein berührt, dann verschwindet es...
 
-Füge es der "Widerhole fortlaufen" Schleife hinzu.
+Füge es der "Wiederhole fortlaufend" Schleife hinzu.
 
 ![](assets/code/ball-hit.svg)
 
@@ -291,8 +311,8 @@ endet das Spiel bevor es richtig angefangen hat.
 
 ### Farbige Ziegelsteine
 
-Wir setzen unterschiedliche Farben für jede Zeile und in der zweiten
-Reihe füge drei grauen Ziegelsteine, die nicht zerstört werden können.
+Wir setzen unterschiedliche Farben für jede Reihe, und in der zweiten
+Reihe füge drei graue Ziegelsteine, die nicht zerstört werden können.
 
 
 Erstelle 4 Kostüme mit verschiedenen Farben, wobei das vierte grau
@@ -310,10 +330,10 @@ if <(row) = [1]> then
 end
 ```
 
-Füge "Setze Stil" hinzu, bevor der Klon angezeigt wird...
+Füge "setze Stil" hinzu, bevor der Klon angezeigt wird...
 
 Setze ein "falls" zwischen den Blöcken "warte bis" und "lösche diesen
-Klon" 
+Klon"
 
 ![](assets/code/bricks-colors.svg)
 
@@ -370,13 +390,15 @@ broadcast [Drop bonus v]
 ```
 
 – Erstelle die globalen Variablen "bonus Start X" und "bonus Start Y"
-– Gegen das Ende von "Wenn ich einen klone starte"", vor dem Löschen
-– eines Klones...  - ... Setze "bonus Start X" auf die aktuelle "xposition" and "bonus Start Y" auf die "y position"
+– Gegen das Ende von "Wenn ich einen Klon starte", vor dem Löschen eines Klones...
+- ... Setze "bonus Start X" auf die aktuelle "xposition" and "bonus Start Y" auf die "y position"
 - Sende die "Bonus fällt" Nachricht
 
 ## Die Pillen fallen 2 
 
-Zeichne eine Pille. Wenn das Spiel startet ist sie versteckt und wenn der Ziegelstein die nachricht "Bonus fällt" verschickt, dann klont es sich selbst.
+Zeichne eine Pille. Wenn das Spiel startet ist sie versteckt und wenn
+der Ziegelstein die Nachricht "Bonus fällt" verschickt, dann klont es
+sich selbst.
 
 ![](assets/code/bonus-hide.svg)
 
@@ -394,7 +416,7 @@ create clone of [myself v]
 
 ## Die Pillen fallen 3
 
-Erstelle eine "Bonus" sprite variable.  
+Erstelle eine "Bonus" Sprite Variable.  
 
 Wenn die Zufallszahl grösser ist als 3 (3 von 4 Möglichkeiten), dann
 mache nichts und lösche den Klon...
@@ -444,9 +466,12 @@ Wir benötigen drei Kostüme.
 
 Sende von hier aus die Bonus Nachricht... 
 
-## Bonus: a wide paddle
+## Bonus: ein breites Paddel
 
-When the player catches a "Wide Paddle" bonus (the number 1), the paddle gets wider. It will return to the normal size after 10 seconds.
+Wenn der/die Spieler/in einen "Breiten Paddel" Bonus (die Nummer 1)
+fängt, wird das Paddel breiter. Nach 10 Sekunden schrumpft es wieder
+zur normalen Grösse.
+
 
 ![](assets/code/bonus-wide-paddle-broadcast.svg)
 
@@ -456,11 +481,14 @@ if <(bonus) = [1]> then
 end
 ```
 
-Add the broadcast to the "if touching paddle"
+Füge die Nachricht zum "wenn Paddel berührt" hinzu.
 
-## Bonus: a wide paddle
 
-The paddle listens to the "Bonus Wide Paddle". It then switches to a costume with a wider paddle and waits for 10 second before switching back to the normal costume.
+## Bonus: ein breites Paddel
+
+Das Paddel hört auf die "Bonus Breiter Paddel" Nachricht. Danach
+wechselt es zu einem Kostüm mit einem breiteren Paddel und wartet 10
+Sekunden bevor es wieder zur normalen Grösse schrumpft.
 
 ![](assets/code/bonus-wide-paddle-start.svg)
 
@@ -481,9 +509,10 @@ switch costume to [normal v]
 ...
 ```
 
-## Bonus: a slow ball
+## Bonus: ein langsamer Ball
 
-When the player catches a "Slow ball" bonus (the number 2) the speed of the ball gets slower.
+Wenn der/die Spieler/in einen "Langsamer Ball" (die Nummer 2)
+Bonus fängt, dann verlangsamt sich die Geschwindigkeit des Balls.
 
 ![](assets/code/bonus-slow-ball-broadcast.svg)
 
@@ -493,9 +522,13 @@ if <(bonus) = [2]> then
 end
 ```
 
-## Bonus: a slow ball 2
+## Bonus: ein langsamer Ball 2
 
-Text265: The ball listens to the "bonus slow ball". Then, if the speed is currently the normal one, set the variable to the lower value, wait 10 seconds, before setting the speed value to its normal value.
+Der Ball hört auf die Nachricht "Bonus Langsamer Ball". Dann, falls
+die aktuelle Geschwindigkeit die normales ist, setze die Variable zum
+tieferen Wert, warte 10 Sekunden, bevor der Wert der Geschwindigkeit
+wieder auf den normalen Level gesetzt wird.
+
 
 ![](assets/code/bonus-slow-ball-start.svg)
 
@@ -508,9 +541,10 @@ if <(speed) = [8]> then
 end
 ```
 
-## Bonus: Extra balls
+## Bonus: Extra Bälle
 
-Each time the player catches an "Extra ball" bonus (the number 3) one more ball starts bouncing around.
+Jedes Mal wenn der/die Spieler/in einen "Extra Ball" Bonus (die Nummer
+3) fängt, dann erscheint ein zusätzlicher hüpfender Ball.
 
 
 ![](assets/code/bonus-extra-ball-broadcast.svg)
@@ -521,12 +555,16 @@ if <(bonus) = [3]> then
 end
 ```
 
-## Bonus: Extra balls 2
+## Bonus: Extra Bälle 2
 
-The ball listens to the "bonus extra ball". If costume is the normal one, create a clone.  
-What does a clone do? It changes the costume to "extra", goes to the start position and starts bouncing.
+Der Ball hört auf die Nachricht "Bonus Extra Ball". Falls das Kostüm
+das übliche ist, dann kreiere einen Klon.
 
-Refactoring: the ball and the clone bounce in the same way.
+Was macht der Klon? Es wechselt das Kostüm auf "extra", geht auf die
+Startposition und beginnt zu hüpfen.
+
+
+Refactoring: Der Ball und der Klone hüpfen parallel. 
 
 ![](assets/code/bonus-extra-ball-receive.svg)
 
@@ -565,9 +603,11 @@ forever
 end
 ```
 
-## Bonus: Extra balls 3
+## Bonus: Extra Bälle 3
 
-Finally, we only lose a life, when the original ball drops. The clones simply "disappear".
+Zum Schluss verlieren wir nur ein Leben, wenn der Originalball hinter
+dem Paddel fällt. Die Klone "verschwinden" einfach.
+
 
 ![](assets/code/bonus-extra-ball-if-position.svg)
 
@@ -599,58 +639,10 @@ if <(y position) < ([y position v] of [paddle v])> then
 end
 ```
 
-## License
+## Lizenz
 
 Creative Commons License CC-BY-SA  
 Coderdojo Zürich, Ale Rimoldi  
 Inspired by Brunus-V's Breakout game:  
 https://github.com/Brunus-V/Scratch-games.
 
-## For the fun: Show the remaining balls
-
-TODO: create a separate card...
-
-We want to show the remaining balls in the lower left corner.
-
-- Create a new sprite "1 Up" and copy the ball's costume into it (or draw a new costume for counting the points)
-- When the game is started:
-  - go to the lower corner
-  - show the ball
-  - wait until the number of balls has been initialized by the main ball
-  - as soon as the number of balls has fallen below the remaining balls represented by this ball (in this case 1... we are counting from the right)...
-  - ... hide the sprite
-- Duplicate two times the "1 Up" sprite
-  - rename it to "2 Up"
-  - the position 20 px to the right of the previous one
-  - wait for the right number of remaining balls (2 for the second ball...)
-- Duplicate two times the "2 Up" sprite
-  - wait for the right number of remaining balls (3 for the second ball...)
-
-![](assets/code/ball-nup.svg)
-
-```
-when green flag clicked
-go to x: (-230) y: (-170)
-show
-wait until <(Balls) > [0]>
-wait until <(Balls) < [1]>
-hide
-
-when green flag clicked
-go to x: (([x position v] of [Ball 1 Up v]) + (20)) y: (-170)
-show
-wait until <(Balls) > [0]>
-wait until <(Balls) < [2]>
-hide
-
-when green flag clicked
-go to x: (([x position v] of [Ball 2 Up v]) + (20)) y: (-170)
-show
-wait until <(Balls) > [0]>
-wait until <(Balls) < [3]>
-hide
-```
-
-## Todo
-
-- probably rename Balls to Lives
