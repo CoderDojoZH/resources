@@ -55,8 +55,6 @@ See on the next page for the bouncing on the paddle...
 (speed)
 ```
 
-... add to the Ball's "forever" loop.
-
 ![](assets/code/ball-bounce.svg)
 
 ```
@@ -71,6 +69,20 @@ forever
   ...
 end
 ```
+## The ball and the paddle
+
+![](assets/code/ball-bounce-angle.svg)
+
+```
+if <touching [Paddle v] ?> then 
+  set y to (([y position v] of [Paddle v]) + (20))
+  point towards [Paddle v]
+  turn ccw (180) degrees
+end
+```
+
+... add to the Ball's "forever" loop.
+
 When the ball touches the paddle it will bounce to the left or to the right, depending on which part of the paddle is touched, more or less steep, depending on how close ball is to the center of the pad:–	First, move up by 20 px so that it does not touch the paddle anymore.–	Then point to the center of the paddle.–	Finally invert the direction (turn by 180°)
 
 ```
@@ -154,8 +166,6 @@ Reset position :: custom
 show 
 ```
 
-![](assets/code/ball-lifes-refactoring.svg)
-
 ## Game Over
 
 We keep an eye on the number of balls left and trigger a "Game over" when no we have lost all balls.
@@ -225,11 +235,6 @@ Column and row start at  0, not 1
 
 Add a "wait" between the "reset" and the "bouncing"
 
-![](assets/code/bricks-init-wait.svg)
-
-```
-wait until <(bricks) = [39]>
-```
 
 ## Hitting the bricks
 
@@ -469,7 +474,7 @@ end
 
 ## Bonus: a slow ball 2
 
-Text265: The ball listens to the "bonus slow ball". Then, if the speed is currently the normal one, set the variable to the lower value, wait 10 seconds, before setting the speed value to its normal value.
+The ball listens to the "bonus slow ball". Then, if the speed is currently the normal one, set the variable to the lower value, wait 10 seconds, before setting the speed value to its normal value.
 
 ![](assets/code/bonus-slow-ball-start.svg)
 
@@ -539,6 +544,15 @@ forever
 end
 ```
 
+![](assets/code/bonus-extra-ball-bounce.svg)
+
+```
+When Flag clicked
+...
+Bounce :: custom
+```
+
+
 ## Bonus: Extra balls 3
 
 Finally, we only lose a life, when the original ball drops. The clones simply "disappear".
@@ -551,14 +565,6 @@ define Bounce
 if <(y position) < ([y position v] of [paddle v])> then 
   ...
 end
-```
-
-![](assets/code/bonus-extra-ball-bounce.svg)
-
-```
-When Flag clicked
-...
-Bounce :: custom
 ```
 
 ![](assets/code/bonus-extra-ball-delete.svg)
