@@ -157,6 +157,19 @@
     - en - print 50 times
     - de - print 50 times
 
+- Jumping:
+  - path: cards-scratch/jumping
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/jumping/cards-jumping-a4-enUS.pdf>
+  - printing: 
+    - '2 pages, double sided; print A4, cut in two'
+    - en - print 50 times
+
+- Show numbers:
+  - path: cards-scratch/show-numbers
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/show-numbers/show-numbers-a4-enUS.pdf>
+  - printing: 
+    - '2 pages, double sided; print A4, cut in four'
+    - en - print 50 times
   
 - Car race:
   - path: cards-games/car-race
