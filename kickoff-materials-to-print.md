@@ -16,7 +16,7 @@
     - back page is free
   - printing: 
     - 'single page A6 flyer; one sheet, single sided; print A4 and cut in four; contains transparencies'
-    - print 100 times
+    - print 25 times
 
 ## Lua Love:
 
@@ -26,8 +26,8 @@
   - status: 
     - missing footer with author
   - printing: 
-    - 'one sheet, double sided; print A4 and cut in two horizontally'
-    - print 50 times
+    - 'one sheet, double sided; print A4 and cut in four'
+    - print 10 times
   
 - title: 'The Atom editor'
   - path: cards-lua-love/atom-editor
@@ -35,50 +35,50 @@
   - status: 
     - missing footer with author
   - printing: 
-    - 'one sheet A6, double sided; print A4 and cut in two horizontally'
-    - print 50 times
+    - 'one sheet A6, double sided; print A4 and cut in four'
+    - print 10 times
   
 - title: 'Check collision'
   - path: cards-lua-love/check-collision
   - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lua-love/check-collision/love-check-collision-a4-enUS.pdf>
   - printing: 
-    - '4 pages, double sided; print A4, cut in two horizontally, stitch'
-    - print 50 times
+    - '4 pages, double sided; print A4, cut in two horizontally'
+    - print 20 times
   
 - title: 'Classes and Objects'
   - path: cards-lua-love/classes
   - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lua-love/classes/love-class-native-a4-enUS.pdf>
   - printing: 
-    - '2 pages, double sided; print A4, cut in two horizontally'
-    - print 50 times
+    - '2 pages, double sided; print A4, cut in four'
+    - print 10 times
   
 - title: 'Classes: Score with native classes'
   - path: cards-lua-love/classes
   - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lua-love/classes/love-score-with-native-class-a4-enUS.pdf>
   - printing: 
-    - '2 pages, double sided; print A4, cut in two horizontally'
-    - print 50 times
+    - '2 pages, double sided; print A4, cut in four'
+    - print 10 times
   
 - title: 'Classes with Classic classes'
   - path: cards-lua-love/classes
   - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lua-love/classes/class-classic-a4-enUS.pdf>
   - printing: 
-    - '2 pages, double sided; print A4, cut in two horizontally'
-    - print 50 times
+    - '2 pages, double sided; print A4, cut in four'
+    - print 10 times
   
-- title: 'Classe: Score with Classic classes'
+- title: 'Classes: Score with Classic classes'
   - path: cards-lua-love/classes
   - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lua-love/classes/love-score-with-classic-a4-enUS.pdf>
   - printing: 
-    - '2 pages, double sided; print A4, cut in two horizontally'
-    - print 50 times
+    - '2 pages, double sided; print A4, cut in four'
+    - print 10 times
   
 - title: 'Dropping down'
   - path: cards-lua-love/dropping-down
-  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lua-love/assetsdropping-down/dropping-down-a4-enUS.pdf>
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lua-love/dropping-down/dropping-down-a4-enUS.pdf>
   - printing: 
-    - '2 pages, double sided; print A4, cut in two horizontally'
-    - print 50 times
+    - '2 pages, double sided; print A4, cut in four'
+    - print 10 times
   
 - title: 'Your first program'
   - path: cards-lua-love/first-program
@@ -87,8 +87,8 @@
     - missing footer with author
     - 'should be changed to use projects and `alt-l`'
   - printing: 
-    - 'one sheet, double sided; print A4 and cut in two horizontally'
-    - print 50 times
+    - 'one sheet, double sided; print A4 and cut in four'
+    - print 10 times
   
 - Follow the mouse:
   - path: cards-lua-love/follow-mouse
@@ -96,8 +96,8 @@
   - status: 
     - missing footer with author
   - printing: 
-    - 'one sheet, double sided; print A4, cut in two horizontally'
-    - print 50 times
+    - 'one sheet, double sided; print A4, cut in four'
+    - print 10 times
   
 - title: 'Installing Löve'
   - path: cards-lua-love/install
@@ -106,14 +106,14 @@
     - back page is free
   - printing: 
     - 'one sheet A6, double sided; print A4 and cut in four'
-    - print 50 times
+    - print 10 times
   
 - title: 'Many of one kind'
   - path: cards-lua-love/many-of-one
   - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lua-love/many-of-one/many-of-one-a4-enUS.pdf>
   - printing: 
-    - '2 pages, double sided; print A4, cut in two horizontally'
-    - print 50 times
+    - '2 pages, double sided; print A4, cut in four'
+    - print 10 times
   
 - Moving around:
   - path: cards-lua-love/moving-around
@@ -121,8 +121,8 @@
   - status: 
     - missing footer with author
   - printing: 
-    - 'one sheet, double sided; print A4, cut in two horizontally'
-    - print 50 times
+    - 'one sheet, double sided; print A4, cut in four'
+    - print 10 times
   
 - Moving randomly:
   - path: cards-lua-love/moving-randomly
@@ -132,7 +132,7 @@
     - missing footer with author
   - printing: 
     - 'one sheet, double sided; print A4, cut in two horizontally'
-    - print 50 times
+    - print 20 times
   
 
 ## Scratch:
@@ -143,10 +143,10 @@
   - status: 
     - possibly separate start and join
     - missing footer with author
-    - translate into german
+    - translate into German
   - printing: 
     - 'one sheet, double sided; print A4, cut in four'
-    - print 100 times
+    - print 50 times
   
 - MIT starter cards:
   - path: cards-scratch/mit-starter-cards
@@ -154,15 +154,9 @@
   - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/mit-starter-cards/cards-a4-deCH.pdf>
   - printing: 
     - '6 pages, double sided; print A4, cut in four'
-    - en - print 100 times
-    - de - print 100 times
-  
-- MIT make it fly:
-  - path: cards-scratch/mit-maket-it-fly
-  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/mit-maket-it-fly/make-it-fly-a4-enUS.pdf>
-  - printing: 
-    - '4 pages, double sided; print A4, cut in two and stitch'
-    - print 100 times
+    - en - print 50 times
+    - de - print 50 times
+
   
 - Car race:
   - path: cards-games/car-race
@@ -171,7 +165,7 @@
   - printing: 
     - '2 pages, double sided; print A4, cut in two; stiched'
     - en - print 100 times
-    - de - print 150 times
+    - de - print 200 times
   
 - Dose:
   - path: cards-games/dose
@@ -180,7 +174,7 @@
   - printing: 
     - '2 pages, double sided; print A4, cut in two; stiched'
     - en - print 100 times
-    - de - print 150 times
+    - de - print 200 times
   
 - Pong:
   - path: cards-games/pong
@@ -189,7 +183,17 @@
   - printing: 
     - '2 pages, double sided; print A4, cut in two; stiched'
     - en - print 100 times
-    - de - print 150 times
+    - de - print 200 times
+
+------------------------
+These two below we are reviewing
+  
+- MIT make it fly:
+  - path: cards-scratch/mit-maket-it-fly
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/mit-maket-it-fly/make-it-fly-a4-enUS.pdf>
+  - printing: 
+    - '4 pages, double sided; print A4, cut in two and stitch'
+    - print 50 times
 
 - Breakout:
   - path: cards-scratch/breakout-game
@@ -198,4 +202,4 @@
   - printing: 
     - '2 pages, double sided; print A4, cut in two; stiched'
     - en - print 100 times
-    - de - print 150 times
+    - de - print 100 times
