@@ -169,6 +169,16 @@ Scratch:
   en-a4: cards-coordinates-a4.pdf
   en-a6: cards-coordinates-a6.pdf
   printing: '1 page, double sided; print A4, cut in four'
+- Jumping:
+  path: cards-scratch/jumping
+  en-a4: cards-jumping-a4-enUS.pdf
+  en-a6: cards-jumping-a6-enUS.pdf
+  printing: '2 pages, double sided; print A4, cut in two'
+- Show numbers:
+  path: cards-scratch/show-numbers
+  en-a4: show-numbers-a4-enUS.pdf
+  en-a6: show-numbers-a6-enUS.pdf
+  printing: '2 pages, double sided; print A4, cut in four'
 - Car race:
   path: cards-games/car-race
   en-a4: car-race-a4-en.pdf
