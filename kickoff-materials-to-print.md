@@ -172,6 +172,14 @@
   - printing: 
     - '2 pages, double sided; print A4, cut in four'
     - en - print 50 times
+
+- MIT make it fly:
+  - path: cards-scratch/mit-maket-it-fly
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/mit-maket-it-fly/make-it-fly-a4-enUS.pdf>
+  - printing: 
+    - '4 pages, double sided; print A4, cut in two and stitch'
+    - print 50 times
+
   
 - Car race:
   - path: cards-games/car-race
@@ -205,12 +213,6 @@
 # Not ready to print
 We will update them later today
   
-- MIT make it fly:
-  - path: cards-scratch/mit-maket-it-fly
-  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/mit-maket-it-fly/make-it-fly-a4-enUS.pdf>
-  - printing: 
-    - '4 pages, double sided; print A4, cut in two and stitch'
-    - print 50 times
 
 - Breakout:
   - path: cards-scratch/breakout-game
