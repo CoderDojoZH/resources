@@ -1,3 +1,5 @@
+# Ready to print
+
 ## Flyers
 - title: 'Flyer for kids'
   - path: flyer-kids
@@ -199,7 +201,9 @@
     - de - print 200 times
 
 ------------------------
-These two below we are reviewing
+
+# Not ready to print
+We will update them later today
   
 - MIT make it fly:
   - path: cards-scratch/mit-maket-it-fly
