@@ -218,3 +218,19 @@
     - '2 pages, double sided; print A4, cut in two; stiched'
     - en - print 100 times
     - de - print 100 times
+
+- Starting:
+  - path: cards-scratch/starting
+  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/starting/scratch-join-a4-deCH.pdf>
+  - printing:
+    - 'one sheet, double sided; print A4, cut in four'
+    - print 50 times
+    
+- title: 'Starting with Lightbot'
+  - path: cards-lightbot/start
+  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lightbot/start/lightbot-start-a4-deCH.pdf>
+  - printing: 
+    - 'single page A6 flyer; one sheet, single sided; print A4 and cut in four; contains transparencies'
+    - print 40 times    
+
+
