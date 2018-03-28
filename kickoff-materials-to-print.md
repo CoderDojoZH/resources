@@ -208,11 +208,7 @@
     - en - print 100 times
     - de - print 200 times
 
-------------------------
-
-# Not ready to print
-We will update them later today
-  
+# Ready to print now  
 
 - Breakout:
   - path: cards-scratch/breakout-game
