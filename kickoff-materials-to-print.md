@@ -212,8 +212,8 @@
 
 - Breakout:
   - path: cards-scratch/breakout-game
-  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/breakout/breakout-a4-en.pdf>
-  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/breakout/breakout-a4-deCH.pdf>
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/breakout-game/breakout-a4-en.pdf>
+  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/breakout-game/breakout-a4-deCH.pdf>
   - printing: 
     - '2 pages, double sided; print A4, cut in two; stiched'
     - en - print 100 times
