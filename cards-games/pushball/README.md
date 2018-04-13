@@ -112,7 +112,7 @@ broadcast [setup-level v] and wait
 when I receive [setup-level v]
 go to x: (-223) y: (167)
 point in direction (90 v)
-repeat until <touching color [#ffdbf6] ?> 
+repeat (12) 
   set x to (-223)
   repeat (15) 
     if <not <touching color [#ffdbf6] ?>> then 
@@ -299,8 +299,6 @@ Create a another copy of the backdrop but instead of creating
 a new level just write "Well Done"
 
 ![](assets/code/end.svg)
-
-Be sure to add a spot for the elephant!
 
 ## License
 
