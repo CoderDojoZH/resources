@@ -1,4 +1,4 @@
-# Push Balls
+# Push It
 
 Push all the balls on to the target spaces.
 
