@@ -312,14 +312,15 @@ a new level just write "Well Done"
 
 ![](assets/code/end.png)
 
-## License
+## Retry current level
 
-Creative Commons License CC-BY-SA  
-Coderdojo Zürich, Ale Rimoldi  
-Inspired by Brunus-V's Breakout game:  
-https://github.com/Brunus-V/Scratch-games.
+![](assets/code/retry-button.png)
 
-## For the fun: Show the remaining balls
+![](assets/code/8.1-retry-level.svg)
+
+Add a new sprite which lets you retry the current level
+
+## For the fun
 
 Challenges
 
@@ -328,6 +329,10 @@ Challenges
 * copy level layout designs from [here](http://www.joriswit.nl/sokoban/junk/boxworld.html)
 ** note not all are possible due to grid size
 
-## Todo
+## License
 
-- probably rename Balls to Lives
+Creative Commons License CC-BY-SA  
+Coderdojo Zürich, Ale Rimoldi  
+Inspired by Brunus-V's Breakout game:  
+https://github.com/Brunus-V/Scratch-games.
+
