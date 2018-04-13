@@ -219,6 +219,15 @@ when I start as a clone
 show
 ```
 
+delete old clones
+
+![](assets/code/5.4-delete-clones.svg)
+
+```
+when I receive [delete old clones v]
+delete this clone
+```
+
 Test if the balls are created correctly.
 
 ## Make the elephant push the balls
