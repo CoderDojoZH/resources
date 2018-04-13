@@ -114,14 +114,14 @@ go to x: (-223) y: (167)
 point in direction (90 v)
 repeat (12) 
   set x to (-223)
-  repeat (15) 
-    if <not <touching color [#ffdbf6] ?>> then 
-      move (30) steps
+  repeat (16) 
+    if <touching color [#ffccf2] ?> then 
+      show
+      stop [this script v]
     end
+    move (30) steps
   end
-  if <not <touching color [#ffdbf6] ?>> then 
-    change y by (-30)
-  end
+  change y by (-30)
 end
 ```
 
@@ -133,8 +133,6 @@ If it works add a hide at the beginning of the block of code and a show at the e
 
 ```
 hide
-
-show
 ```
 ## Keep elephant inside the red lines
 
@@ -264,18 +262,28 @@ if <touching color [#0c4] ?> then
 end
 ```
 
-Extend the code after the ball has moved
+Extend the code both before and after the ball has moved
 
 ![](assets/code/6.4-count-touching.svg)
 
 ```
+when I receive [push v]
+if <touching [Elephant v] ?> then 
+  if <touching color [#0c4] ?> then 
+    change [touching v] by (-1)
+  end
+  point in direction (direction)
+  move (30) steps
+  if <<touching color [#f00] ?> or <touching color [#2a2725] ?>> then 
+    point in direction ((direction) - (180))
+    move (30) steps
+    broadcast [push back v]
+  end
   if <touching color [#0c4] ?> then 
     change [touching v] by (1)
   end
-  if <(touching) = (spots)> then 
-    broadcast [next level v]
-  end
 end
+
 ```
 
 ## Go to next level
