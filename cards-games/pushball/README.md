@@ -188,6 +188,7 @@ Create a clone of the ball everywhere there is a light blue spot.
 
 ```
 when I receive [setup-level v]
+hide
 broadcast [delete old clones v] and wait
 set [touching v] to [0]
 set [spots v] to [0]
