@@ -310,7 +310,7 @@ broadcast [setup-level v] and wait
 Create a another copy of the backdrop but instead of creating 
 a new level just write "Well Done"
 
-![](assets/code/end.svg)
+![](assets/code/end.png)
 
 ## License
 
