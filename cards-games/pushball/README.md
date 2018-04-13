@@ -282,6 +282,9 @@ if <touching [Elephant v] ?> then
   if <touching color [#0c4] ?> then 
     change [touching v] by (1)
   end
+  if <(touching) = (spots)> then 
+    broadcast [next level v]
+  end
 end
 
 ```
