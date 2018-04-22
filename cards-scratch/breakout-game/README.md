@@ -61,7 +61,7 @@ See on the next page for the bouncing on the paddle...
 when green flag clicked
 set [Speed v] to [8]
 go to x: (0) y: (50)
-point in direction ((180) + (pick random (-20) to (20)))
+point in direction ((180) + (pick random (-160) to (20)))
 show
 forever 
   move (speed) steps
@@ -319,12 +319,13 @@ end
 
 ## Wins @ 3
 
-In the winner, wait until 3 bricks are left, not 0.
+In the winner, wait for 3 bricks left, not 0.
 
 ![](assets/code/winner-wait-3.svg)
 
 ```
-wait until <(bricks) = [3]>
+wait until <(bricks) > [4]>
+wait until <(bricks) < [4]>
 ```
 
 

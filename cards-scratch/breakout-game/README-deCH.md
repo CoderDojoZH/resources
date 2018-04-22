@@ -225,7 +225,8 @@ end
 ![](assets/code-de/winner-wait-3.svg)
 
 ```
-warte bis <(Ziegelsgteine) = [3]>
+warte bis <(bricks) > [4]>
+warte bis <(bricks) < [4]>
 ```
 
 ## Die Pillen falle
