@@ -1,633 +1,418 @@
 # Breakout
 
-Ein Ball hüpft herum.
+## Bewege den Paddel
 
-Verhindere mit dem Paddel, dass der Ball nicht fällt und den Boden berührt.
-
-Das Ziel ist alle Backsteine mit dem Ball zu treffen.
-
-Für dieses Spiel brauchst du:
-
-- einen Ball,
-- ein Paddel
-- ein breites Paddel,
-- verschiedenfarbige Ziegelsteine,
-- Pillen mit Superkräften.
-
-Wähle die Sprites aus der Sammlung oder male diese selbst.
-
-
-## Bewege das Paddel
-
-Male ein Paddel oder wähle eins aus der Scratch Sammlung. Platziere es am unteren Rand deines Bildschirmes.
-
-![](assets/code/paddle-move.svg)
+![](assets/code-de/paddle-move.svg)
 
 ```
-when green flag clicked
-go to x: (0) y: (-150)
-forever 
-set x to (mouse x)
+Wenn die grüne Flagge angeklickt
+gehe zu x: (0) y: (-150)
+wiederhole fortlaufend 
+  setze x auf (Maus x-Position)
 end
 ```
 
 ## Ein hüpfender Ball
 
-Setze zunächst die Variable für die Sprite Geschwindigkeit, die
-Position und die Richtung, damit der Ball beim Spielstart nach unten
-fällt.
-
-Bewege den Ball mit der definierten Geschwindigkeit und lasse es vom
-Rand abprallen.
-
-Schaue auf der folgenden Seite die Instruktionen für das Abprallen am
-Paddel...
-
-![](assets/code/ball-speed.svg)
+![](assets/code-de/ball-speed.svg)
 
 ```
-(speed)
+(Geschwindigkeit)
 ```
 
-... füge dem Ball die  "wiederhole fortlaufen" Schleife zu.
-
-![](assets/code/ball-bounce.svg)
+![](assets/code-de/ball-bounce.svg)
 
 ```
-when green flag clicked
-set [Speed v] to [8]
-go to x: (0) y: (50)
-point in direction ((180) + (pick random (-20) to (20)))
-show
-forever 
-  move (speed) steps
-  if on edge, bounce
-  ...
+Wenn die grüne Flagge angeklickt
+setze [Geschwindigkeit v] auf [8]
+gehe zu x: (0) y: (50)
+setze Richtung auf ((180) + (Zufallszahl von (-20) bis (20)))
+zeige dich
+wiederhole fortlaufend 
+  gehe (Geschwindigkeit) er-Schritt
+  pralle vom Rand ab
+  . . .
 end
 ```
 
-Wenn der Ball das Paddel berührt, dann wird es nach links oder rechts
-abprallen, je nach dem welche Seite des Paddels berührt wird. mehr
-oder weniger steil, abhängig wie nah der Ball die Mitte des Paddels
-berührt.
+## Das Paddel und der Ball
 
-- Bewege zunächst den Ball um 20 px nach oben, damit es das Paddel nicht mehr berührt.
-- Dann zeige auf die Mitte des Paddels.
-- Zum Schluss kehre die Richtung (drehe um 180°)
+![](assets/code-de/ball-bounce-angle.svg)
 
 ```
-if <touching [Paddle v] ?> then 
-  set y to (([y position v] of [Paddle v]) + (20))
-  point towards [Paddle v]
-  turn ccw (180) degrees
+setze y auf (([y position v] of [Paddel v]) + (20))
+  drehe dich zu [Paddel v]
+  drehe dich nach links um (180) Grad
 end
 ```
 
-## Versuche es!
-
-Klicke auf die Gründe Flagge: Der Ball wird herumhüpfen und das Paddel
-wird deinem Mauszeiger folgen.
+## Ein Leben verlieren
 
 
-## Ein Leben verlieren 
-
-Wenn der Ball unter dem Paddel fällt, verringere die Anzahl
-Leben. Danach geht der Ball zurück zur Anfangsposition.
-
-Erstelle zunächst die "Ball" Variable (für alle Sprites) und
-initialisiere es mit der Anzahl Leben.
-
-![](assets/code/ball-balls.svg)
+![](assets/code-de/ball-balls.svg)
 
 ```
-(Balls)
+(Bälle)
 ```
 
-![](assets/code/ball-lifes-init.svg)
+![](assets/code-de/ball-lifes-init.svg)
 
 ```
-When Flag clicked
-...
-set [balls v] to [3]
+Wenn die grüne Flagge angeklickt
+. . .
+setze [Bälle v] auf [3]
 ```
 
-![](assets/code/ball-lifes.svg)
+![](assets/code-de/ball-lifes.svg)
 
 ```
-if <(y position) < ([y position v] of [Paddle v])> then 
-  hide
-  change [balls v] by (-1)
-  go to x: (0) y: (50)
-  point in direction ((180) + (pick random (-20) to (20)))
-  show
-  wait (2) secs
+falls <(y-Position) < ([y-Position v] von [Paddel v])> dann 
+  verstecke dich
+  ändere [Bälle v] um (-1)
+  gehe zu x: (0) y: (50)
+  setze Richtung auf ((180) + (Zufallszahl von (-20) bis (20)))
+  zeige dich
+  warte (2) Sek.
 end
 ```
-
-In der Endlosschleife auf Seite 2 prüfen wir ob die Position des Balls
-unter dem Paddel liegt. Falls ja, dann verkleinern wir die Anzahl
-Leben und - nach zwei Sekunden - bewegen den Ball zurück zur
-Anfangsposition.
-
 
 ## Refactoring
 
-Vielleicht ist dir aufgefallen, dass der Code für die Initialisierung
-sehr ähnlich ist wie jenes, um die Position zurück zu stellen, wenn
-der Ball nicht berührt wird.
-
-Lass uns den Code verbessern und ein "Position zurücksetzen" Block erstellen.
-
-![](assets/code/ball-refactoring-reset.svg)
+![](assets/code-de/ball-refactoring-reset.svg)
 
 ```
-define Reset position
-go to x: (0) y: (50)
-point in direction ((180) + (pick random (-20) to (20)))
+Definiere Position zurücksetzen
+gehe zu x: (0) y: (50)
+setze Richtung auf ((180) + (Zufallszahl von (-20) bis (20)))
 ```
 
-Wir können nun "Position zurücksetzen" sowohl für die
-"Initialisierung" als auch für das Rückstellen auf die Anfangsposition
-verwenden:
-
-![](assets/code/ball-refactoring-init.svg)
+![](assets/code-de/ball-refactoring-init.svg)
 
 ```
-set [Speed v] to [8]
-set [Balls v] to [3]
-Reset position :: custom
-show
+setze [Geschwindigkeit v] auf [8]
+setze [Bälle v] auf [3]
+Position zurücksetzen :: custom
+zeige dich
 ```
 
-![](assets/code/ball-refactoring-lifes.svg)
+![](assets/code-de/ball-refactoring-lifes.svg)
 
 ```
-hide
-change [Balls v] by (-1)
-wait (2) secs
-Reset position :: custom
-show 
+verstecke dich
+ändere [Bälle v] um (-1)
+warte (2) Sek.
+Position zurücksetzen :: custom
+zeige dich
 ```
-
-![](assets/code/ball-lifes-refactoring.svg)
 
 ## Spielende
 
-Wir prüfen die verbleibende Anzahl Leben und lösen ein "Game over"
-aus, wenn wir alle Bälle verloren haben.
-
-Warte zuerst, bis mindestens ein Ziegelstein geklont wurde, sonst wird
-das Spiel so schnell beendet wie es gestartet wurde.
-
-![](assets/code/ball-gameover.svg)
+![](assets/code-de/ball-gameover.svg)
 
 ```
-when green flag clicked
-hide
-wait until <(balls) > [1]>
-wait until <(balls) < [1]>
-show
-stop [all v]
+Wenn die grüne Flagge angeklickt
+verstecke dich
+warte bis <(Bälle) > [1]>
+warte bis <(Bälle) < [1]>
+zeige dich
+stoppe [alles v]
 ```
 
 ## Zeichne die Ziegelsteine
 
-Jetzt malen wir drei Reihen Ziegelsteine.  Wir zeichnen zuerst den
-Ziegelstein Null. Wir verstecken es und platzieren es irgendwo am
-oberen linken Rand.
-
-
-![](assets/code/bricks-init-position.svg)
+![](assets/code-de/bricks-init-position.svg)
 
 ```
-when green flag clicked
-hide
-go to x: (-210) y: (160)
+Wenn die grüne Flagge angeklickt
+verstecke dich
+gehe zu x: (-210) y: (160)
 ```
 
-Wir haben einige Berechnungen gemacht und wenn unsere Ziegelsteine 30
-mal 15 Pixel gross sind, dann haben sie 13 Spalten und 3 Reihen Platz.
-
-Wir überwachen die Anzahl Ziegelsteine, die Spalten und die
-Zeilen. Wir erstellen jeden Ziegelstein als Klon des Ziegelsteins
-Null.
-
-Achtung: Spalte und Reihe gelten nur für den Sprite. So weiss jeder
-Ziegelstein wo es sich befindet.
-
-"Ziegelsteine" ist eine globale Variable.
-
-![](assets/code/bricks-init-create.svg)
+![](assets/code-de/bricks-init-create.svg)
 
 ```
-when green flag clicked
-...
-set [bricks v] to [0]
-set [row v] to [0]
-repeat (3) 
-  set [column v] to [0]
-  repeat (13) 
-    create clone of [myself v]
-    change [column v] by (1)
+Wenn die grüne Flagge angeklickt
+. . .
+setze [Ziegelsteine v] auf [0]
+setze [Reihe v] auf [0]
+wiederhole (3) mal 
+  setze [Spalte v] auf [0]
+  wiederhole (13) mal 
+    erzeuge Klon von [mir selbst v]
+    ändere [Spalte v] um (1)
   end
-  change [row v] by (1)
+  ändere [Reihe v] um (1)
 end
 ```
 
-Jede Spalte ist 35 Breit und die Reihen 20 hoch.
-
-Jede Position eines Klons wird errechnet, indem man dem Index (Spalte
-oder Reihe) den Ursprung hinzufügt, multipliziert mit der Breite oder
-Höhe.
-
-
-![](assets/code/bricks-init-clone.svg)
+![](assets/code-de/bricks-init-clone.svg)
 
 ```
-when I start as a clone
-go to x: ((-210) + ((35) * (column))) y: ((160) - ((20) * (row)))
-show
-change [bricks v] by (1)
+Wenn ich als Klon entstehe
+gehe zu x: ((-210) + ((35) * (Spalte))) y: ((160) - ((20) * (Reihe)))
+zeige dich
+ändere [Ziegelsteine v] um (1)
 ```
 
-Spalte und Reihe starten bei 0, nicht 1.
-
-Füge ein "warte" zwischen "zurücksetzen" und "hüpfen"
-
-![](assets/code/bricks-init-wait.svg)
+![](assets/code-de/bricks-init-wait.svg)
 
 ```
-wait until <(bricks) = [39]>
+warte bis <(Ziegelsteine) = [39]>
 ```
 
-## Ziegelsteine berühren
+## Ziegelsteine treffen
 
-Füge es dem Code "wenn ich einen Klon starte" hinzu.
-
-![](assets/code/brick-hit.svg)
+![](assets/code-de/brick-hit.svg)
 
 ```
-wait until <touching [ball v] ?>
-change [bricks v] by (-1)
-delete this clone
+warte bis <wird [Ball v] berührt?>
+ändere [Ziegelsteine v] um (-1)
+lösche diesen Klon
 ```
 
-Wenn der Ball einen Ziegelstein berührt, dann verschwindet es...
-
-Füge es der "Wiederhole fortlaufend" Schleife hinzu.
-
-![](assets/code/ball-hit.svg)
+![](assets/code-de/ball-hit.svg)
 
 ```
-if <touching [brick v] ?> then 
-  point in direction ((180) - (direction))
+falls <wird [Ziegelsgtein v] berührt?> dann 
+  setze Richtung auf ((180) - (Richtung))
 end
 ```
-
-... und wenn der Ball den Ziegelstein berührt, dann ändert es seine
-Richtung.
-
-(Falls der Ziegelstein nicht verschwindet, dann warte 0.1 Sekunden vor
-dem Richtungswechsel.)
 
 ## Der Gewinner
 
-Der "Gewinner" Sprite ist versteckt und wartet bis die Anzahl der
-Ziegelsteine Null ist. Erst danach erscheint es.
-
-![](assets/code/winner.svg)
+![](assets/code-de/winner.svg)
 
 ```
-when green flag clicked
-hide
-wait until <(bricks) > [0]>
-wait until <(bricks) = [0]>
-show
-stop [all v]
+Wenn die grüne Flagge angeklickt
+verstecke dich
+warte bis <(Zigelsteine) > [0]>
+warte bis <(Zigelsteine) = [0]>
+zeige dich
+stoppe [alles v]
 ```
 
-Warte zuerst, bis mindestens ein Ziegelstein angezeigt wird, sonst
-endet das Spiel bevor es richtig angefangen hat.
+# Farbige Ziegelsgteine
 
-### Farbige Ziegelsteine
-
-Wir setzen unterschiedliche Farben für jede Reihe, und in der zweiten
-Reihe füge drei graue Ziegelsteine, die nicht zerstört werden können.
-
-
-Erstelle 4 Kostüme mit verschiedenen Farben, wobei das vierte grau
-ist.
-
-![](assets/code/bricks-colors-define.svg)
+![](assets/code-de/bricks-colors-define.svg)
 
 ```
-define Set Style
-switch costume to ((row) + (1))
-if <(row) = [1]> then 
-  if <<(column) = [ 3 ]> or <<(column) = [ 6 ]> or <(column) = [9]>>> then 
-    switch costume to [gray v]
+Definiere Farbe setzen
+wechsle zu Kostüm ((Reihe) + (1))
+falls <(Reihe) = [1]> dann 
+  falls <<(Spalte) = [ 3 ]> oder <<(Spalte) = [ 6 ]> oder <(Spalte) = [9]>>> dann 
+    wechsle zu Kostüm [Grau v]
   end
 end
 ```
 
-Füge "setze Stil" hinzu, bevor der Klon angezeigt wird...
-
-Setze ein "falls" zwischen den Blöcken "warte bis" und "lösche diesen
-Klon"
-
-![](assets/code/bricks-colors.svg)
+![](assets/code-de/bricks-colors.svg)
 
 ```
-when I start as a clone
-...
-Set Style :: custom
-show
-...
-if <not <(costume #) = [4]>> then 
-  wait until <touching [ball v] ?>
-  ...
-  delete this clone
+Wenn ich als Klon entstehe
+. . .
+Farbe setzen :: custom
+zeige dich
+. . .
+falls <nicht <(Kostumnummer) = [4]>> dann 
+  warte bis <wird [Ball v] berührt?>
+  . . .
+  lösche diesen Klon
 end
 ```
 
-## Gewonnen bei 3
+## Gewinner @ 3
 
-Im "Gewinner", warte bis 3 Ziegelsteine übrig sind, nicht null.
-
-![](assets/code/winner-wait-3.svg)
+![](assets/code-de/winner-wait-3.svg)
 
 ```
-wait until <(bricks) = [3]>
+warte bis <(Ziegelsgteine) = [3]>
 ```
 
+## Die Pillen falle
 
-## Die Pillen fallen
-
-Wenn der Ball den Ziegelstein berührt, dann gibt es eine
-Wahrscheinlichkeit von eins zu vier, dass eine fallende Pille
-erscheint. Wenn der/die Spieler/in die fallende Pille fängt, dann
-bekommt er/sie einen Bonus.
-
-
-![](assets/code/bonus-start-x.svg)
+![](assets/code-de/bonus-start-x.svg)
 
 ```
-(bonus start X)
+(Bonus Start X)
 ```
 
-![](assets/code/bonus-start-y.svg)
+![](assets/code-de/bonus-start-y.svg)
 
 ```
-(bonus start Y)
+(Bonus Start Y)
 ```
 
-![](assets/code/bonus-drop-trigger.svg)
+![](assets/code-de/bonus-drop-trigger.svg)
 
 ```
-set [bonus start X v] to (x position)
-set [bonus start Y v] to (y position)
-broadcast [Drop bonus v]
+setze [Bonus Start X v] auf (x-Position)
+setze [Bonus Start Y v] auf (y-Position)
+sende [Bonus fällt v] an alle
 ```
 
-– Erstelle die globalen Variablen "bonus Start X" und "bonus Start Y"
-– Gegen das Ende von "Wenn ich einen Klon starte", vor dem Löschen eines Klones...
-- ... Setze "bonus Start X" auf die aktuelle "xposition" and "bonus Start Y" auf die "y position"
-- Sende die "Bonus fällt" Nachricht
-
-## Die Pillen fallen 2 
-
-Zeichne eine Pille. Wenn das Spiel startet ist sie versteckt und wenn
-der Ziegelstein die Nachricht "Bonus fällt" verschickt, dann klont es
-sich selbst.
-
-![](assets/code/bonus-hide.svg)
+![](assets/code-de/bonus-hide.svg)
 
 ```
 when green flag clicked
 hide
 ```
 
-![](assets/code/bonus-clone.svg)
+![](assets/code-de/bonus-clone.svg)
 
 ```
-when I receive [Drop bonus v]
-create clone of [myself v]
+Wenn ich [Bonus fällt v] empfange
+erzeuge Klon von [mir selbst v]
 ```
 
-## Die Pillen fallen 3
-
-Erstelle eine "Bonus" Sprite Variable.  
-
-Wenn die Zufallszahl grösser ist als 3 (3 von 4 Möglichkeiten), dann
-mache nichts und lösche den Klon...
-
-
-![](assets/code/bonus-bonus.svg)
+![](assets/code-de/bonus-bonus.svg)
 
 ```
-(bonus)
+(Bonus)
 ```
 
 
-![](assets/code/bonus-drop-random.svg)
+![](assets/code-de/bonus-drop-random.svg)
 
 ```
-when I start as a clone
-set [bonus v] to (pick random (1) to (12))
-if <(bonus) > [3]> then 
-  delete this clone
+Wenn ich als Klon entstehe
+setze [Bonus v] auf (Zufallszahl von (1) bis (12))
+falls <(Bonus) > [3]> dann 
+  lösche diesen Klon
 end
 ```
 
-1 zu 12? Wir haben 3 Boni und eine 1/4 Chance:  
-3 * 4 = 12
-
-... sonst bewege dich zur Stelle, wo der Ziegelstein war, erscheine
-dort und falle runter bis nach dem Paddel (oder berühre es)
-
-
-![](assets/code/bonus-drop.svg)
+![](assets/code-de/bonus-drop.svg)
 
 ```
-switch costume to (bonus)
-go to x: (Bonus start X) y: (Bonus start Y)
-show
-repeat until <(y position) < ([y position v] of [paddle v])> 
-  change y by (-6)
-  if <touching [paddle v] ?> then 
-    ...
-    delete this clone
+wechsle zu Kostüm (Bonus)
+gehe zu x: (Bonus start X) y: (Bonus start Y)
+zeige dich
+wiederhole bis <(y-Position) < ([y-Position v] von [Paddel v])> 
+  ändere y um (-6)
+  falls <wird [Paddel v] berührt?> dann 
+    . . .
+    lösche diesen Klon
   end
 end
-delete this clone
+lösche diesen Klon
 ```
-
-Wir benötigen drei Kostüme. 
-
-Sende von hier aus die Bonus Nachricht... 
 
 ## Bonus: ein breites Paddel
 
-Wenn der/die Spieler/in einen "Breiten Paddel" Bonus (die Nummer 1)
-fängt, wird das Paddel breiter. Nach 10 Sekunden schrumpft es wieder
-zur normalen Grösse.
-
-
-![](assets/code/bonus-wide-paddle-broadcast.svg)
+![](assets/code-de/bonus-wide-paddle-broadcast.svg)
 
 ```
-if <(bonus) = [1]> then 
-  broadcast [bonus wide paddle v]
+falls <(Bonus) = [1]> dann 
+  sende [Bonus Breites Paddel v] an alle
 end
 ```
 
-Füge die Nachricht zum "wenn Paddel berührt" hinzu.
-
-
-## Bonus: ein breites Paddel
-
-Das Paddel hört auf die "Bonus Breiter Paddel" Nachricht. Danach
-wechselt es zu einem Kostüm mit einem breiteren Paddel und wartet 10
-Sekunden bevor es wieder zur normalen Grösse schrumpft.
-
-![](assets/code/bonus-wide-paddle-start.svg)
+![](assets/code-de/bonus-wide-paddle-start.svg)
 
 ```
-when I receive [bonus wide paddle v]
-if <(costume #) = [1]> then 
-  switch costume to [wide v]
-  wait (10) secs
-  switch costume to [normal v]
+Wenn ich [Bonus Breites Paddel v] empfange
+falls <(Kostumnummer) = [1]> dann 
+  wechsle zu Kostüm [Breit v]
+  warte (10) Sek.
+  wechsle zu Kostüm [Normal v]
 end
 ```
 
-![](assets/code/bonus-wide-paddle-on-flag.svg)
+![](assets/code-de/bonus-wide-paddle-on-flag.svg)
 
 ```
-When Flag clicked
-switch costume to [normal v]
-...
+Wenn die grüne Flagge angeklickt
+wechsle zu Kostüm [Normal v]
+. . .
 ```
 
 ## Bonus: ein langsamer Ball
 
-Wenn der/die Spieler/in einen "Langsamer Ball" (die Nummer 2)
-Bonus fängt, dann verlangsamt sich die Geschwindigkeit des Balls.
-
-![](assets/code/bonus-slow-ball-broadcast.svg)
+![](assets/code-de/bonus-slow-ball-broadcast.svg)
 
 ```
-if <(bonus) = [2]> then 
-  broadcast [bonus slow ball v]
+falls <(Bonus) = [2]> dann 
+  sende [Bonus langsamer Ball v] an alle
 end
 ```
 
-## Bonus: ein langsamer Ball 2
-
-Der Ball hört auf die Nachricht "Bonus Langsamer Ball". Dann, falls
-die aktuelle Geschwindigkeit die normales ist, setze die Variable zum
-tieferen Wert, warte 10 Sekunden, bevor der Wert der Geschwindigkeit
-wieder auf den normalen Level gesetzt wird.
-
-
-![](assets/code/bonus-slow-ball-start.svg)
+![](assets/code-de/bonus-slow-ball-start.svg)
 
 ```
-when I receive [bonus slow ball v]
-if <(speed) = [8]> then 
-  set [speed v] to [5]
-  wait (10) secs
-  set [Speed v] to [8]
+Wenn ich [Bonus langsamer Ball v] empfange
+falls <(Geschwindigkeit) = [8]> dann 
+  setze [Geschwindigkeit v] auf [5]
+  warte (10) Sek.
+  setze [Geschwindigkeit v] auf [8]
 end
 ```
 
 ## Bonus: Extra Bälle
 
-Jedes Mal wenn der/die Spieler/in einen "Extra Ball" Bonus (die Nummer
-3) fängt, dann erscheint ein zusätzlicher hüpfender Ball.
-
-
-![](assets/code/bonus-extra-ball-broadcast.svg)
+![](assets/code-de/bonus-extra-ball-broadcast.svg)
 
 ```
-if <(bonus) = [3]> then 
-  broadcast [bonus extra ball v]
+falls <(Bonus) = [3]> dann 
+  sende [Bonus extra Ball v] an alle
 end
 ```
 
-## Bonus: Extra Bälle 2
-
-Der Ball hört auf die Nachricht "Bonus Extra Ball". Falls das Kostüm
-das übliche ist, dann kreiere einen Klon.
-
-Was macht der Klon? Es wechselt das Kostüm auf "extra", geht auf die
-Startposition und beginnt zu hüpfen.
-
-
-Refactoring: Der Ball und der Klone hüpfen parallel. 
-
-![](assets/code/bonus-extra-ball-receive.svg)
+![](assets/code-de/bonus-extra-ball-receive.svg)
 
 ```
-when I receive [bonus extra ball v]
-if <(costume #) = [1]> then 
-  create clone of [ball v]
+Wenn ich [Bonus extra Ball v] empfange
+falls <(Kostumnummer) = [1]> dann 
+  erzeuge Klon von [Ball v]
 end
 ```
 
-![](assets/code/bonus-extra-ball-clone.svg)
+![](assets/code-de/bonus-extra-ball-clone.svg)
 
 ```
-when I start as a clone
-switch costume to [extra v]
-Reset position :: custom
-Bounce :: custom
+Wenn ich als Klon entstehe
+wechsle zu Kostüm [Extra v]
+Position zurücksetzen :: custom
+hüpfen :: custom
 ```
 
-![](assets/code/bonus-extra-ball-define.svg)
+![](assets/code-de/bonus-extra-ball-define.svg)
 
 ```
-define Bounce
-forever 
-  ...
+Definiere hüpfen
+wiederhole fortlaufend 
+  . . .
 end
 ```
 
-![](assets/code/bonus-extra-ball-flag-forever.svg)
+![](assets/code-de/bonus-extra-ball-flag-forever.svg)
 
 ```
-When Flag clicked
-...
-forever
-  ...
+Wenn die grüne Flagge angeklickt
+. . .
+wiederhole fortlaufend 
+  . . .
 end
 ```
 
-## Bonus: Extra Bälle 3
-
-Zum Schluss verlieren wir nur ein Leben, wenn der Originalball hinter
-dem Paddel fällt. Die Klone "verschwinden" einfach.
-
-
-![](assets/code/bonus-extra-ball-if-position.svg)
+![](assets/code-de/bonus-extra-ball-bounce.svg)
 
 ```
-define Bounce
-...
-if <(y position) < ([y position v] of [paddle v])> then 
-  ...
+Wenn die grüne Flagge angeklickt
+. . .
+hüpfen :: custom
+```
+
+![](assets/code-de/bonus-extra-ball-if-position.svg)
+
+```
+Definiere hüpfen
+. . .
+falls <(y-Position) < ([y-Position v] of [Paddel v])> dann 
+  . . .
 end
 ```
 
-![](assets/code/bonus-extra-ball-bounce.svg)
-
-```
-When Flag clicked
-...
-Bounce :: custom
-```
-
-![](assets/code/bonus-extra-ball-delete.svg)
+![](assets/code-de/bonus-extra-ball-delete.svg)
 
 ```
 if <(y position) < ([y position v] of [paddle v])> then 
@@ -638,11 +423,4 @@ if <(y position) < ([y position v] of [paddle v])> then
   end
 end
 ```
-
-## Lizenz
-
-Creative Commons License CC-BY-SA  
-Coderdojo Zürich, Ale Rimoldi  
-Inspired by Brunus-V's Breakout game:  
-https://github.com/Brunus-V/Scratch-games.
 
