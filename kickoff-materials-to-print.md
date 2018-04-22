@@ -208,17 +208,29 @@
     - en - print 100 times
     - de - print 200 times
 
-------------------------
-
-# Not ready to print
-We will update them later today
-  
+# Ready to print now  
 
 - Breakout:
   - path: cards-scratch/breakout-game
-  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/breakout/breakout-a4-en.pdf>
-  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-games/breakout/breakout-a4-deCH.pdf>
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/breakout-game/breakout-a4-en.pdf>
+  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/breakout-game/breakout-a4-deCH.pdf>
   - printing: 
     - '2 pages, double sided; print A4, cut in two; stiched'
     - en - print 100 times
     - de - print 100 times
+
+- Starting:
+  - path: cards-scratch/starting
+  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/starting/scratch-join-a4-deCH.pdf>
+  - printing:
+    - 'one sheet, double sided; print A4, cut in four'
+    - print 50 times
+    
+- title: 'Starting with Lightbot'
+  - path: cards-lightbot/start
+  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-lightbot/start/lightbot-start-a4-deCH.pdf>
+  - printing: 
+    - 'single page A6 flyer; one sheet, single sided; print A4 and cut in four; contains transparencies'
+    - print 40 times    
+
+
