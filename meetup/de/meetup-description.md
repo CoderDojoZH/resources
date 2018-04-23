@@ -19,4 +19,4 @@ Bitte kontaktiere uns im Voraus, damit wir es vorbereiten können.
 
 Wir sprechen verschiedene Sprachen, komm also einfach vorbei!
 
-!!!Follow us on Twitter: @CoderDojoZH (https://twitter.com/CoderDojoZH)!!!
+!!! Wir sind auf Twitter: @CoderDojoZH (https://twitter.com/CoderDojoZH) !!!
