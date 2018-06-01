@@ -41,6 +41,12 @@ forever
     move (1) steps
 ```
 
+![](assets/code/set-scale.svg)
+
+```
+set size to (60) %
+```
+
 ![](assets/code/when-left-arrow.svg)
 
 ```
