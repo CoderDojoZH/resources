@@ -149,7 +149,7 @@ set [shooting direction v] to (direction)
 ```
 Wenn ich [abschiessen v] empfange
 zeige dich
-gehe zu x: (200) y: (-156)
+gehe zu x: ([x position v] von [Zauberer v]) y: ([y position v] von [Zauberer v])
 drehe dich zu [Mauszeiger v]
 setze [Schussrichtung v] auf (Richtung)
 ```
@@ -270,7 +270,7 @@ pralle vom Rand ab
 
 falls <(y-Position) < [-150]> dann 
   setze y auf (-120)
-  ändere [points v] um (-1)
+  ändere [Punkte v] um (-1)
 end
 ```
 
