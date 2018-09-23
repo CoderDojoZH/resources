@@ -53,6 +53,14 @@
 
 ## Not Ready
 
+### Poster
+- programming-club-a3.pdf
+  - <https://github.com/CoderDojoZH/resources/raw/master/poster/programming-club-a3.pdf>
+  - thicker paper, so we can use it as a poster
+  - print: one page; has transparencies
+      - 6 times
+
+### Python
 - Moving on a grid:
   - path: cards-python/moving-on-a-grid
   - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/moving-on-a-grid/moving-on-a-grid-a4-enUS.pdf>
