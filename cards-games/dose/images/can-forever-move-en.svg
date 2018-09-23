@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="262.44781"
+   height="360.27014"
+   id="svg309"
+   sodipodi:docname="can-forever-move-en.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:export-filename="/home/ale/src/dojo-resources/cards-games/dose/images/can-forever-move-en.svg.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <metadata
+     id="metadata313">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2238"
+     inkscape:window-height="1776"
+     id="namedview311"
+     showgrid="false"
+     inkscape:zoom="2.6362816"
+     inkscape:cx="192.64196"
+     inkscape:cy="262.80161"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg309"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs79">
+    <filter
+       id="bevelFilter"
+       x0="-50%"
+       y0="-50%"
+       width="2"
+       height="2">
+      <feGaussianBlur
+         result="blur-1"
+         in="SourceAlpha"
+         stdDeviation="1 1"
+         id="feGaussianBlur2" />
+      <feFlood
+         result="flood-2"
+         flood-color="#fff"
+         flood-opacity="0.15"
+         id="feFlood4" />
+      <feOffset
+         result="offset-3"
+         in="blur-1"
+         dx="1"
+         dy="1"
+         id="feOffset6" />
+      <feComposite
+         result="comp-4"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-3"
+         k2="1"
+         k3="-1"
+         id="feComposite8"
+         k1="0"
+         k4="0" />
+      <feComposite
+         result="comp-5"
+         operator="in"
+         in="flood-2"
+         in2="comp-4"
+         id="feComposite10" />
+      <feFlood
+         result="flood-6"
+         flood-color="#000"
+         flood-opacity="0.7"
+         id="feFlood12" />
+      <feOffset
+         result="offset-7"
+         in="blur-1"
+         dx="-1"
+         dy="-1"
+         id="feOffset14" />
+      <feComposite
+         result="comp-8"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-7"
+         k2="1"
+         k3="-1"
+         id="feComposite16"
+         k1="0"
+         k4="0" />
+      <feComposite
+         result="comp-9"
+         operator="in"
+         in="flood-6"
+         in2="comp-8"
+         id="feComposite18" />
+      <feMerge
+         result="merge-10"
+         id="feMerge26">
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode20" />
+        <feMergeNode
+           in="comp-5"
+           id="feMergeNode22" />
+        <feMergeNode
+           in="comp-9"
+           id="feMergeNode24" />
+      </feMerge>
+    </filter>
+    <filter
+       id="inputBevelFilter"
+       x0="-50%"
+       y0="-50%"
+       width="2"
+       height="2">
+      <feGaussianBlur
+         result="blur-1"
+         in="SourceAlpha"
+         stdDeviation="1 1"
+         id="feGaussianBlur29" />
+      <feFlood
+         result="flood-2"
+         flood-color="#fff"
+         flood-opacity="0.15"
+         id="feFlood31" />
+      <feOffset
+         result="offset-3"
+         in="blur-1"
+         dx="-1"
+         dy="-1"
+         id="feOffset33" />
+      <feComposite
+         result="comp-4"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-3"
+         k2="1"
+         k3="-1"
+         id="feComposite35"
+         k1="0"
+         k4="0" />
+      <feComposite
+         result="comp-5"
+         operator="in"
+         in="flood-2"
+         in2="comp-4"
+         id="feComposite37" />
+      <feFlood
+         result="flood-6"
+         flood-color="#000"
+         flood-opacity="0.7"
+         id="feFlood39" />
+      <feOffset
+         result="offset-7"
+         in="blur-1"
+         dx="1"
+         dy="1"
+         id="feOffset41" />
+      <feComposite
+         result="comp-8"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-7"
+         k2="1"
+         k3="-1"
+         id="feComposite43"
+         k1="0"
+         k4="0" />
+      <feComposite
+         result="comp-9"
+         operator="in"
+         in="flood-6"
+         in2="comp-8"
+         id="feComposite45" />
+      <feMerge
+         result="merge-10"
+         id="feMerge53">
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode47" />
+        <feMergeNode
+           in="comp-5"
+           id="feMergeNode49" />
+        <feMergeNode
+           in="comp-9"
+           id="feMergeNode51" />
+      </feMerge>
+    </filter>
+    <filter
+       id="inputDarkFilter"
+       x0="-50%"
+       y0="-50%"
+       width="2"
+       height="2">
+      <feFlood
+         result="flood-1"
+         flood-color="#000"
+         flood-opacity="0.2"
+         id="feFlood56" />
+      <feComposite
+         result="comp-2"
+         operator="in"
+         in="flood-1"
+         in2="SourceAlpha"
+         id="feComposite58" />
+      <feMerge
+         result="merge-3"
+         id="feMerge64">
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode60" />
+        <feMergeNode
+           in="comp-2"
+           id="feMergeNode62" />
+      </feMerge>
+    </filter>
+    <path
+       d="M 1.504,21 0,19.493 4.567,0 h 1.948 l -0.5,2.418 c 0,0 1.002,-0.502 3.006,0 2.006,0.503 3.008,2.01 6.517,2.01 3.508,0 4.463,-0.545 4.463,-0.545 l -0.823,9.892 c 0,0 -2.137,1.005 -5.144,0.696 -3.007,-0.307 -3.007,-2.007 -6.014,-2.51 -3.008,-0.502 -4.512,0.503 -4.512,0.503 z"
+       id="greenFlag"
+       inkscape:connector-curvature="0"
+       style="fill:#3f8d15" />
+    <path
+       d="M 6.724,0 C 3.01,0 0,2.91 0,6.5 0,8.816 1.253,10.85 3.14,12 H 5.17 V 10.744 C 3.364,10.126 2.07,8.46 2.07,6.5 2.07,4.015 4.152,2 6.723,2 7.863,2 8.907,2.396 9.716,3.053 L 8.31,4.13 C 7.86,4.474 7.912,4.956 8.42,5.21 L 15,8.5 13.858,0.992 C 13.775,0.445 13.344,0.278 12.895,0.622 L 11.363,1.794 A 6.825,6.825 0 0 0 6.723,0 Z"
+       id="turnRight"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff" />
+    <path
+       d="M 3.637,1.794 A 6.825,6.825 0 0 1 8.277,0 C 11.99,0 15,2.91 15,6.5 15,8.816 13.747,10.85 11.86,12 H 9.83 V 10.744 C 11.638,10.126 12.933,8.459 12.933,6.5 12.933,4.015 10.85,2 8.279,2 7.139,2 6.095,2.396 5.286,3.053 L 6.69,4.13 C 7.14,4.474 7.088,4.956 6.58,5.21 L 0,8.5 1.142,0.992 C 1.225,0.445 1.656,0.278 2.105,0.622 Z"
+       id="turnLeft"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff" />
+    <path
+       d="M 0,0 4,4 0,8 Z"
+       id="addInput"
+       inkscape:connector-curvature="0"
+       style="fill:#111111" />
+    <path
+       d="M 4,0 V 8 L 0,4 Z"
+       id="delInput"
+       inkscape:connector-curvature="0"
+       style="fill:#111111" />
+    <g
+       id="loopArrow">
+      <path
+         d="m 8,0 2,-2 v -3 h 3 l -4,-5 -4,5 h 3 v 3 H 0 v 2"
+         id="path72"
+         inkscape:connector-curvature="0"
+         style="opacity:0.3;fill:#000000" />
+      <path
+         d="m 8,0 2,-2 v -3 h 3 l -4,-5 -4,5 h 3 v 3 H 0 v 2"
+         transform="translate(-1,-1)"
+         id="path74"
+         inkscape:connector-curvature="0"
+         style="opacity:0.9;fill:#ffffff" />
+    </g>
+    <style
+       id="style77"><![CDATA[.sb-label{font-family:Lucida Grande,Verdana,Arial,DejaVu Sans,sans-serif;font-weight:700;fill:#fff;font-size:10px;word-spacing:+1px}.sb-obsolete{fill:#d42828}.sb-motion{fill:#4a6cd4}.sb-looks{fill:#8a55d7}.sb-sound{fill:#bb42c3}.sb-pen{fill:#0e9a6c}.sb-events{fill:#c88330}.sb-control{fill:#e1a91a}.sb-sensing{fill:#2ca5e2}.sb-operators{fill:#5cb712}.sb-variables{fill:#ee7d16}.sb-list{fill:#cc5b22}.sb-custom{fill:#632d99}.sb-custom-arg{fill:#5947b1}.sb-extension{fill:#4b4a60}.sb-grey{fill:#969696}.sb-bevel{filter:url(#bevelFilter)}.sb-input{filter:url(#inputBevelFilter)}.sb-input-number,.sb-input-number-dropdown,.sb-input-string{fill:#fff}.sb-literal-dropdown,.sb-literal-number,.sb-literal-number-dropdown,.sb-literal-string{font-weight:400;font-size:9px;word-spacing:0}.sb-literal-number,.sb-literal-number-dropdown,.sb-literal-string{fill:#000}.sb-darker{filter:url(#inputDarkFilter)}.sb-outline{stroke:#fff;stroke-opacity:.2;stroke-width:2;fill:none}.sb-define-hat-cap{stroke:#632d99;stroke-width:1;fill:#8e2ec2}.sb-comment{fill:#ffffa5;stroke:#d0d1d2;stroke-width:1}.sb-comment-line{fill:#ffff80}.sb-comment-label{font-family:Helevetica,Arial,DejaVu Sans,sans-serif;font-weight:700;fill:#5c5d5f;word-spacing:0;font-size:12px}]]></style>
+    <filter
+       id="bevelFilter-6"
+       x0="-50%"
+       y0="-50%"
+       width="2"
+       height="2">
+      <feGaussianBlur
+         result="blur-1"
+         in="SourceAlpha"
+         stdDeviation="1 1"
+         id="feGaussianBlur2-7" />
+      <feFlood
+         result="flood-2"
+         flood-color="#fff"
+         flood-opacity="0.15"
+         id="feFlood4-5" />
+      <feOffset
+         result="offset-3"
+         in="blur-1"
+         dx="1"
+         dy="1"
+         id="feOffset6-3" />
+      <feComposite
+         k4="0"
+         k1="0"
+         result="comp-4"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-3"
+         k2="1"
+         k3="-1"
+         id="feComposite8-5" />
+      <feComposite
+         result="comp-5"
+         operator="in"
+         in="flood-2"
+         in2="comp-4"
+         id="feComposite10-6" />
+      <feFlood
+         result="flood-6"
+         flood-color="#000"
+         flood-opacity="0.7"
+         id="feFlood12-2" />
+      <feOffset
+         result="offset-7"
+         in="blur-1"
+         dx="-1"
+         dy="-1"
+         id="feOffset14-9" />
+      <feComposite
+         k4="0"
+         k1="0"
+         result="comp-8"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-7"
+         k2="1"
+         k3="-1"
+         id="feComposite16-1" />
+      <feComposite
+         result="comp-9"
+         operator="in"
+         in="flood-6"
+         in2="comp-8"
+         id="feComposite18-2" />
+      <feMerge
+         result="merge-10"
+         id="feMerge26-7">
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode20-0" />
+        <feMergeNode
+           in="comp-5"
+           id="feMergeNode22-9" />
+        <feMergeNode
+           in="comp-9"
+           id="feMergeNode24-3" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g
+     id="g307"
+     transform="translate(28.289566,32.217802)">
+    <g
+       id="g233">
+      <g
+         transform="translate(2)"
+         id="g147">
+        <path
+           d="M 0,3 3,0 h 10 l 3,3 h 8 l 3,-3 h 137 l 3,3 v 24 l -3,3 H 42 l -3,3 H 31 L 28,30 H 17 l -2,2 v 30 l 2,2 h 147 l 3,3 v 10 l -3,3 H 27 l -3,3 H 16 L 13,80 H 3 L 0,77"
+           class="sb-control sb-bevel"
+           id="path81"
+           inkscape:connector-curvature="0"
+           style="fill:#e1a91a;filter:url(#bevelFilter)" />
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(6,8)"
+           id="text83"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">if</text>
+        <g
+           transform="translate(30,2)"
+           id="g101">
+          <path
+             d="m 12.5,0 h 81 L 106,12.5 v 0 L 93.5,25 h -81 L 0,12.5 v 0 z"
+             class="sb-operators sb-bevel"
+             id="path85"
+             inkscape:connector-curvature="0"
+             style="fill:#5cb712;filter:url(#bevelFilter)" />
+          <g
+             transform="translate(9,2)"
+             id="g91">
+            <path
+               d="m 10,0 h 38 a 10,10 0 0 1 0,20 H 10 A 10,10 0 0 1 10,0 Z"
+               class="sb-motion sb-bevel"
+               id="path87"
+               inkscape:connector-curvature="0"
+               style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(8,4)"
+               id="text89"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">direction</text>
+          </g>
+          <text
+             x="0"
+             y="10"
+             class="sb-label "
+             transform="translate(71,6)"
+             id="text93"
+             style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">&lt;</text>
+          <g
+             transform="translate(81,5)"
+             id="g99">
+            <rect
+               x="0"
+               y="0"
+               width="16"
+               height="14"
+               class="sb-input sb-input-string"
+               id="rect95"
+               style="fill:#ffffff;filter:url(#inputBevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label sb-literal-string"
+               transform="translate(4)"
+               id="text97"
+               style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#000000">90</text>
+          </g>
+        </g>
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(140,8)"
+           id="text103"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">then</text>
+        <g
+           transform="translate(15,30)"
+           id="g145">
+          <g
+             id="g143">
+            <path
+               d="M 0,3 3,0 h 10 l 3,3 h 8 l 3,-3 h 185 l 3,3 v 28 l -3,3 H 27 l -3,3 H 16 L 13,34 H 3 L 0,31 Z"
+               class="sb-motion sb-bevel"
+               id="path105"
+               inkscape:connector-curvature="0"
+               style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(6,11)"
+               id="text107"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">change</text>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(45,11)"
+               id="text109"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">x</text>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(55,11)"
+               id="text111"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">by</text>
+            <g
+               transform="translate(71,3)"
+               id="g141">
+              <path
+                 d="m 14,0 h 110 a 14,14 0 0 1 0,28 H 14 A 14,14 0 0 1 14,0 Z"
+                 class="sb-operators sb-bevel"
+                 id="path113"
+                 inkscape:connector-curvature="0"
+                 style="fill:#5cb712;filter:url(#bevelFilter)" />
+              <g
+                 transform="translate(4,7)"
+                 id="g119">
+                <path
+                   d="m 6.5,0 h 4 a 6.5,6.5 0 0 1 0,13 h -4 a 6.5,6.5 0 0 1 0,-13 z"
+                   class="sb-input sb-input-number"
+                   id="path115"
+                   inkscape:connector-curvature="0"
+                   style="fill:#ffffff;filter:url(#inputBevelFilter)" />
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label sb-literal-number"
+                   transform="translate(5)"
+                   id="text117"
+                   style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#000000">-1</text>
+              </g>
+              <text
+                 x="0"
+                 y="10"
+                 class="sb-label "
+                 transform="translate(25,8)"
+                 id="text121"
+                 style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">*</text>
+              <g
+                 transform="translate(33,2)"
+                 id="g139">
+                <path
+                   d="m 12,0 h 77 a 12,12 0 0 1 0,24 H 12 A 12,12 0 0 1 12,0 Z"
+                   class="sb-operators sb-bevel"
+                   id="path123"
+                   inkscape:connector-curvature="0"
+                   style="fill:#5cb712;filter:url(#bevelFilter)" />
+                <g
+                   transform="translate(4,2)"
+                   id="g129">
+                  <path
+                     d="m 10,0 h 38 a 10,10 0 0 1 0,20 H 10 A 10,10 0 0 1 10,0 Z"
+                     class="sb-motion sb-bevel"
+                     id="path125"
+                     inkscape:connector-curvature="0"
+                     style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+                  <text
+                     x="0"
+                     y="10"
+                     class="sb-label "
+                     transform="translate(8,4)"
+                     id="text127"
+                     style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">direction</text>
+                </g>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(66,6)"
+                   id="text131"
+                   style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">/</text>
+                <g
+                   transform="translate(73,5)"
+                   id="g137">
+                  <path
+                     d="m 6.5,0 h 11 a 6.5,6.5 0 0 1 0,13 h -11 a 6.5,6.5 0 0 1 0,-13 z"
+                     class="sb-input sb-input-number"
+                     id="path133"
+                     inkscape:connector-curvature="0"
+                     style="fill:#ffffff;filter:url(#inputBevelFilter)" />
+                  <text
+                     x="0"
+                     y="10"
+                     class="sb-label sb-literal-number"
+                     transform="translate(5)"
+                     id="text135"
+                     style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#000000">100</text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(2,80)"
+         id="g203">
+        <path
+           d="M 0,3 3,0 h 10 l 3,3 h 8 l 3,-3 h 137 l 3,3 v 24 l -3,3 H 42 l -3,3 H 31 L 28,30 H 17 l -2,2 v 26 l 2,2 h 147 l 3,3 v 10 l -3,3 H 27 l -3,3 H 16 L 13,76 H 3 L 0,73"
+           class="sb-control sb-bevel"
+           id="path149"
+           inkscape:connector-curvature="0"
+           style="fill:#e1a91a;filter:url(#bevelFilter)" />
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(6,8)"
+           id="text151"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">if</text>
+        <g
+           transform="translate(30,2)"
+           id="g169">
+          <path
+             d="m 12.5,0 h 81 L 106,12.5 v 0 L 93.5,25 h -81 L 0,12.5 v 0 z"
+             class="sb-operators sb-bevel"
+             id="path153"
+             inkscape:connector-curvature="0"
+             style="fill:#5cb712;filter:url(#bevelFilter)" />
+          <g
+             transform="translate(9,2)"
+             id="g159">
+            <path
+               d="m 10,0 h 38 a 10,10 0 0 1 0,20 H 10 A 10,10 0 0 1 10,0 Z"
+               class="sb-motion sb-bevel"
+               id="path155"
+               inkscape:connector-curvature="0"
+               style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(8,4)"
+               id="text157"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">direction</text>
+          </g>
+          <text
+             x="0"
+             y="10"
+             class="sb-label "
+             transform="translate(71,6)"
+             id="text161"
+             style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">&lt;</text>
+          <g
+             transform="translate(81,5)"
+             id="g167">
+            <rect
+               x="0"
+               y="0"
+               width="16"
+               height="14"
+               class="sb-input sb-input-string"
+               id="rect163"
+               style="fill:#ffffff;filter:url(#inputBevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label sb-literal-string"
+               transform="translate(4)"
+               id="text165"
+               style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#000000">90</text>
+          </g>
+        </g>
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(140,8)"
+           id="text171"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">then</text>
+        <g
+           transform="translate(15,30)"
+           id="g201">
+          <g
+             id="g199">
+            <path
+               d="M 0,3 3,0 h 10 l 3,3 h 8 l 3,-3 h 148 l 3,3 v 24 l -3,3 H 27 l -3,3 H 16 L 13,30 H 3 L 0,27 Z"
+               class="sb-motion sb-bevel"
+               id="path173"
+               inkscape:connector-curvature="0"
+               style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(6,9)"
+               id="text175"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">change</text>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(45,9)"
+               id="text177"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">x</text>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(55,9)"
+               id="text179"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">by</text>
+            <g
+               transform="translate(71,3)"
+               id="g197">
+              <path
+                 d="m 12,0 h 77 a 12,12 0 0 1 0,24 H 12 A 12,12 0 0 1 12,0 Z"
+                 class="sb-operators sb-bevel"
+                 id="path181"
+                 inkscape:connector-curvature="0"
+                 style="fill:#5cb712;filter:url(#bevelFilter)" />
+              <g
+                 transform="translate(4,2)"
+                 id="g187">
+                <path
+                   d="m 10,0 h 38 a 10,10 0 0 1 0,20 H 10 A 10,10 0 0 1 10,0 Z"
+                   class="sb-motion sb-bevel"
+                   id="path183"
+                   inkscape:connector-curvature="0"
+                   style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(8,4)"
+                   id="text185"
+                   style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">direction</text>
+              </g>
+              <text
+                 x="0"
+                 y="10"
+                 class="sb-label "
+                 transform="translate(66,6)"
+                 id="text189"
+                 style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">/</text>
+              <g
+                 transform="translate(73,5)"
+                 id="g195">
+                <path
+                   d="m 6.5,0 h 11 a 6.5,6.5 0 0 1 0,13 h -11 a 6.5,6.5 0 0 1 0,-13 z"
+                   class="sb-input sb-input-number"
+                   id="path191"
+                   inkscape:connector-curvature="0"
+                   style="fill:#ffffff;filter:url(#inputBevelFilter)" />
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label sb-literal-number"
+                   transform="translate(5)"
+                   id="text193"
+                   style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#000000">100</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(2,156)"
+         id="g219">
+        <path
+           d="M 0,3 3,0 h 10 l 3,3 h 8 l 3,-3 h 64 l 3,3 v 16 l -3,3 H 27 l -3,3 H 16 L 13,22 H 3 L 0,19 Z"
+           class="sb-motion sb-bevel"
+           id="path205"
+           inkscape:connector-curvature="0"
+           style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(6,5)"
+           id="text207"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">change</text>
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(45,5)"
+           id="text209"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">y</text>
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(55,5)"
+           id="text211"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">by</text>
+        <g
+           transform="translate(71,4)"
+           id="g217">
+          <path
+             d="m 6.5,0 h 4 a 6.5,6.5 0 0 1 0,13 h -4 a 6.5,6.5 0 0 1 0,-13 z"
+             class="sb-input sb-input-number"
+             id="path213"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;filter:url(#inputBevelFilter)" />
+          <text
+             x="0"
+             y="10"
+             class="sb-label sb-literal-number"
+             transform="translate(5)"
+             id="text215"
+             style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#000000">-3</text>
+        </g>
+      </g>
+      <g
+         transform="translate(2,178)"
+         id="g231">
+        <path
+           d="M 0,3 3,0 h 10 l 3,3 h 8 l 3,-3 h 74 l 3,3 v 16 l -3,3 H 27 l -3,3 H 16 L 13,22 H 3 L 0,19 Z"
+           class="sb-motion sb-bevel"
+           id="path221"
+           inkscape:connector-curvature="0"
+           style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(6,5)"
+           id="text223"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">if</text>
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(16,5)"
+           id="text225"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">on</text>
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(32,5)"
+           id="text227"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">edge,</text>
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(62,5)"
+           id="text229"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">bounce</text>
+      </g>
+    </g>
+    <g
+       transform="translate(0,213)"
+       id="g305">
+      <g
+         transform="translate(2)"
+         id="g303">
+        <path
+           d="M 0,3 3,0 h 10 l 3,3 h 8 l 3,-3 h 152 l 3,3 v 24 l -3,3 H 42 l -3,3 H 31 L 28,30 H 17 l -2,2 v 40 l 2,2 h 162 l 3,3 v 10 l -3,3 H 27 l -3,3 H 16 L 13,90 H 3 L 0,87"
+           class="sb-control sb-bevel"
+           id="path235"
+           inkscape:connector-curvature="0"
+           style="fill:#e1a91a;filter:url(#bevelFilter)" />
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(6,8)"
+           id="text237"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">if</text>
+        <g
+           transform="translate(30,2)"
+           id="g257">
+          <path
+             d="m 12.5,0 h 96 L 121,12.5 v 0 L 108.5,25 h -96 L 0,12.5 v 0 z"
+             class="sb-operators sb-bevel"
+             id="path239"
+             inkscape:connector-curvature="0"
+             style="fill:#5cb712;filter:url(#bevelFilter)" />
+          <g
+             transform="translate(9,2)"
+             id="g247">
+            <path
+               d="m 10,0 h 45 a 10,10 0 0 1 0,20 H 10 A 10,10 0 0 1 10,0 Z"
+               class="sb-motion sb-bevel"
+               id="path241"
+               inkscape:connector-curvature="0"
+               style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(8,4)"
+               id="text243"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">y</text>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(18,4)"
+               id="text245"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">position</text>
+          </g>
+          <text
+             x="0"
+             y="10"
+             class="sb-label "
+             transform="translate(78,6)"
+             id="text249"
+             style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">&lt;</text>
+          <g
+             transform="translate(88,5)"
+             id="g255">
+            <rect
+               x="0"
+               y="0"
+               width="24"
+               height="14"
+               class="sb-input sb-input-string"
+               id="rect251"
+               style="fill:#ffffff;filter:url(#inputBevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label sb-literal-string"
+               transform="translate(4)"
+               id="text253"
+               style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#000000">-150</text>
+          </g>
+        </g>
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(155,8)"
+           id="text259"
+           style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">then</text>
+        <g
+           transform="translate(15,30)"
+           id="g301">
+          <g
+             id="g275">
+            <path
+               d="M 0,3 3,0 h 10 l 3,3 h 8 l 3,-3 h 50 l 3,3 v 16 l -3,3 H 27 l -3,3 H 16 L 13,22 H 3 L 0,19 Z"
+               class="sb-motion sb-bevel"
+               id="path261"
+               inkscape:connector-curvature="0"
+               style="fill:#4a6cd4;filter:url(#bevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(6,5)"
+               id="text263"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">set</text>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(24,5)"
+               id="text265"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">y</text>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(34,5)"
+               id="text267"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">to</text>
+            <g
+               transform="translate(47,4)"
+               id="g273">
+              <path
+                 d="m 6.5,0 h 14 a 6.5,6.5 0 0 1 0,13 h -14 a 6.5,6.5 0 0 1 0,-13 z"
+                 class="sb-input sb-input-number"
+                 id="path269"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;filter:url(#inputBevelFilter)" />
+              <text
+                 x="0"
+                 y="10"
+                 class="sb-label sb-literal-number"
+                 transform="translate(5)"
+                 id="text271"
+                 style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#000000">-120</text>
+            </g>
+          </g>
+          <g
+             transform="translate(0,22)"
+             id="g299">
+            <path
+               d="M 0,3 3,0 h 10 l 3,3 h 8 l 3,-3 h 101 l 3,3 v 16 l -3,3 H 27 l -3,3 H 16 L 13,22 H 3 L 0,19 Z"
+               class="sb-variables sb-bevel"
+               id="path277"
+               inkscape:connector-curvature="0"
+               style="fill:#ee7d16;filter:url(#bevelFilter)" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(6,5)"
+               id="text279"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">change</text>
+            <g
+               transform="translate(45,4)"
+               id="g289">
+              <g
+                 width="43"
+                 height="14"
+                 class="sb-input sb-input-dropdown"
+                 id="g283"
+                 style="filter:url(#inputBevelFilter)">
+                <rect
+                   x="0"
+                   y="0"
+                   width="43"
+                   height="14"
+                   class="sb-variables sb-darker"
+                   id="rect281"
+                   style="fill:#ee7d16;filter:url(#inputDarkFilter)" />
+              </g>
+              <text
+                 x="0"
+                 y="10"
+                 class="sb-label sb-literal-dropdown"
+                 transform="translate(4)"
+                 id="text285"
+                 style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#ffffff">points</text>
+              <polygon
+                 points="3.5,4 0,0 7,0 "
+                 transform="translate(33,5)"
+                 id="polygon287"
+                 style="opacity:0.6;fill:#000000" />
+            </g>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(92,5)"
+               id="text291"
+               style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff">by</text>
+            <g
+               transform="translate(108,4)"
+               id="g297">
+              <path
+                 d="m 6.5,0 h 4 a 6.5,6.5 0 0 1 0,13 h -4 a 6.5,6.5 0 0 1 0,-13 z"
+                 class="sb-input sb-input-number"
+                 id="path293"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;filter:url(#inputBevelFilter)" />
+              <text
+                 x="0"
+                 y="10"
+                 class="sb-label sb-literal-number"
+                 transform="translate(5)"
+                 id="text295"
+                 style="font-weight:400;font-size:9px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:0;fill:#000000">-1</text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:#e1a91a;filter:url(#bevelFilter-6)"
+     inkscape:connector-curvature="0"
+     id="path81-6"
+     class="sb-control sb-bevel"
+     d="m 2.1624266,5.0756681 2.9999998,-3 h 9.9999996 l 3,3 h 8 l 3,-3 h 53 l 3,3 V 21.075668 l -3,3 h -38 l -3,3 h -8 l -3,-3 h -11 l -2,2 V 340.07568 l 2,2 h 63 l 3,3 v 10 l -3,3 H 5.1624264 l -2.9999998,-3"
+     sodipodi:nodetypes="cccccccccccccccccccccccc" />
+  <text
+     style="font-weight:700;font-size:10px;font-family:'Lucida Grande', Verdana, Arial, 'DejaVu Sans', sans-serif;word-spacing:1px;fill:#ffffff"
+     id="text83-0"
+     class="sb-label "
+     y="17.075668"
+     x="8.1624308">forever</text>
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     id="use85"
+     transform="translate(70.162426,355.07568)"
+     xlink:href="#loopArrow" />
+</svg>

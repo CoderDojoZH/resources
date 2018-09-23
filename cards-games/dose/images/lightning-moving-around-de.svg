@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="223"
+   height="239"
+   id="svg247"
+   sodipodi:docname="lightning-moving-around-de.svg"
+   inkscape:export-filename="/home/ale/src/dojo-resources/cards-games/dose/images/lightning-moving-around-de.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata251">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2238"
+     inkscape:window-height="1776"
+     id="namedview249"
+     showgrid="false"
+     inkscape:zoom="2.1710619"
+     inkscape:cx="-70.510977"
+     inkscape:cy="-37.451409"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg247" />
+  <defs
+     id="defs79">
+    <filter
+       id="bevelFilter"
+       x0="-50%"
+       y0="-50%"
+       width="200%"
+       height="200%">
+      <feGaussianBlur
+         result="blur-1"
+         in="SourceAlpha"
+         stdDeviation="1 1"
+         id="feGaussianBlur2" />
+      <feFlood
+         result="flood-2"
+         in="undefined"
+         flood-color="#fff"
+         flood-opacity="0.15"
+         id="feFlood4" />
+      <feOffset
+         result="offset-3"
+         in="blur-1"
+         dx="1"
+         dy="1"
+         id="feOffset6" />
+      <feComposite
+         result="comp-4"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-3"
+         k2="1"
+         k3="-1"
+         id="feComposite8" />
+      <feComposite
+         result="comp-5"
+         operator="in"
+         in="flood-2"
+         in2="comp-4"
+         id="feComposite10" />
+      <feFlood
+         result="flood-6"
+         in="undefined"
+         flood-color="#000"
+         flood-opacity="0.7"
+         id="feFlood12" />
+      <feOffset
+         result="offset-7"
+         in="blur-1"
+         dx="-1"
+         dy="-1"
+         id="feOffset14" />
+      <feComposite
+         result="comp-8"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-7"
+         k2="1"
+         k3="-1"
+         id="feComposite16" />
+      <feComposite
+         result="comp-9"
+         operator="in"
+         in="flood-6"
+         in2="comp-8"
+         id="feComposite18" />
+      <feMerge
+         result="merge-10"
+         id="feMerge26">
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode20" />
+        <feMergeNode
+           in="comp-5"
+           id="feMergeNode22" />
+        <feMergeNode
+           in="comp-9"
+           id="feMergeNode24" />
+      </feMerge>
+    </filter>
+    <filter
+       id="inputBevelFilter"
+       x0="-50%"
+       y0="-50%"
+       width="200%"
+       height="200%">
+      <feGaussianBlur
+         result="blur-1"
+         in="SourceAlpha"
+         stdDeviation="1 1"
+         id="feGaussianBlur29" />
+      <feFlood
+         result="flood-2"
+         in="undefined"
+         flood-color="#fff"
+         flood-opacity="0.15"
+         id="feFlood31" />
+      <feOffset
+         result="offset-3"
+         in="blur-1"
+         dx="-1"
+         dy="-1"
+         id="feOffset33" />
+      <feComposite
+         result="comp-4"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-3"
+         k2="1"
+         k3="-1"
+         id="feComposite35" />
+      <feComposite
+         result="comp-5"
+         operator="in"
+         in="flood-2"
+         in2="comp-4"
+         id="feComposite37" />
+      <feFlood
+         result="flood-6"
+         in="undefined"
+         flood-color="#000"
+         flood-opacity="0.7"
+         id="feFlood39" />
+      <feOffset
+         result="offset-7"
+         in="blur-1"
+         dx="1"
+         dy="1"
+         id="feOffset41" />
+      <feComposite
+         result="comp-8"
+         operator="arithmetic"
+         in="SourceAlpha"
+         in2="offset-7"
+         k2="1"
+         k3="-1"
+         id="feComposite43" />
+      <feComposite
+         result="comp-9"
+         operator="in"
+         in="flood-6"
+         in2="comp-8"
+         id="feComposite45" />
+      <feMerge
+         result="merge-10"
+         id="feMerge53">
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode47" />
+        <feMergeNode
+           in="comp-5"
+           id="feMergeNode49" />
+        <feMergeNode
+           in="comp-9"
+           id="feMergeNode51" />
+      </feMerge>
+    </filter>
+    <filter
+       id="inputDarkFilter"
+       x0="-50%"
+       y0="-50%"
+       width="200%"
+       height="200%">
+      <feFlood
+         result="flood-1"
+         in="undefined"
+         flood-color="#000"
+         flood-opacity="0.2"
+         id="feFlood56" />
+      <feComposite
+         result="comp-2"
+         operator="in"
+         in="flood-1"
+         in2="SourceAlpha"
+         id="feComposite58" />
+      <feMerge
+         result="merge-3"
+         id="feMerge64">
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode60" />
+        <feMergeNode
+           in="comp-2"
+           id="feMergeNode62" />
+      </feMerge>
+    </filter>
+    <path
+       d="M1.504 21L0 19.493 4.567 0h1.948l-.5 2.418s1.002-.502 3.006 0c2.006.503 3.008 2.01 6.517 2.01 3.508 0 4.463-.545 4.463-.545l-.823 9.892s-2.137 1.005-5.144.696c-3.007-.307-3.007-2.007-6.014-2.51-3.008-.502-4.512.503-4.512.503L1.504 21z"
+       fill="#3f8d15"
+       id="greenFlag" />
+    <path
+       d="M6.724 0C3.01 0 0 2.91 0 6.5c0 2.316 1.253 4.35 3.14 5.5H5.17v-1.256C3.364 10.126 2.07 8.46 2.07 6.5 2.07 4.015 4.152 2 6.723 2c1.14 0 2.184.396 2.993 1.053L8.31 4.13c-.45.344-.398.826.11 1.08L15 8.5 13.858.992c-.083-.547-.514-.714-.963-.37l-1.532 1.172A6.825 6.825 0 0 0 6.723 0z"
+       fill="#fff"
+       id="turnRight" />
+    <path
+       d="M3.637 1.794A6.825 6.825 0 0 1 8.277 0C11.99 0 15 2.91 15 6.5c0 2.316-1.253 4.35-3.14 5.5H9.83v-1.256c1.808-.618 3.103-2.285 3.103-4.244 0-2.485-2.083-4.5-4.654-4.5-1.14 0-2.184.396-2.993 1.053L6.69 4.13c.45.344.398.826-.11 1.08L0 8.5 1.142.992c.083-.547.514-.714.963-.37l1.532 1.172z"
+       fill="#fff"
+       id="turnLeft" />
+    <path
+       d="M0 0L4 4L0 8Z"
+       fill="#111"
+       id="addInput" />
+    <path
+       d="M4 0L4 8L0 4Z"
+       fill="#111"
+       id="delInput" />
+    <g
+       id="loopArrow">
+      <path
+         d="M8 0l2 -2l0 -3l3 0l-4 -5l-4 5l3 0l0 3l-8 0l0 2"
+         fill="#000"
+         opacity="0.3"
+         id="path72" />
+      <path
+         d="M8 0l2 -2l0 -3l3 0l-4 -5l-4 5l3 0l0 3l-8 0l0 2"
+         fill="#fff"
+         opacity="0.9"
+         transform="translate(-1 -1)"
+         id="path74" />
+    </g>
+    <style
+       id="style77"><![CDATA[.sb-label{font-family:Lucida Grande,Verdana,Arial,DejaVu Sans,sans-serif;font-weight:700;fill:#fff;font-size:10px;word-spacing:+1px}.sb-obsolete{fill:#d42828}.sb-motion{fill:#4a6cd4}.sb-looks{fill:#8a55d7}.sb-sound{fill:#bb42c3}.sb-pen{fill:#0e9a6c}.sb-events{fill:#c88330}.sb-control{fill:#e1a91a}.sb-sensing{fill:#2ca5e2}.sb-operators{fill:#5cb712}.sb-variables{fill:#ee7d16}.sb-list{fill:#cc5b22}.sb-custom{fill:#632d99}.sb-custom-arg{fill:#5947b1}.sb-extension{fill:#4b4a60}.sb-grey{fill:#969696}.sb-bevel{filter:url(#bevelFilter)}.sb-input{filter:url(#inputBevelFilter)}.sb-input-number,.sb-input-number-dropdown,.sb-input-string{fill:#fff}.sb-literal-dropdown,.sb-literal-number,.sb-literal-number-dropdown,.sb-literal-string{font-weight:400;font-size:9px;word-spacing:0}.sb-literal-number,.sb-literal-number-dropdown,.sb-literal-string{fill:#000}.sb-darker{filter:url(#inputDarkFilter)}.sb-outline{stroke:#fff;stroke-opacity:.2;stroke-width:2;fill:none}.sb-define-hat-cap{stroke:#632d99;stroke-width:1;fill:#8e2ec2}.sb-comment{fill:#ffffa5;stroke:#d0d1d2;stroke-width:1}.sb-comment-line{fill:#ffff80}.sb-comment-label{font-family:Helevetica,Arial,DejaVu Sans,sans-serif;font-weight:700;fill:#5c5d5f;word-spacing:0;font-size:12px}]]></style>
+  </defs>
+  <g
+     id="g245">
+    <g
+       transform="translate(0 0)"
+       id="g243">
+      <g
+         transform="translate(2 0)"
+         id="g241">
+        <path
+           d="M 0 3 L 3 0 L 13 0 L 16 3 L 24 3 L 27 0 L 216 0 L 219 3 L 219 23 L 216 26 L 42 26 L 39 29 L 31 29 L 28 26 L 17 26 L 15 28 L 15 218 L 17 220 L 216 220 L 219 223 L 219 233 L 216 236 L 27 236 L 24 239 L 16 239 L 13 236 L 3 236 L 0 233"
+           class="sb-control sb-bevel"
+           id="path81" />
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(6 6)"
+           id="text83">wiederhole</text>
+        <text
+           x="0"
+           y="10"
+           class="sb-label "
+           transform="translate(62 6)"
+           id="text85">bis</text>
+        <g
+           transform="translate(80 2)"
+           id="g103">
+          <path
+             d="M 10.5 0 L 122.5 0 133 10.5 L 133 10.5 122.5 21 L 10.5 21 0 10.5 L 0 10.5 10.5 0 Z"
+             class="sb-sensing sb-bevel"
+             id="path87" />
+          <text
+             x="0"
+             y="10"
+             class="sb-label "
+             transform="translate(11 4)"
+             id="text89">wird</text>
+          <g
+             transform="translate(36 3)"
+             id="g99">
+            <g
+               width="41"
+               height="14"
+               class="sb-input sb-input-dropdown"
+               id="g93">
+              <rect
+                 x="0"
+                 y="0"
+                 width="41"
+                 height="14"
+                 class="sb-sensing sb-darker"
+                 id="rect91" />
+            </g>
+            <text
+               x="0"
+               y="10"
+               class="sb-label sb-literal-dropdown"
+               transform="translate(4 0)"
+               id="text95">Rand</text>
+            <polygon
+               points="7 0 3.5 4 0 0"
+               fill="#000"
+               opacity="0.6"
+               transform="translate(31 5)"
+               id="polygon97" />
+          </g>
+          <text
+             x="0"
+             y="10"
+             class="sb-label "
+             transform="translate(81 4)"
+             id="text101">berührt?</text>
+        </g>
+        <use
+           xlink:href="#loopArrow"
+           transform="translate(204 233)"
+           id="use105" />
+        <g
+           transform="translate(15 26)"
+           id="g239">
+          <g
+             transform="translate(0 0)"
+             id="g237">
+            <path
+               d="M 0 3 L 3 0 L 13 0 L 16 3 L 24 3 L 27 0 L 193 0 L 196 3 L 196 23 L 193 26 L 42 26 L 39 29 L 31 29 L 28 26 L 17 26 L 15 28 L 15 136 L 17 138 L 193 138 L 196 141 L 196 153 L 193 156 L 42 156 L 39 159 L 31 159 L 28 156 L 17 156 L 15 158 L 15 176 L 17 178 L 193 178 L 196 181 L 196 191 L 193 194 L 27 194 L 24 197 L 16 197 L 13 194 L 3 194 L 0 191"
+               class="sb-control sb-bevel"
+               id="path107" />
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(6 6)"
+               id="text109">falls</text>
+            <g
+               transform="translate(30 2)"
+               id="g127">
+              <path
+                 d="M 10.5 0 L 121.5 0 132 10.5 L 132 10.5 121.5 21 L 10.5 21 0 10.5 L 0 10.5 10.5 0 Z"
+                 class="sb-sensing sb-bevel"
+                 id="path111" />
+              <text
+                 x="0"
+                 y="10"
+                 class="sb-label "
+                 transform="translate(11 4)"
+                 id="text113">wird</text>
+              <g
+                 transform="translate(36 3)"
+                 id="g123">
+                <g
+                   width="40"
+                   height="14"
+                   class="sb-input sb-input-dropdown"
+                   id="g117">
+                  <rect
+                     x="0"
+                     y="0"
+                     width="40"
+                     height="14"
+                     class="sb-sensing sb-darker"
+                     id="rect115" />
+                </g>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label sb-literal-dropdown"
+                   transform="translate(4 0)"
+                   id="text119">Dose</text>
+                <polygon
+                   points="7 0 3.5 4 0 0"
+                   fill="#000"
+                   opacity="0.6"
+                   transform="translate(30 5)"
+                   id="polygon121" />
+              </g>
+              <text
+                 x="0"
+                 y="10"
+                 class="sb-label "
+                 transform="translate(80 4)"
+                 id="text125">berührt?</text>
+            </g>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(166 6)"
+               id="text129">dann</text>
+            <g
+               transform="translate(15 26)"
+               id="g217">
+              <g
+                 transform="translate(0 0)"
+                 id="g149">
+                <path
+                   d="M 0 3 L 3 0 L 13 0 L 16 3 L 24 3 L 27 0 L 133 0 L 136 3 L 136 19 L 133 22 L 27 22 L 24 25 L 16 25 L 13 22 L 3 22 L 0 19 Z"
+                   class="sb-events sb-bevel"
+                   id="path131" />
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(6 5)"
+                   id="text133">sende</text>
+                <g
+                   transform="translate(39 4)"
+                   id="g143">
+                  <g
+                     width="54"
+                     height="14"
+                     class="sb-input sb-input-dropdown"
+                     id="g137">
+                    <rect
+                       x="0"
+                       y="0"
+                       width="54"
+                       height="14"
+                       class="sb-events sb-darker"
+                       id="rect135" />
+                  </g>
+                  <text
+                     x="0"
+                     y="10"
+                     class="sb-label sb-literal-dropdown"
+                     transform="translate(4 0)"
+                     id="text139">getroffen</text>
+                  <polygon
+                     points="7 0 3.5 4 0 0"
+                     fill="#000"
+                     opacity="0.6"
+                     transform="translate(44 5)"
+                     id="polygon141" />
+                </g>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(97 5)"
+                   id="text145">an</text>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(113 5)"
+                   id="text147">alle</text>
+              </g>
+              <g
+                 transform="translate(0 22)"
+                 id="g157">
+                <path
+                   d="M 0 3 L 3 0 L 13 0 L 16 3 L 24 3 L 27 0 L 80 0 L 83 3 L 83 19 L 80 22 L 27 22 L 24 25 L 16 25 L 13 22 L 3 22 L 0 19 Z"
+                   class="sb-looks sb-bevel"
+                   id="path151" />
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(6 5)"
+                   id="text153">verstecke</text>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(56 5)"
+                   id="text155">dich</text>
+              </g>
+              <g
+                 transform="translate(0 44)"
+                 id="g181">
+                <path
+                   d="M 0 3 L 3 0 L 13 0 L 16 3 L 24 3 L 27 0 L 135 0 L 138 3 L 138 19 L 135 22 L 27 22 L 24 25 L 16 25 L 13 22 L 3 22 L 0 19 Z"
+                   class="sb-motion sb-bevel"
+                   id="path159" />
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(6 5)"
+                   id="text161">gehe</text>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(33 5)"
+                   id="text163">zu</text>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(48 5)"
+                   id="text165">x:</text>
+                <g
+                   transform="translate(61 4)"
+                   id="g171">
+                  <path
+                     d="M 6.5 0 L 20.5 0 A 6.5 6.5 0 0 1 20.5 13 L 6.5 13 A 6.5 6.5 0 0 1 6.5 0 Z"
+                     class="sb-input sb-input-number"
+                     id="path167" />
+                  <text
+                     x="0"
+                     y="10"
+                     class="sb-label sb-literal-number"
+                     transform="translate(5 0)"
+                     id="text169">-200</text>
+                </g>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(92 5)"
+                   id="text173">y:</text>
+                <g
+                   transform="translate(105 4)"
+                   id="g179">
+                  <path
+                     d="M 6.5 0 L 20.5 0 A 6.5 6.5 0 0 1 20.5 13 L 6.5 13 A 6.5 6.5 0 0 1 6.5 0 Z"
+                     class="sb-input sb-input-number"
+                     id="path175" />
+                  <text
+                     x="0"
+                     y="10"
+                     class="sb-label sb-literal-number"
+                     transform="translate(5 0)"
+                     id="text177">-156</text>
+                </g>
+              </g>
+              <g
+                 transform="translate(0 66)"
+                 id="g199">
+                <path
+                   d="M 0 3 L 3 0 L 13 0 L 16 3 L 24 3 L 27 0 L 128 0 L 131 3 L 131 19 L 128 22 L 27 22 L 24 25 L 16 25 L 13 22 L 3 22 L 0 19 Z"
+                   class="sb-motion sb-bevel"
+                   id="path183" />
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(6 5)"
+                   id="text185">setze</text>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(35 5)"
+                   id="text187">Richtung</text>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(82 5)"
+                   id="text189">auf</text>
+                <g
+                   transform="translate(101 4)"
+                   id="g197">
+                  <path
+                     d="M 6.5 0 L 17.5 0 A 6.5 6.5 0 0 1 17.5 13 L 6.5 13 A 6.5 6.5 0 0 1 6.5 0 Z"
+                     class="sb-input sb-input-number-dropdown"
+                     id="path191" />
+                  <text
+                     x="0"
+                     y="10"
+                     class="sb-label sb-literal-number-dropdown"
+                     transform="translate(5 0)"
+                     id="text193">0</text>
+                  <polygon
+                     points="7 0 3.5 4 0 0"
+                     fill="#000"
+                     opacity="0.6"
+                     transform="translate(14 4)"
+                     id="polygon195" />
+                </g>
+              </g>
+              <g
+                 transform="translate(0 88)"
+                 id="g215">
+                <path
+                   d="M 0 3 L 3 0 L 13 0 L 16 3 L 24 3 L 27 0 L 117 0 L 120 3 L 120 21 L 117 24 L 3 24 L 0 21 Z"
+                   class="sb-control sb-bevel"
+                   id="path201" />
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(6 7)"
+                   id="text203">stoppe</text>
+                <g
+                   transform="translate(43 6)"
+                   id="g213">
+                  <g
+                     width="71"
+                     height="14"
+                     class="sb-input sb-input-dropdown"
+                     id="g207">
+                    <rect
+                       x="0"
+                       y="0"
+                       width="71"
+                       height="14"
+                       class="sb-control sb-darker"
+                       id="rect205" />
+                  </g>
+                  <text
+                     x="0"
+                     y="10"
+                     class="sb-label sb-literal-dropdown"
+                     transform="translate(4 0)"
+                     id="text209">dieses Skript</text>
+                  <polygon
+                     points="7 0 3.5 4 0 0"
+                     fill="#000"
+                     opacity="0.6"
+                     transform="translate(61 5)"
+                     id="polygon211" />
+                </g>
+              </g>
+            </g>
+            <text
+               x="0"
+               y="10"
+               class="sb-label "
+               transform="translate(6 141)"
+               id="text219">sonst</text>
+            <g
+               transform="translate(15 156)"
+               id="g235">
+              <g
+                 transform="translate(0 0)"
+                 id="g233">
+                <path
+                   d="M 0 3 L 3 0 L 13 0 L 16 3 L 24 3 L 27 0 L 103 0 L 106 3 L 106 19 L 103 22 L 27 22 L 24 25 L 16 25 L 13 22 L 3 22 L 0 19 Z"
+                   class="sb-motion sb-bevel"
+                   id="path221" />
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(6 5)"
+                   id="text223">gehe</text>
+                <g
+                   transform="translate(33 4)"
+                   id="g229">
+                  <path
+                     d="M 6.5 0 L 12.5 0 A 6.5 6.5 0 0 1 12.5 13 L 6.5 13 A 6.5 6.5 0 0 1 6.5 0 Z"
+                     class="sb-input sb-input-number"
+                     id="path225" />
+                  <text
+                     x="0"
+                     y="10"
+                     class="sb-label sb-literal-number"
+                     transform="translate(5 0)"
+                     id="text227">15</text>
+                </g>
+                <text
+                   x="0"
+                   y="10"
+                   class="sb-label "
+                   transform="translate(56 5)"
+                   id="text231">er-Schritt</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
