@@ -3,33 +3,38 @@ HEIGHT = 720
 
 WHITE = (255, 255, 255)
 BLUE = (66, 78, 244)
-    
+
 class Grid:
     # 900 x 650 -> 18 x 13 @ 50 px
-    grid = [
-    #   1 = start, 2 = wall
-    #    123456789012345678
-        '                  ', # 1
-        '                  ', # 2
-        '                  ', # 3
-        '                  ', # 4
-        '                  ', # 5
-        '                  ', # 6
-        '                  ', # 7
-        '      222         ', # 8
-        '                  ', # 9
-        '                  ', # 0
-        '                  ', # 1
-        '1 2               ', # 2
-        '                  ', # 3
-    ]
-    movements = {'stop': (0, 0), 'left': (-1, 0), 'right': (1, 0), 'up': (0, -1), 'down': (0, 1)} 
+    grid = []
+    movements = {'stop': (0, 0), 'left': (-1, 0), 'right': (1, 0), 'up': (0, -1), 'down': (0, 1)}
+    
+    def __init__(self, grid, format = None):
+        if format is None:
+            format = {} 
+        self.grid = grid
+        self.grid_color = format.get('color', BLUE)
+        self.visible = format.get('visible', True)
+        self.size_cell = format.get('cell-size', (50, 50))
+        self.size_table = (len(grid[0]), len(grid))
+        self.size_pixel = (self.size_table[0] * self.size_cell[0], self.size_table[1] * self.size_cell[1])
+        self.padding_table = format.get('padding-table', (0, 0))
+        self.padding_cell = format.get('cell-padding', (5, 5))
+        self.anchor_cell = format.get('cell-anchor', 'top') # top, center
+
     
     def draw(self):
-        for i in range(30, 931, 50):
-            screen.draw.line((i, 35), (i, 685), BLUE)
-        for j in range(35, 686, 50):
-                screen.draw.line((30, j), (930, j), BLUE)
+        if self.visible:
+            x_start = self.padding_table[0]
+            x_end = self.size_pixel[0] + self.padding_table[0]
+            y_start = self.padding_table[1]
+            y_end = self.size_pixel[1] + self.padding_table[1]
+            for i in range(x_start, x_end + 1, self.size_cell[0]):
+                x, y = (i, y_start), (i, y_end)
+                screen.draw.line(x, y, BLUE)
+            for j in range(y_start, y_end + 1, self.size_cell[0]):
+                x, y = (x_start, j), (x_end, j)
+                screen.draw.line(x, y, BLUE)
 
     def get_first_cell_with_value(self, value):
         value = str(value)
@@ -64,8 +69,26 @@ class Grid:
         return Grid.get_moved_position(position, tuple(x * scalar for x in movement))
 
     def get_coordinates(self, position):
-        return (30 + 5 + position[0] * 50, 35 + 5 + position[1] * 50)
-grid = Grid()
+        x = self.padding_table[0] + self.padding_cell[0] + position[0] * self.size_cell[0]
+        y = self.padding_table[1] + self.padding_cell[1] + position[1] * self.size_cell[1]
+        return (x, y)
+grid = Grid([
+    #   1 = start, 2 = wall
+    #    123456789012345678
+        '                  ', # 1
+        '                  ', # 2
+        '                  ', # 3
+        '                  ', # 4
+        '                  ', # 5
+        '                  ', # 6
+        '                  ', # 7
+        '      222         ', # 8
+        '                  ', # 9
+        '                  ', # 0
+        '                  ', # 1
+        '1 2               ', # 2
+        '                  ', # 3)
+], {'padding-table': (30, 35)})
 
 class Chicken(Actor):
     step_length = 50
@@ -74,6 +97,7 @@ class Chicken(Actor):
         self.grid = grid
         self.position = self.grid.get_first_cell_with_value('1')
         self.topleft = grid.get_coordinates(self.position)
+
         self.step_moved = 0
         self.direction = 'stop'
         self.next_direction = 'stop'
