@@ -18,10 +18,17 @@
     
 - First program:
   - path: cards-python/first-program
-  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/install/mu-install-a4-enUS.pdf>
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/first-program/first-programl-a4-enUS.pdf>
   - printing:
     - 'one sheet, double sided; print A4, cut in four'
     - print 10 times
+    
+- Images:
+  - path: cards-python/first-program
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/images/images-a4-enUS.pdf>
+  - printing:
+    - 'one sheet, double sided; print A4, cut in four'
+    - print 10 times    
     
 - Moving around:
   - path: cards-python/moving-around
@@ -30,8 +37,21 @@
     - 'one sheet, one sided; print A4, cut in four'
     - print 10 times    
     
-    
+- Bouncing around:
+  - path: cards-python/bouncing-around
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/bouncing-around/bouncing-around-a4-enUS.pdf>
+  - printing:
+    - 'one sheet, double sided; print A4, cut in four'
+    - print 10 times  
 
+- Check collision:
+  - path: cards-python/bouncing-around
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/check-collision/check-collision-a4-enUS.pdf>
+  - printing:
+    - 'one sheet, one sided; print A4, cut in four'
+    - print 10 times  
+
+    
 ## Scratch:
   
 - Car race:
@@ -59,11 +79,3 @@
   - thicker paper, so we can use it as a poster
   - print: one page; has transparencies
       - 6 times
-
-### Python
-- Moving on a grid:
-  - path: cards-python/moving-on-a-grid
-  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/moving-on-a-grid/moving-on-a-grid-a4-enUS.pdf>
-  - printing:
-    - 'one sheet, double sided; print A4, cut in four'
-    - print 10 times    
