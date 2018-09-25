@@ -6,6 +6,12 @@
   - thicker paper, so we can use it as a poster
   - print: one page; has transparencies
       - 6 times
+      
+- programming-club-a3.pdf
+  - <https://github.com/CoderDojoZH/resources/raw/master/poster/programming-club-a3.pdf>
+  - thicker paper, so we can use it as a poster
+  - print: one page; has transparencies
+      - 6 times      
 
 ## Python:
 
@@ -77,12 +83,3 @@
     - '2 pages, double sided; print A4, cut in two; stiched'
     - en - print 80 times
 
-
-## Not Ready
-
-### Poster
-- programming-club-a3.pdf
-  - <https://github.com/CoderDojoZH/resources/raw/master/poster/programming-club-a3.pdf>
-  - thicker paper, so we can use it as a poster
-  - print: one page; has transparencies
-      - 6 times
