@@ -55,8 +55,8 @@
 ## Scratch:
 
 - Tmp Folge der Maus:
-  - path: cards-scratch
-  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/tmp-folge-der-maus.pdf>
+  - path: cards-scratch/mit-starter-cards
+  - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/mit-starter-cards/tmp-folge-der-maus.pdf>
   - printing: 
     - 'one sheet, double sided; print A4, cut in four'
     - print 15 times
