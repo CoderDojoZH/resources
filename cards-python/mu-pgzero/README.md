@@ -9,5 +9,6 @@ cd mu
 pip install mu-editor
 ./bim/mu-editor
 ```
+## Shared resources
 
-
+- [Octopus laughing](https://thenounproject.com/aomam/collection/octopus-emoticons-line/) by [AomAm](https://thenounproject.com/aomam/)
