@@ -129,7 +129,7 @@ class Chicken(Actor):
         if self.step_moved >= self.step_length:
             on_grid = True
             step -= self.step_moved - self.step_length
-            self.step_moved = self.step_length - self.step_moved
+            self.step_moved = self.step_length - self.step_moved # TODO: falsch?
         
         if on_grid:
             self.position = Grid.get_moved_position(self.position, self.direction)

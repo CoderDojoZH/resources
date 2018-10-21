@@ -1,14 +1,18 @@
 # jumping
 
-~~~
+![](images/jumping-code-01.svg)
+```
 when green flag clicked
 set (y-speed) to [0]
 set (jumping) to [0]
 go to x: [0] y: [0]
 forever
-   change x by (y-speed)
+   change y by (y-speed)
+```
 
 
+![](images/jumping-code-02.svg)
+```
 when green flag clicked
 forever
     if <color [#ff0000] is touching [#00ff00]?> then
@@ -22,7 +26,10 @@ forever
     if <(jumping) = [1]> then
         if <(y-speed) > [-10]> then
             change (y-speed) by (-0.5)
+```
 
+![](images/jumping-code-02.svg)
+```
 (y-speed)
 (jumping)
-~~~
+```
