@@ -133,7 +133,7 @@ The "keep alive" custom block:
 - adds one to it, and
 - and sets the own `keep alive` cloud variable.
 
-![](images/keep alive.svg)
+![](images/keep-alive.svg)
 
 ```
 define keep alive
