@@ -167,6 +167,11 @@ else
   if <(☁ keep alive 2) = [0]> then 
     set [player v] to [2]
   else 
+    set [next keep alive v] to ((☁ keep alive 1) + (☁ keep alive 2))
+    wait (5) secs
+    if <(next keep alive) = ((☁ keep alive 1) + (☁ keep alive 2))> then
+        set [player v] to [1]
+    end
     wait until <([abs v] of ((☁ keep alive 1) - (☁ keep alive 2))) > [5]>
     if <(☁ keep alive 1) < (☁ keep alive 2)> then 
       set [player v] to [1]
