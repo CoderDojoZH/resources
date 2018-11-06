@@ -4,9 +4,9 @@ For your first steps with Python, you can simply install the Mu editor.
 
 It comes with everything you need to start:
 
-– Python 3,
-– Pygame (the educational "Zero" version),
-– The Mu editor.
+- Python 3,
+- Pygame (the educational "Zero" version),
+- The Mu editor.
 
 Open your browser and go to <https://codewith.mu>
 
