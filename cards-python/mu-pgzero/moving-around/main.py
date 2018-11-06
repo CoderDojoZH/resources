@@ -1,7 +1,7 @@
 WIDTH = 640
 HEIGHT = 480
 
-bee = Actor('bee')
+bee = Actor('bee', (0, 0))
 
 def update(dt):
     pass
