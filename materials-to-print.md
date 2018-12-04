@@ -19,7 +19,7 @@
     
 - First program:
   - path: cards-python/first-program
-  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/first-program/first-programl-deCH-a4.pdf>
+  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/first-program/first-program-deCH-a4.pdf>
   - printing:
     - 'one sheet, double sided; print A4, cut in four'
     - print 10 times
@@ -38,9 +38,9 @@
     - 'one sheet, one sided; print A4, cut in four'
     - print 10 times    
     
-- Bouncing around:
-  - path: cards-python/bouncing-around
-  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/bouncing-around/bouncing-around-deCH-a4.pdf>
+- Bouncing:
+  - path: cards-python/bouncing
+  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-python/mu-pgzero/bouncing/bouncing-deCH-a4.pdf>
   - printing:
     - 'one sheet, double sided; print A4, cut in four'
     - print 10 times  
