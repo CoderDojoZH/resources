@@ -7,7 +7,6 @@ def update(dt):
     pass
 
 def on_key_up(key, mod):
-    print(key)
     if key == keys.LEFT:
         bee.x -= 10
     elif key == keys.RIGHT:
