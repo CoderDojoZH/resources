@@ -17,13 +17,18 @@ repeat until <not <mouse down?>>
     go to (mouse-pointer v)
 end
 point towards (start v)
-set [speed v] to ((distance to (start v) / 3))
-repeat until <touching (target v)>
+set [speed v] to ((distance to (start v)) / (3))
+
+repeat until <(y position) < (-150)>
   move (speed) steps
   if <(direction) < (180)> then
     turn cw (3) degrees
   end
+  if <touching (target v)> then
+    point in direction (180)
+  end
 end
+go to (start v)
 ```
 
 ## Notes
