@@ -9,10 +9,10 @@ TODO: directly use the Svg! but i have to find a way to scale them to same size.
 ```
 when [space v] key pressed
 repeat (10)
-    change x by (10)
+    change y by (10)
 end
 repeat (10)
-    change x by (-10)
+    change y by (-10)
 end
 ```
 

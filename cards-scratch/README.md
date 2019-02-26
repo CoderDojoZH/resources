@@ -2,7 +2,7 @@
 
 get a project's code
 
-- https://scratchblocks.github.io/generator/
+- https://s3blocks.github.io/generator/?id=282753934
 
 and make it editable / exportable through
 
