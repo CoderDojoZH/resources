@@ -3,8 +3,8 @@
 ## Create a virtual environment
 
 ```sh
-python3 -m venv mu
-source mu/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 pip install mu-editor
 ./bim/mu-editor
 ```
