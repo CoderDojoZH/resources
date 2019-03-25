@@ -5,17 +5,16 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="210"
-   height="337.5"
-   id="svg294"
-   sodipodi:docname="jumping-code-01.svg"
+   width="82"
+   height="41"
+   id="svg200"
+   sodipodi:docname="variable-jumping.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
-     id="metadata298">
+     id="metadata204">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -35,17 +34,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2238"
-     inkscape:window-height="1776"
-     id="namedview296"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview202"
      showgrid="false"
-     inkscape:zoom="4.3420858"
-     inkscape:cx="104.5"
-     inkscape:cy="168.5"
+     inkscape:zoom="3.4983974"
+     inkscape:cx="41"
+     inkscape:cy="2.5"
      inkscape:window-x="0"
-     inkscape:window-y="22"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg294" />
+     inkscape:current-layer="svg200" />
   <defs
      id="defs188">
     <g
@@ -541,334 +540,30 @@
        id="style186"><![CDATA[ .sb3-label {      font: 500 12pt Helevetica Neue, Helvetica, sans-serif;      fill: #fff;      word-spacing: +1pt;    }    .sb3-motion { fill: #4c97ff; stroke: #3373cc; }    .sb3-motion-alt { fill: #4280d7; }    .sb3-motion-dark { fill: #4c97ff; }    .sb3-looks { fill: #9966ff; stroke: #774dcb; }    .sb3-looks-alt { fill: #855cd6; }    .sb3-looks-dark { fill: #bd42bd; }    .sb3-sound { fill: #cf63cf; stroke: #bd42bd; }    .sb3-sound-alt { fill: #c94fc9; }    .sb3-sound-dark { fill: #bd42bd; }    .sb3-control { fill: #ffab19; stroke: #cf8b17; }    .sb3-control-alt { fill: #ec9c13; }    .sb3-control-dark { fill: #cf8b17; }    .sb3-events { fill: #ffbf00; stroke: #cc9900; }    .sb3-events-alt { fill: #e6ac00; }    .sb3-events-dark { fill: #cc9900; }    .sb3-sensing { fill: #5cb1d6; stroke: #2e8eb8; }    .sb3-sensing-alt { fill: #47a8d1; }    .sb3-sensing-dark { fill: #2e8eb8; }    .sb3-operators { fill: #59c059; stroke: #389438; }    .sb3-operators-alt { fill: #46b946; }    .sb3-operators-dark { fill: #389438; }    .sb3-variables { fill: #ff8c1a; stroke: #db6e00; }    .sb3-variables-alt { fill: #ff8000; }    .sb3-variables-dark { fill: #db6e00; }    .sb3-list { fill: #ff661a; stroke: #e64d00; }    .sb3-list-alt { fill: #ff5500; }    .sb3-list-dark { fill: #e64d00; }    .sb3-custom { fill: #ff6680; stroke: #ff3355; }    .sb3-custom-alt { fill: #ff4d6a; }    .sb3-custom-dark { fill: #ff3355; }    .sb3-custom-arg { fill: #ff6680; stroke: #ff3355; }    /* extension blocks, e.g. pen */    .sb3-extension { fill: #0fbd8c; stroke: #0b8e69; }    .sb3-extension-alt { fill: #0da57a; }    .sb3-extension-line { stroke: #0da57a; }    .sb3-extension-dark { fill: #0b8e69; }    /* obsolete colors: chosen by hand, indicates invalid blocks */     .sb3-obsolete { fill: #ed4242; stroke: #ca2b2b; }    .sb3-obsolete-alt { fill: #db3333; }    .sb3-obsolete-dark { fill: #ca2b2b; }    /* grey: special color from the Scratch 3.0 design mockups */    .sb3-grey { fill: #bfbfbf; stroke: #909090; }    .sb3-grey-alt { fill: #b2b2b2; }    .sb3-grey-dark { fill: #909090; }    .sb3-input-color {      stroke: #fff;    }    .sb3-input-number,    .sb3-input-string {      fill: #fff;    }    .sb3-literal-number,    .sb3-literal-string,    .sb3-literal-number-dropdown,    .sb3-literal-dropdown {      word-spacing: 0;    }    .sb3-literal-number,    .sb3-literal-string {      fill: #575e75;    }    .sb3-comment {      fill: #ffffa5;      stroke: #d0d1d2;      stroke-width: 1;    }    .sb3-comment-line {      fill: #ffff80;    }    .sb3-comment-label {      font: 400 12pt Helevetica Neue, Helvetica, sans-serif;      fill: #000;      word-spacing: 0;    }    .sb3-diff {      fill: none;      stroke: #000;    }    .sb3-diff-ins {      stroke-width: 2px;    }    .sb3-diff-del {      stroke-width: 3px;    }  ]]></style>
   </defs>
   <g
-     id="g292"
-     transform="translate(-1.5)">
+     id="g198"
+     transform="translate(-1.5,-0.5)">
     <g
-       id="g290">
+       id="g196">
       <g
          transform="translate(2,1)"
-         id="g198">
-        <path
-           class="sb3-events"
-           d="M 0,16 C 25,-6 71,-6 96,16 h 41 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,66 C 15,65 14,64 12,64 H 4 A 4,4 0 0 1 0,60 Z"
-           id="path190"
-           inkscape:connector-curvature="0"
-           style="fill:#ffbf00;stroke:#cc9900" />
+         id="g194">
+        <rect
+           class="sb3-variables"
+           rx="20"
+           ry="20"
+           x="0"
+           y="0"
+           width="81"
+           height="40"
+           id="rect190"
+           style="fill:#ff8c1a;stroke:#db6e00" />
         <text
            class="sb3-label sb3-"
            x="0"
            y="13"
-           transform="translate(8,33)"
+           transform="translate(12,13)"
            id="text192"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">when</text>
-        <use
-           xlink:href="#sb3-greenFlag"
-           transform="translate(55,27)"
-           id="use194"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(83,33)"
-           id="text196"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">clicked</text>
-      </g>
-      <g
-         transform="translate(2,65)"
-         id="g218">
-        <path
-           class="sb3-variables"
-           d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 154 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
-           id="path200"
-           inkscape:connector-curvature="0"
-           style="fill:#ff8c1a;stroke:#db6e00" />
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(8,17)"
-           id="text202"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">set</text>
-        <g
-           transform="translate(48,4)"
-           id="g208">
-          <rect
-             class="sb3-variables"
-             rx="20"
-             ry="20"
-             x="0"
-             y="0"
-             width="81"
-             height="40"
-             id="rect204"
-             style="fill:#ff8c1a;stroke:#db6e00" />
-          <text
-             class="sb3-label sb3-"
-             x="0"
-             y="13"
-             transform="translate(12,13)"
-             id="text206"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-speed</text>
-        </g>
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(137,17)"
-           id="text210"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">to</text>
-        <g
-           transform="translate(158,8)"
-           id="g216">
-          <rect
-             rx="16"
-             ry="16"
-             x="0"
-             y="0"
-             width="40"
-             height="32"
-             class="sb3-variables sb3-input sb3-input-string"
-             id="rect212"
-             style="fill:#ffffff;stroke:#db6e00" />
-          <text
-             class="sb3-label sb3-literal-string"
-             x="0"
-             y="13"
-             transform="translate(15.5,9)"
-             id="text214"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:0;fill:#575e75">0</text>
-        </g>
-      </g>
-      <g
-         transform="translate(2,113)"
-         id="g238">
-        <path
-           class="sb3-variables"
-           d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 154 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
-           id="path220"
-           inkscape:connector-curvature="0"
-           style="fill:#ff8c1a;stroke:#db6e00" />
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(8,17)"
-           id="text222"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">set</text>
-        <g
-           transform="translate(48,4)"
-           id="g228">
-          <rect
-             class="sb3-variables"
-             rx="20"
-             ry="20"
-             x="0"
-             y="0"
-             width="81"
-             height="40"
-             id="rect224"
-             style="fill:#ff8c1a;stroke:#db6e00" />
-          <text
-             class="sb3-label sb3-"
-             x="0"
-             y="13"
-             transform="translate(12,13)"
-             id="text226"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">jumping</text>
-        </g>
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(137,17)"
-           id="text230"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">to</text>
-        <g
-           transform="translate(158,8)"
-           id="g236">
-          <rect
-             rx="16"
-             ry="16"
-             x="0"
-             y="0"
-             width="40"
-             height="32"
-             class="sb3-variables sb3-input sb3-input-string"
-             id="rect232"
-             style="fill:#ffffff;stroke:#db6e00" />
-          <text
-             class="sb3-label sb3-literal-string"
-             x="0"
-             y="13"
-             transform="translate(15.5,9)"
-             id="text234"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:0;fill:#575e75">0</text>
-        </g>
-      </g>
-      <g
-         transform="translate(2,161)"
-         id="g262">
-        <path
-           class="sb3-motion"
-           d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 133 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
-           id="path240"
-           inkscape:connector-curvature="0"
-           style="fill:#4c97ff;stroke:#3373cc" />
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(8,17)"
-           id="text242"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">go</text>
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(31,17)"
-           id="text244"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">to</text>
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(49,17)"
-           id="text246"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">x:</text>
-        <g
-           transform="translate(69,8)"
-           id="g252">
-          <rect
-             rx="16"
-             ry="16"
-             x="0"
-             y="0"
-             width="40"
-             height="32"
-             class="sb3-motion sb3-input sb3-input-string"
-             id="rect248"
-             style="fill:#ffffff;stroke:#3373cc" />
-          <text
-             class="sb3-label sb3-literal-string"
-             x="0"
-             y="13"
-             transform="translate(15.5,9)"
-             id="text250"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:0;fill:#575e75">0</text>
-        </g>
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(117,17)"
-           id="text254"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y:</text>
-        <g
-           transform="translate(137,8)"
-           id="g260">
-          <rect
-             rx="16"
-             ry="16"
-             x="0"
-             y="0"
-             width="40"
-             height="32"
-             class="sb3-motion sb3-input sb3-input-string"
-             id="rect256"
-             style="fill:#ffffff;stroke:#3373cc" />
-          <text
-             class="sb3-label sb3-literal-string"
-             x="0"
-             y="13"
-             transform="translate(15.5,9)"
-             id="text258"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:0;fill:#575e75">0</text>
-        </g>
-      </g>
-      <g
-         transform="translate(2,209)"
-         id="g288">
-        <path
-           class="sb3-control"
-           d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 108 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 40 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 92 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 4 a 4,4 0 0 1 -4,-4 z"
-           id="path264"
-           inkscape:connector-curvature="0"
-           style="fill:#ffab19;stroke:#cf8b17" />
-        <text
-           class="sb3-label sb3-"
-           x="0"
-           y="13"
-           transform="translate(8,17)"
-           id="text266"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">forever</text>
-        <use
-           xlink:href="#sb3-loopArrow"
-           transform="translate(128,100)"
-           id="use268"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-        <g
-           transform="translate(16,47)"
-           id="g286">
-          <g
-             transform="translate(0,1)"
-             id="g284">
-            <path
-               class="sb3-motion"
-               d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 141 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
-               id="path270"
-               inkscape:connector-curvature="0"
-               style="fill:#4c97ff;stroke:#3373cc" />
-            <text
-               class="sb3-label sb3-"
-               x="0"
-               y="13"
-               transform="translate(8,17)"
-               id="text272"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">change</text>
-            <text
-               class="sb3-label sb3-"
-               x="0"
-               y="13"
-               transform="translate(66,17)"
-               id="text274"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y</text>
-            <text
-               class="sb3-label sb3-"
-               x="0"
-               y="13"
-               transform="translate(79,17)"
-               id="text276"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">by</text>
-            <g
-               transform="translate(104,4)"
-               id="g282">
-              <rect
-                 class="sb3-variables"
-                 rx="20"
-                 ry="20"
-                 x="0"
-                 y="0"
-                 width="81"
-                 height="40"
-                 id="rect278"
-                 style="fill:#ff8c1a;stroke:#db6e00" />
-              <text
-                 class="sb3-label sb3-"
-                 x="0"
-                 y="13"
-                 transform="translate(12,13)"
-                 id="text280"
-                 style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-speed</text>
-            </g>
-          </g>
-        </g>
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">jumping</text>
       </g>
     </g>
   </g>

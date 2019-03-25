@@ -9,10 +9,10 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="386"
+   width="405"
    height="833.5"
    id="svg454"
-   sodipodi:docname="jumping-code-02.svg"
+   sodipodi:docname="jumping-code-02-de.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata458">
@@ -40,7 +40,7 @@
      id="namedview456"
      showgrid="false"
      inkscape:zoom="0.32718825"
-     inkscape:cx="192.5"
+     inkscape:cx="201.5"
      inkscape:cy="416.5"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -550,7 +550,7 @@
          id="g198">
         <path
            class="sb3-events"
-           d="M 0,16 C 25,-6 71,-6 96,16 h 41 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,66 C 15,65 14,64 12,64 H 4 A 4,4 0 0 1 0,60 Z"
+           d="M 0,16 C 25,-6 71,-6 96,16 h 66 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,66 C 15,65 14,64 12,64 H 4 A 4,4 0 0 1 0,60 Z"
            id="path190"
            inkscape:connector-curvature="0"
            style="fill:#ffbf00;stroke:#cc9900" />
@@ -560,10 +560,10 @@
            y="13"
            transform="translate(8,33)"
            id="text192"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">when</text>
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">Wenn</text>
         <use
            xlink:href="#sb3-greenFlag"
-           transform="translate(55,27)"
+           transform="translate(58,27)"
            id="use194"
            x="0"
            y="0"
@@ -573,16 +573,16 @@
            class="sb3-label sb3-"
            x="0"
            y="13"
-           transform="translate(83,33)"
+           transform="translate(86,33)"
            id="text196"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">clicked</text>
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">angeklickt</text>
       </g>
       <g
          transform="translate(2,65)"
          id="g448">
         <path
            class="sb3-control"
-           d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 108 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 680 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 92 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 4 a 4,4 0 0 1 -4,-4 z"
+           d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 123 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 680 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 107 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 4 a 4,4 0 0 1 -4,-4 z"
            id="path200"
            inkscape:connector-curvature="0"
            style="fill:#ffab19;stroke:#cf8b17" />
@@ -592,11 +592,18 @@
            y="13"
            transform="translate(8,17)"
            id="text202"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">forever</text>
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">wiederhole</text>
+        <text
+           class="sb3-label sb3-"
+           x="0"
+           y="13"
+           transform="translate(92,17)"
+           id="text204"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">fortlaufend</text>
         <use
            xlink:href="#sb3-loopArrow"
-           transform="translate(128,740)"
-           id="use204"
+           transform="translate(143,740)"
+           id="use206"
            x="0"
            y="0"
            width="100%"
@@ -609,8 +616,8 @@
              id="g368">
             <path
                class="sb3-control"
-               d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 317 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 296 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 301 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 40 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 301 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0 1 -4,-4 z"
-               id="path206"
+               d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 300 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 296 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 284 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 40 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 284 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0 1 -4,-4 z"
+               id="path208"
                inkscape:connector-curvature="0"
                style="fill:#ffab19;stroke:#cf8b17" />
             <text
@@ -618,15 +625,15 @@
                x="0"
                y="13"
                transform="translate(8,17)"
-               id="text208"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">if</text>
+               id="text210"
+               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">falls</text>
             <g
                transform="translate(48,4)"
                id="g228">
               <path
                  class="sb3-sensing"
-                 d="m 20,0 h 234 l 20,20 v 0 L 254,40 H 20 L 0,20 v 0 z"
-                 id="path210"
+                 d="m 20,0 h 212 l 20,20 v 0 L 232,40 H 20 L 0,20 v 0 z"
+                 id="path212"
                  inkscape:connector-curvature="0"
                  style="fill:#5cb1d6;stroke:#2e8eb8" />
               <text
@@ -634,11 +641,11 @@
                  x="0"
                  y="13"
                  transform="translate(20,13)"
-                 id="text212"
-                 style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">color</text>
+                 id="text214"
+                 style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">Farbe</text>
               <g
-                 transform="translate(63,4)"
-                 id="g216">
+                 transform="translate(69,4)"
+                 id="g218">
                 <rect
                    rx="16"
                    ry="16"
@@ -647,25 +654,18 @@
                    width="40"
                    height="32"
                    class=" sb3-input sb3-input-color"
-                   id="rect214"
+                   id="rect216"
                    style="fill:#ff0000;stroke:#ffffff" />
               </g>
               <text
                  class="sb3-label sb3-"
                  x="0"
                  y="13"
-                 transform="translate(111,13)"
-                 id="text218"
-                 style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">is</text>
-              <text
-                 class="sb3-label sb3-"
-                 x="0"
-                 y="13"
-                 transform="translate(128,13)"
+                 transform="translate(117,13)"
                  id="text220"
-                 style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">touching</text>
+                 style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">berührt</text>
               <g
-                 transform="translate(197,4)"
+                 transform="translate(175,4)"
                  id="g224">
                 <rect
                    rx="16"
@@ -682,7 +682,7 @@
                  class="sb3-label sb3-"
                  x="0"
                  y="13"
-                 transform="translate(245,13)"
+                 transform="translate(223,13)"
                  id="text226"
                  style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">?</text>
             </g>
@@ -690,9 +690,9 @@
                class="sb3-label sb3-"
                x="0"
                y="13"
-               transform="translate(330,17)"
+               transform="translate(308,17)"
                id="text230"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">then</text>
+               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">dann</text>
             <g
                transform="translate(16,47)"
                id="g342">
@@ -701,7 +701,7 @@
                  id="g340">
                 <path
                    class="sb3-control"
-                   d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 266 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 88 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 250 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 88 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 250 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0 1 -4,-4 z"
+                   d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 320 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 88 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 304 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 88 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 304 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0 1 -4,-4 z"
                    id="path232"
                    inkscape:connector-curvature="0"
                    style="fill:#ffab19;stroke:#cf8b17" />
@@ -711,13 +711,13 @@
                    y="13"
                    transform="translate(8,17)"
                    id="text234"
-                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">if</text>
+                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">falls</text>
                 <g
                    transform="translate(48,4)"
                    id="g250">
                   <path
                      class="sb3-sensing"
-                     d="m 20,0 h 183 l 20,20 v 0 L 203,40 H 20 L 0,20 v 0 z"
+                     d="m 20,0 h 232 l 20,20 v 0 L 252,40 H 20 L 0,20 v 0 z"
                      id="path236"
                      inkscape:connector-curvature="0"
                      style="fill:#5cb1d6;stroke:#2e8eb8" />
@@ -727,16 +727,16 @@
                      y="13"
                      transform="translate(20,13)"
                      id="text238"
-                     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">key</text>
+                     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">Taste</text>
                   <g
-                     transform="translate(53,4)"
+                     transform="translate(66,4)"
                      id="g246">
                     <rect
                        rx="4"
                        ry="4"
                        x="0"
                        y="0"
-                       width="85"
+                       width="108"
                        height="32"
                        class="sb3-sensing sb3-input sb3-input-dropdown"
                        id="rect240"
@@ -747,10 +747,10 @@
                        y="13"
                        transform="translate(11,9)"
                        id="text242"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:0;fill:#ffffff">space</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:0;fill:#ffffff">Leertaste</text>
                     <use
                        xlink:href="#sb3-dropdownArrow"
-                       transform="translate(61,13)"
+                       transform="translate(84,13)"
                        id="use244"
                        x="0"
                        y="0"
@@ -761,17 +761,17 @@
                      class="sb3-label sb3-"
                      x="0"
                      y="13"
-                     transform="translate(146,13)"
+                     transform="translate(182,13)"
                      id="text248"
-                     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">pressed</text>
+                     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">gedrückt?</text>
                 </g>
                 <text
                    class="sb3-label sb3-"
                    x="0"
                    y="13"
-                   transform="translate(279,17)"
+                   transform="translate(328,17)"
                    id="text252"
-                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">then</text>
+                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">dann</text>
                 <g
                    transform="translate(16,47)"
                    id="g294">
@@ -780,7 +780,7 @@
                      id="g272">
                     <path
                        class="sb3-variables"
-                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 154 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
+                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 202 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
                        id="path254"
                        inkscape:connector-curvature="0"
                        style="fill:#ff8c1a;stroke:#db6e00" />
@@ -790,9 +790,9 @@
                        y="13"
                        transform="translate(8,17)"
                        id="text256"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">set</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">setze</text>
                     <g
-                       transform="translate(48,4)"
+                       transform="translate(54,4)"
                        id="g262">
                       <rect
                          class="sb3-variables"
@@ -800,7 +800,7 @@
                          ry="20"
                          x="0"
                          y="0"
-                         width="81"
+                         width="114"
                          height="40"
                          id="rect258"
                          style="fill:#ff8c1a;stroke:#db6e00" />
@@ -810,17 +810,17 @@
                          y="13"
                          transform="translate(12,13)"
                          id="text260"
-                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-speed</text>
+                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-Bewegung</text>
                     </g>
                     <text
                        class="sb3-label sb3-"
                        x="0"
                        y="13"
-                       transform="translate(137,17)"
+                       transform="translate(176,17)"
                        id="text264"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">to</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">auf</text>
                     <g
-                       transform="translate(158,8)"
+                       transform="translate(206,8)"
                        id="g270">
                       <rect
                          rx="16"
@@ -846,7 +846,7 @@
                      id="g292">
                     <path
                        class="sb3-variables"
-                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 154 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
+                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 160 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
                        id="path274"
                        inkscape:connector-curvature="0"
                        style="fill:#ff8c1a;stroke:#db6e00" />
@@ -856,9 +856,9 @@
                        y="13"
                        transform="translate(8,17)"
                        id="text276"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">set</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">setze</text>
                     <g
-                       transform="translate(48,4)"
+                       transform="translate(54,4)"
                        id="g282">
                       <rect
                          class="sb3-variables"
@@ -866,7 +866,7 @@
                          ry="20"
                          x="0"
                          y="0"
-                         width="81"
+                         width="72"
                          height="40"
                          id="rect278"
                          style="fill:#ff8c1a;stroke:#db6e00" />
@@ -876,17 +876,17 @@
                          y="13"
                          transform="translate(12,13)"
                          id="text280"
-                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">jumping</text>
+                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">springt</text>
                     </g>
                     <text
                        class="sb3-label sb3-"
                        x="0"
                        y="13"
-                       transform="translate(137,17)"
+                       transform="translate(134,17)"
                        id="text284"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">to</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">auf</text>
                     <g
-                       transform="translate(158,8)"
+                       transform="translate(164,8)"
                        id="g290">
                       <rect
                          rx="16"
@@ -914,7 +914,7 @@
                    y="13"
                    transform="translate(8,153)"
                    id="text296"
-                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">else</text>
+                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">sonst</text>
                 <g
                    transform="translate(16,175)"
                    id="g338">
@@ -923,7 +923,7 @@
                      id="g316">
                     <path
                        class="sb3-variables"
-                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 154 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
+                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 202 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
                        id="path298"
                        inkscape:connector-curvature="0"
                        style="fill:#ff8c1a;stroke:#db6e00" />
@@ -933,9 +933,9 @@
                        y="13"
                        transform="translate(8,17)"
                        id="text300"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">set</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">setze</text>
                     <g
-                       transform="translate(48,4)"
+                       transform="translate(54,4)"
                        id="g306">
                       <rect
                          class="sb3-variables"
@@ -943,7 +943,7 @@
                          ry="20"
                          x="0"
                          y="0"
-                         width="81"
+                         width="114"
                          height="40"
                          id="rect302"
                          style="fill:#ff8c1a;stroke:#db6e00" />
@@ -953,17 +953,17 @@
                          y="13"
                          transform="translate(12,13)"
                          id="text304"
-                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-speed</text>
+                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-Bewegung</text>
                     </g>
                     <text
                        class="sb3-label sb3-"
                        x="0"
                        y="13"
-                       transform="translate(137,17)"
+                       transform="translate(176,17)"
                        id="text308"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">to</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">auf</text>
                     <g
-                       transform="translate(158,8)"
+                       transform="translate(206,8)"
                        id="g314">
                       <rect
                          rx="16"
@@ -989,7 +989,7 @@
                      id="g336">
                     <path
                        class="sb3-variables"
-                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 154 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
+                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 160 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
                        id="path318"
                        inkscape:connector-curvature="0"
                        style="fill:#ff8c1a;stroke:#db6e00" />
@@ -999,9 +999,9 @@
                        y="13"
                        transform="translate(8,17)"
                        id="text320"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">set</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">setze</text>
                     <g
-                       transform="translate(48,4)"
+                       transform="translate(54,4)"
                        id="g326">
                       <rect
                          class="sb3-variables"
@@ -1009,7 +1009,7 @@
                          ry="20"
                          x="0"
                          y="0"
-                         width="81"
+                         width="72"
                          height="40"
                          id="rect322"
                          style="fill:#ff8c1a;stroke:#db6e00" />
@@ -1019,17 +1019,17 @@
                          y="13"
                          transform="translate(12,13)"
                          id="text324"
-                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">jumping</text>
+                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">springt</text>
                     </g>
                     <text
                        class="sb3-label sb3-"
                        x="0"
                        y="13"
-                       transform="translate(137,17)"
+                       transform="translate(134,17)"
                        id="text328"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">to</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">auf</text>
                     <g
-                       transform="translate(158,8)"
+                       transform="translate(164,8)"
                        id="g334">
                       <rect
                          rx="16"
@@ -1059,7 +1059,7 @@
                y="13"
                transform="translate(8,361)"
                id="text344"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">else</text>
+               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">sonst</text>
             <g
                transform="translate(16,383)"
                id="g366">
@@ -1068,7 +1068,7 @@
                  id="g364">
                 <path
                    class="sb3-variables"
-                   d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 154 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
+                   d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 160 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
                    id="path346"
                    inkscape:connector-curvature="0"
                    style="fill:#ff8c1a;stroke:#db6e00" />
@@ -1078,9 +1078,9 @@
                    y="13"
                    transform="translate(8,17)"
                    id="text348"
-                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">set</text>
+                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">setze</text>
                 <g
-                   transform="translate(48,4)"
+                   transform="translate(54,4)"
                    id="g354">
                   <rect
                      class="sb3-variables"
@@ -1088,7 +1088,7 @@
                      ry="20"
                      x="0"
                      y="0"
-                     width="81"
+                     width="72"
                      height="40"
                      id="rect350"
                      style="fill:#ff8c1a;stroke:#db6e00" />
@@ -1098,17 +1098,17 @@
                      y="13"
                      transform="translate(12,13)"
                      id="text352"
-                     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">jumping</text>
+                     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">springt</text>
                 </g>
                 <text
                    class="sb3-label sb3-"
                    x="0"
                    y="13"
-                   transform="translate(137,17)"
+                   transform="translate(134,17)"
                    id="text356"
-                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">to</text>
+                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">auf</text>
                 <g
-                   transform="translate(158,8)"
+                   transform="translate(164,8)"
                    id="g362">
                   <rect
                      rx="16"
@@ -1136,7 +1136,7 @@
              id="g444">
             <path
                class="sb3-control"
-               d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 233 a 4,4 0 0 1 4,4 v 48 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 128 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 217 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0 1 -4,-4 z"
+               d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 229 a 4,4 0 0 1 4,4 v 48 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 128 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 213 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0 1 -4,-4 z"
                id="path370"
                inkscape:connector-curvature="0"
                style="fill:#ffab19;stroke:#cf8b17" />
@@ -1146,13 +1146,13 @@
                y="13"
                transform="translate(8,21)"
                id="text372"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">if</text>
+               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">falls</text>
             <g
                transform="translate(48,4)"
                id="g390">
               <path
                  class="sb3-operators"
-                 d="m 24,0 h 142 l 24,24 v 0 L 166,48 H 24 L 0,24 v 0 z"
+                 d="m 24,0 h 133 l 24,24 v 0 L 157,48 H 24 L 0,24 v 0 z"
                  id="path374"
                  inkscape:connector-curvature="0"
                  style="fill:#59c059;stroke:#389438" />
@@ -1165,7 +1165,7 @@
                    ry="20"
                    x="0"
                    y="0"
-                   width="81"
+                   width="72"
                    height="40"
                    id="rect376"
                    style="fill:#ff8c1a;stroke:#db6e00" />
@@ -1175,17 +1175,17 @@
                    y="13"
                    transform="translate(12,13)"
                    id="text378"
-                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">jumping</text>
+                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">springt</text>
               </g>
               <text
                  class="sb3-label sb3-"
                  x="0"
                  y="13"
-                 transform="translate(113,17)"
+                 transform="translate(104,17)"
                  id="text382"
                  style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">=</text>
               <g
-                 transform="translate(130,8)"
+                 transform="translate(121,8)"
                  id="g388">
                 <rect
                    rx="16"
@@ -1210,9 +1210,9 @@
                class="sb3-label sb3-"
                x="0"
                y="13"
-               transform="translate(246,21)"
+               transform="translate(237,21)"
                id="text392"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">then</text>
+               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">dann</text>
             <g
                transform="translate(16,55)"
                id="g442">
@@ -1221,7 +1221,7 @@
                  id="g440">
                 <path
                    class="sb3-control"
-                   d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 238 a 4,4 0 0 1 4,4 v 48 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 40 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 222 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0 1 -4,-4 z"
+                   d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 276 a 4,4 0 0 1 4,4 v 48 a 4,4 0 0 1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 40 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8 a 4,4 0 0 0 -4,4 v 40 a 4,4 0 0 0 4,4 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 260 a 4,4 0 0 1 4,4 v 24 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0 1 -4,-4 z"
                    id="path394"
                    inkscape:connector-curvature="0"
                    style="fill:#ffab19;stroke:#cf8b17" />
@@ -1231,13 +1231,13 @@
                    y="13"
                    transform="translate(8,21)"
                    id="text396"
-                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">if</text>
+                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">falls</text>
                 <g
                    transform="translate(48,4)"
                    id="g414">
                   <path
                      class="sb3-operators"
-                     d="m 24,0 h 147 l 24,24 v 0 L 171,48 H 24 L 0,24 v 0 z"
+                     d="m 24,0 h 180 l 24,24 v 0 L 204,48 H 24 L 0,24 v 0 z"
                      id="path398"
                      inkscape:connector-curvature="0"
                      style="fill:#59c059;stroke:#389438" />
@@ -1250,7 +1250,7 @@
                        ry="20"
                        x="0"
                        y="0"
-                       width="81"
+                       width="114"
                        height="40"
                        id="rect400"
                        style="fill:#ff8c1a;stroke:#db6e00" />
@@ -1260,17 +1260,17 @@
                        y="13"
                        transform="translate(12,13)"
                        id="text402"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-speed</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-Bewegung</text>
                   </g>
                   <text
                      class="sb3-label sb3-"
                      x="0"
                      y="13"
-                     transform="translate(113,17)"
+                     transform="translate(146,17)"
                      id="text406"
                      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">&gt;</text>
                   <g
-                     transform="translate(130,8)"
+                     transform="translate(163,8)"
                      id="g412">
                     <rect
                        rx="16"
@@ -1295,9 +1295,9 @@
                    class="sb3-label sb3-"
                    x="0"
                    y="13"
-                   transform="translate(251,21)"
+                   transform="translate(284,21)"
                    id="text416"
-                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">then</text>
+                   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">dann</text>
                 <g
                    transform="translate(16,55)"
                    id="g438">
@@ -1306,7 +1306,7 @@
                      id="g436">
                     <path
                        class="sb3-variables"
-                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 188 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
+                       d="M 0,4 A 4,4 0 0 1 4,0 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 223 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 48 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 24 c -2,0 -3,-1 -4,-2 L 16,50 C 15,49 14,48 12,48 H 4 A 4,4 0 0 1 0,44 Z"
                        id="path418"
                        inkscape:connector-curvature="0"
                        style="fill:#ff8c1a;stroke:#db6e00" />
@@ -1316,9 +1316,9 @@
                        y="13"
                        transform="translate(8,17)"
                        id="text420"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">change</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">ändere</text>
                     <g
-                       transform="translate(69,4)"
+                       transform="translate(66,4)"
                        id="g426">
                       <rect
                          class="sb3-variables"
@@ -1326,7 +1326,7 @@
                          ry="20"
                          x="0"
                          y="0"
-                         width="81"
+                         width="114"
                          height="40"
                          id="rect422"
                          style="fill:#ff8c1a;stroke:#db6e00" />
@@ -1336,17 +1336,17 @@
                          y="13"
                          transform="translate(12,13)"
                          id="text424"
-                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-speed</text>
+                         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">y-Bewegung</text>
                     </g>
                     <text
                        class="sb3-label sb3-"
                        x="0"
                        y="13"
-                       transform="translate(158,17)"
+                       transform="translate(188,17)"
                        id="text428"
-                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">by</text>
+                       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Helevetica Neue', Helvetica, sans-serif;word-spacing:1.00000003pt;fill:#ffffff">um</text>
                     <g
-                       transform="translate(183,8)"
+                       transform="translate(218,8)"
                        id="g434">
                       <rect
                          rx="16"
