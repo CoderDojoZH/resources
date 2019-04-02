@@ -4,12 +4,12 @@
 
 ```
 set [v v] to ((distance to (start v)) / (3)
-set [dx v] to ([v v] * ([sin v] of (dire​ction))
-set [dy v] to ([v v] * ([cos v] of (dire​ction))
+set [dx v] to ((v) * ([sin v] of (direction :: variables))
+set [dy v] to ((v) * ([cos v] of (direction :: variables))
 repeat until <touching (target v)>
   change x by (dx)
   change y by (dy)
-  change (dy) by (-0.1)
+  change [dy v] by (-0.1)
 end
 ```
 
@@ -25,5 +25,3 @@ wiederhole bis <wird (Ziel v) berührt?>
   ändere [dy v] um (-0.1)
 end
 ```
-
-Warning: I've put a zero-width space in the reference to the the `direction` variable, otherwise i get the blue `direction" property.
