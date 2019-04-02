@@ -9,6 +9,13 @@ When Flag clicked
 go to (start v)
 ```
 
+![](images/green-flag-de.svg)
+
+```
+Wenn die grüne Flagge angeklickt
+gehe zu (Start v)
+```
+
 ![](images/on-clicked-full-en.svg)
 
 ```
@@ -29,6 +36,27 @@ repeat until <(y position) < (-150)>
   end
 end
 go to (start v)
+```
+
+![](images/on-clicked-full-de.svg)
+
+```
+Wenn ich angeklickt werde
+wiederhole bis <nicht <Maustaste gedrückt?>> 
+  gehe zu (Mauszeiger v)
+end
+drehe dich zu (Start v)
+setze [Geschwindigkeit v] auf ((Entfernung von (Start v)) / (3))
+wiederhole bis <(y-Position) < (-150)> 
+  gehe (Geschwindigkeit) er-Schritt
+  falls <(Richtung) < (180)> dann 
+    drehe dich nach rechts um (3) Grad
+  end
+  falls <wird (Ziel v) berührt?> dann 
+    setze Richtung auf (180)
+  end :: control
+end
+gehe zu (Start v) :: motion
 ```
 
 ## Notes
