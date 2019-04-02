@@ -38,7 +38,16 @@ forever
 end
 ```
 
+
 ![](images/slide-de.svg)
+
+```
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  gehe zu x: (190) y: (-130)
+  gleite in (3) Sek. zu x: (-230) y: (-130)
+end
+```
 
 
 ![](images/end-en.svg)
