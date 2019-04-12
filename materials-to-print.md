@@ -51,7 +51,7 @@
     
 - pull and throw:
   - path: cards-scratch/pull-and-throw
-  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/pull-and-throw/pull-and-throw-deUS-a4.pdf>
+  - de-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/pull-and-throw/pull-and-throw-deCH-a4.pdf>
   - en-a4: <https://github.com/CoderDojoZH/resources/raw/master/cards-scratch/pull-and-throw/pull-and-throw-enUS-a4.pdf>
   - printing:
     - 'one sheet, double sided; print A4, cut in four'
