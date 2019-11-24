@@ -6,3 +6,23 @@
   - venv: tools > preferences > interpreter > alternative python 3 interpreter or virtual environment.
   - pgzero: run > Pygame zero mode.
   - has a debugger
+
+## Pygame Zero
+
+Running Pygame Zero programs without mu-editor and without `pgzrun`:
+
+```py
+import pgzrun
+
+WIDTH = 640
+HEIGHT = 480
+
+def update(dt):
+    pass
+
+def draw():
+    pass
+
+
+pgzrun.go()
+```
