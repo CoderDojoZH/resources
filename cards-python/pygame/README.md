@@ -4,8 +4,9 @@
 - [Starting with pygame](pygame-start)
 - [Create a game loop for Pygame](game-loop)
 - [Creating a Game class](pygame-game-class)
+- [Your first sprite / actor](first-sprite)
 
 To be written:
 
-- [Your first sprite](first-sprite) (TBW)
+- [Events: move your sprite](events-sprite)
 - [Jump](jump) (TBW)
