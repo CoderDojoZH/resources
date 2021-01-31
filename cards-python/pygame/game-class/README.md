@@ -9,7 +9,39 @@ This program is exactly the same as the minimal example, but has four actions en
 
 The infinite loop is now replaced by a loop that runs as long as the Game is playing...
 
+First, create the basic structure:
+
+```py
+class Game:
+    def __init__(self):
+        pass
+
+    def update(self):
+        pass
+
+    def draw(self):
+        pass
+
+    def events(self):
+        pass
+
+def main():
+
+    game = Game()
+    while game.playing:
+        game.update()
+        game.draw()
+        game.events()
+
+if __name__ == '__main__':
+    main()
 ```
+
+After having parsed the whole file, we start a the `main()` function that creates a `Game` and then enters an _infinite_ loop and keeps on calling the `Game`'s `update()`, `draw()`, and `events()` functions.
+
+It's now time to correctly initialize pygame, the game window and correctly quit the game on Esc by filling in the voids in the `Game` class:
+
+```py
 import pygame
 from pygame.locals import *
 
@@ -24,14 +56,14 @@ class Game:
 
         self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
         pygame.display.set_caption('My new game')
-        
+
     def update(self):
         pass
-    
+
     def draw(self):
         self.screen.fill(BGCOLOR)
         pygame.display.flip()
-    
+
     def events(self):
         for event in pygame.event.get():
             if event.type == QUIT:
@@ -40,15 +72,6 @@ class Game:
                 if event.key == K_ESCAPE:
                     pygame.quit()
                     self.playing = False
-
-def main():
-
-    game = Game()
-    while game.playing:
-        game.update()
-        game.draw()
-        game.events()
-    
-if __name__ == '__main__':
-    main()
 ```
+
+We still don't have anything going on in the game, so the `update()` function is left empty.
